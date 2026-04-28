@@ -31,7 +31,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${tour.title} — Bora Abi Tours`,
       description: tour.description,
-      url: `https://boraabitours.com/tours/${tour.id}`,
+      url: `https://weareshorex.com/tours/${tour.id}`,
       images: [{ url: tour.image, width: 1200, height: 630, alt: tour.imageAlt || tour.title }],
       type: 'website',
     },
@@ -69,9 +69,9 @@ export default async function TourDetailPage({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             generateBreadcrumbJsonLd([
-              { name: 'Ana Sayfa', url: 'https://boraabitours.com' },
-              { name: 'Turlar', url: 'https://boraabitours.com/#tours' },
-              { name: tour.title, url: `https://boraabitours.com/tours/${tour.id}` },
+              { name: 'Ana Sayfa', url: 'https://weareshorex.com' },
+              { name: 'Turlar', url: 'https://weareshorex.com/#tours' },
+              { name: tour.title, url: `https://weareshorex.com/tours/${tour.id}` },
             ])
           ),
         }}

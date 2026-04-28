@@ -32,11 +32,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Bora Abi Tours' }],
   creator: 'Bora Abi Tours',
-  metadataBase: new URL('https://boraabitours.com'),
+  metadataBase: new URL('https://weareshorex.com'),
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
-    url: 'https://boraabitours.com',
+    url: 'https://weareshorex.com',
     siteName: 'Bora Abi Tours',
     title: 'Bora Abi Tours — Kuşadası Tur Rezervasyonu',
     description:

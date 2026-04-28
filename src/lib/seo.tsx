@@ -5,7 +5,7 @@
 
 import { Tour } from '@/types';
 
-const SITE_URL = 'https://boraabitours.com';
+const SITE_URL = 'https://weareshorex.com';
 const SITE_NAME = 'Bora Abi Tours';
 
 /**
