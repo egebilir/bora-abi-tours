@@ -1,4 +1,10 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function Footer() {
+  const t = useTranslations('footer');
+
   return (
     <footer className="bg-neutral-900 text-white" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,9 +25,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-neutral-400 text-sm leading-relaxed mb-4 max-w-xs">
-              Ege&apos;nin en güzel turlarını profesyonel rehberler eşliğinde keşfedin. 2010&apos;dan beri hizmetinizdeyiz.
+              {t('about')}
             </p>
-            {/* Social */}
             <div className="flex gap-3">
               {['Instagram', 'Facebook', 'Twitter'].map((s) => (
                 <a key={s} href="#" className="w-9 h-9 flex items-center justify-center rounded-full bg-neutral-800 text-neutral-400 hover:bg-ice-500 hover:text-white transition-all duration-300 text-sm" aria-label={s}>
@@ -31,13 +36,13 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Tours */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-neutral-300 mb-4">Turlar</h4>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-neutral-300 mb-4">{t('tours')}</h4>
             <ul className="space-y-2.5">
-              {['Kültürel Turlar', 'Doğa Turları', 'Tekne Turları', 'Günlük Turlar', 'Tüm Turlar'].map((link) => (
-                <li key={link}>
-                  <a href="#tours" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{link}</a>
+              {(['culturalTours', 'natureTours', 'boatTours', 'dailyTours', 'allTours'] as const).map((key) => (
+                <li key={key}>
+                  <a href="#tours" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{t(key)}</a>
                 </li>
               ))}
             </ul>
@@ -45,11 +50,11 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-neutral-300 mb-4">Şirket</h4>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-neutral-300 mb-4">{t('company')}</h4>
             <ul className="space-y-2.5">
-              {['Hakkımızda', 'Rehberlerimiz', 'Blog', 'Kariyer', 'İletişim'].map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{link}</a>
+              {(['aboutUs', 'ourGuides', 'blog', 'career', 'contactLink'] as const).map((key) => (
+                <li key={key}>
+                  <a href="#" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{t(key)}</a>
                 </li>
               ))}
             </ul>
@@ -57,7 +62,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-neutral-300 mb-4">İletişim</h4>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-neutral-300 mb-4">{t('contact')}</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-neutral-400">
                 <svg className="w-4 h-4 mt-0.5 text-khaki-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -85,12 +90,12 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="py-6 border-t border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-neutral-500 text-xs">
-            © {new Date().getFullYear()} Bora Abi Tours. Tüm hakları saklıdır.
+            © {new Date().getFullYear()} Bora Abi Tours. {t('rights')}
           </p>
           <div className="flex items-center gap-6 text-xs text-neutral-500">
-            <a href="#" className="hover:text-neutral-300 transition-colors">Gizlilik Politikası</a>
-            <a href="#" className="hover:text-neutral-300 transition-colors">Kullanım Koşulları</a>
-            <a href="#" className="hover:text-neutral-300 transition-colors">Çerez Politikası</a>
+            <a href="#" className="hover:text-neutral-300 transition-colors">{t('privacy')}</a>
+            <a href="#" className="hover:text-neutral-300 transition-colors">{t('terms')}</a>
+            <a href="#" className="hover:text-neutral-300 transition-colors">{t('cookies')}</a>
           </div>
         </div>
       </div>

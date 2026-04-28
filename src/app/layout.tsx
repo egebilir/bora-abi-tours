@@ -14,49 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: 'Bora Abi Tours — Kuşadası Tur Rezervasyonu',
-    template: '%s | Bora Abi Tours',
-  },
-  description:
-    'Kuşadası ve çevresindeki en iyi turları keşfedin. Efes, Pamukkale, tekne turları, doğa yürüyüşleri ve daha fazlası. Profesyonel rehberler, uygun fiyatlar.',
-  keywords: [
-    'Kuşadası turları',
-    'Efes turu',
-    'Pamukkale günübirlik',
-    'Kuşadası tekne turu',
-    'Kuşadası gezi',
-    'Ege turları',
-    'Kuşadası excursions',
-    'Ephesus tour',
-  ],
-  authors: [{ name: 'Bora Abi Tours' }],
-  creator: 'Bora Abi Tours',
   metadataBase: new URL('https://weareshorex.com'),
-  openGraph: {
-    type: 'website',
-    locale: 'tr_TR',
-    url: 'https://weareshorex.com',
-    siteName: 'Bora Abi Tours',
-    title: 'Bora Abi Tours — Kuşadası Tur Rezervasyonu',
-    description:
-      'Kuşadası ve çevresindeki en iyi turları keşfedin. Profesyonel rehberler eşliğinde unutulmaz deneyimler.',
-    images: [
-      {
-        url: '/images/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Bora Abi Tours — Ege\'nin Kalbinde Unutulmaz Deneyimler',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Bora Abi Tours — Kuşadası Tur Rezervasyonu',
-    description:
-      'Kuşadası ve çevresindeki en iyi turları keşfedin.',
-    images: ['/images/og-image.jpg'],
-  },
   robots: {
     index: true,
     follow: true,
@@ -76,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={`${inter.variable} h-full antialiased`}>
+    <html className={`${inter.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
         <JsonLdScript data={generateOrganizationJsonLd()} />
       </head>
