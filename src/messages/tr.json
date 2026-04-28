@@ -40,6 +40,7 @@
   "tourDetail": {
     "highlights": "Öne Çıkan Noktalar",
     "itinerary": "Tur Programı",
+    "notIncluded": "Dahil Olmayanlar",
     "included": "Neler Dahil?",
     "importantInfo": "Önemli Bilgiler",
     "reserve": "Şimdi Rezerve Et",

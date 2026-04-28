@@ -41,10 +41,10 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
   const store = useAdminStoreSafe();
   const [descExpanded, setDescExpanded] = useState(false);
 
-  const isEn = locale === 'en';
-  const title = isEn && tour.titleEn ? tour.titleEn : tour.title;
-  const description = isEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
-  const fullDescription = isEn && tour.fullDescriptionEn ? tour.fullDescriptionEn : tour.fullDescription;
+  const useEn = locale !== 'tr';
+  const title = useEn && tour.titleEn ? tour.titleEn : tour.title;
+  const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
+  const fullDescription = useEn && tour.fullDescriptionEn ? tour.fullDescriptionEn : tour.fullDescription;
 
   const capacity = store?.getTourCapacity(tour.id) ?? { total: 0, booked: 0, available: 999 };
   const isSoldOut = capacity.available <= 0;
@@ -225,7 +225,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                   <span className="w-8 h-8 rounded-full bg-red-50 flex items-center justify-center text-red-500">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
                   </span>
-                  {isEn ? 'Not Included' : 'Dahil Olmayanlar'}
+                  {t('notIncluded')}
                 </h3>
                 <ul className="space-y-2.5">
                   {tour.exclusions.map((item, i) => (

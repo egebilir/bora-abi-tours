@@ -5,7 +5,6 @@ import { JsonLdScript, generateOrganizationJsonLd } from '@/lib/seo';
 import { CurrencyProvider } from '@/lib/currency';
 import { UserAuthProvider } from '@/lib/user-auth';
 import { AdminStoreProvider } from '@/lib/admin-store';
-import AuthModal from '@/components/auth/AuthModal';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -43,7 +42,6 @@ export default function RootLayout({
           <UserAuthProvider>
             <AdminStoreProvider>
               {children}
-              <AuthModal />
             </AdminStoreProvider>
           </UserAuthProvider>
         </CurrencyProvider>

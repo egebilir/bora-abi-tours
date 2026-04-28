@@ -40,6 +40,7 @@
   "tourDetail": {
     "highlights": "Highlights",
     "itinerary": "Itinerary",
+    "notIncluded": "Not Included",
     "included": "What's Included?",
     "importantInfo": "Important Information",
     "reserve": "Book Now",

@@ -3,15 +3,17 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useUserAuth } from '@/lib/user-auth';
+import { useTranslations } from 'next-intl';
 import toast from 'react-hot-toast';
 
 // =============================================
-// AuthModal — Premium Giriş/Kayıt Modalı
-// Mobil: bottom sheet | Desktop: centered modal
+// AuthModal — Premium Login/Register Modal
+// Mobile: bottom sheet | Desktop: centered modal
 // =============================================
 
 export default function AuthModal() {
   const { authModalOpen, closeAuthModal, login, register } = useUserAuth();
+  const t = useTranslations('auth');
   const [tab, setTab] = useState<'login' | 'register'>('login');
   const [form, setForm] = useState({
     name: '',
@@ -36,16 +38,16 @@ export default function AuthModal() {
     setError('');
 
     if (!form.email || !form.password) {
-      setError('Lütfen tüm alanları doldurun');
+      setError('!');
       return;
     }
 
     const success = login(form.email, form.password);
     if (success) {
-      toast.success('Giriş başarılı!');
+      toast.success('✓');
       resetForm();
     } else {
-      setError('E-posta veya şifre hatalı');
+      setError('!');
     }
   };
 
@@ -54,26 +56,26 @@ export default function AuthModal() {
     setError('');
 
     if (!form.name || !form.email || !form.password || !form.confirmPassword) {
-      setError('Lütfen tüm alanları doldurun');
+      setError('!');
       return;
     }
 
     if (form.password.length < 6) {
-      setError('Şifre en az 6 karakter olmalı');
+      setError('!');
       return;
     }
 
     if (form.password !== form.confirmPassword) {
-      setError('Şifreler eşleşmiyor');
+      setError('!');
       return;
     }
 
     const success = register(form.name, form.email, form.password);
     if (success) {
-      toast.success('Hesabınız oluşturuldu!');
+      toast.success('✓');
       resetForm();
     } else {
-      setError('Bu e-posta adresi zaten kayıtlı');
+      setError('!');
     }
   };
 
@@ -87,10 +89,8 @@ export default function AuthModal() {
           className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center"
           onClick={closeAuthModal}
         >
-          {/* Backdrop */}
           <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
 
-          {/* Modal */}
           <motion.div
             initial={{ y: 100, opacity: 0, scale: 0.95 }}
             animate={{ y: 0, opacity: 1, scale: 1 }}
@@ -99,16 +99,14 @@ export default function AuthModal() {
             className="relative w-full sm:max-w-md bg-white rounded-t-3xl sm:rounded-2xl shadow-2xl overflow-hidden max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Drag indicator (mobile) */}
             <div className="sm:hidden flex justify-center pt-3 pb-1">
               <div className="w-10 h-1 rounded-full bg-neutral-200" />
             </div>
 
-            {/* Header */}
             <div className="px-6 pt-5 pb-4 sm:pt-6">
               <div className="flex items-center justify-between mb-1">
                 <h2 className="text-xl font-bold text-neutral-900">
-                  {tab === 'login' ? 'Giriş Yap' : 'Hesap Oluştur'}
+                  {tab === 'login' ? t('loginTitle') : t('registerTitle')}
                 </h2>
                 <button
                   onClick={closeAuthModal}
@@ -119,14 +117,8 @@ export default function AuthModal() {
                   </svg>
                 </button>
               </div>
-              <p className="text-sm text-neutral-500">
-                {tab === 'login'
-                  ? 'Hesabınıza giriş yaparak yorum yapabilirsiniz'
-                  : 'Ücretsiz hesap oluşturarak yorum ve değerlendirme yapın'}
-              </p>
             </div>
 
-            {/* Tab Switcher */}
             <div className="px-6 mb-4">
               <div className="flex bg-neutral-100 rounded-xl p-1">
                 <button
@@ -137,7 +129,7 @@ export default function AuthModal() {
                       : 'text-neutral-500 hover:text-neutral-700'
                   }`}
                 >
-                  Giriş Yap
+                  {t('loginBtn')}
                 </button>
                 <button
                   onClick={() => switchTab('register')}
@@ -147,12 +139,11 @@ export default function AuthModal() {
                       : 'text-neutral-500 hover:text-neutral-700'
                   }`}
                 >
-                  Üye Ol
+                  {t('registerBtn')}
                 </button>
               </div>
             </div>
 
-            {/* Form */}
             <div className="px-6 pb-6 sm:pb-8">
               <AnimatePresence mode="wait">
                 {tab === 'login' ? (
@@ -166,18 +157,18 @@ export default function AuthModal() {
                     className="space-y-4"
                   >
                     <div>
-                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">E-posta</label>
+                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">{t('email')}</label>
                       <input
                         type="email"
                         value={form.email}
                         onChange={(e) => setForm({ ...form, email: e.target.value })}
-                        placeholder="ornek@email.com"
+                        placeholder="email@example.com"
                         className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm outline-none focus:ring-2 focus:ring-ice-500 focus:border-transparent transition-all"
                         autoComplete="email"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">Şifre</label>
+                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">{t('password')}</label>
                       <input
                         type="password"
                         value={form.password}
@@ -204,17 +195,17 @@ export default function AuthModal() {
                       whileTap={{ scale: 0.99 }}
                       className="w-full py-3.5 bg-ice-500 hover:bg-ice-600 text-white font-semibold rounded-xl text-sm transition-colors shadow-lg shadow-ice-500/20 min-h-[48px]"
                     >
-                      Giriş Yap
+                      {t('loginBtn')}
                     </motion.button>
 
                     <p className="text-center text-sm text-neutral-500">
-                      Hesabınız yok mu?{' '}
+                      {t('noAccount')}{' '}
                       <button
                         type="button"
                         onClick={() => switchTab('register')}
                         className="text-ice-600 font-medium hover:text-ice-700"
                       >
-                        Hemen kaydolun
+                        {t('orRegister')}
                       </button>
                     </p>
                   </motion.form>
@@ -229,45 +220,44 @@ export default function AuthModal() {
                     className="space-y-4"
                   >
                     <div>
-                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">Ad Soyad</label>
+                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">{t('name')}</label>
                       <input
                         type="text"
                         value={form.name}
                         onChange={(e) => setForm({ ...form, name: e.target.value })}
-                        placeholder="Adınız Soyadınız"
                         className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm outline-none focus:ring-2 focus:ring-ice-500 focus:border-transparent transition-all"
                         autoComplete="name"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">E-posta</label>
+                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">{t('email')}</label>
                       <input
                         type="email"
                         value={form.email}
                         onChange={(e) => setForm({ ...form, email: e.target.value })}
-                        placeholder="ornek@email.com"
+                        placeholder="email@example.com"
                         className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm outline-none focus:ring-2 focus:ring-ice-500 focus:border-transparent transition-all"
                         autoComplete="email"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">Şifre</label>
+                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">{t('password')}</label>
                       <input
                         type="password"
                         value={form.password}
                         onChange={(e) => setForm({ ...form, password: e.target.value })}
-                        placeholder="En az 6 karakter"
+                        placeholder="••••••••"
                         className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm outline-none focus:ring-2 focus:ring-ice-500 focus:border-transparent transition-all"
                         autoComplete="new-password"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">Şifre Tekrar</label>
+                      <label className="block text-sm font-medium text-neutral-700 mb-1.5">{t('password')} ✓</label>
                       <input
                         type="password"
                         value={form.confirmPassword}
                         onChange={(e) => setForm({ ...form, confirmPassword: e.target.value })}
-                        placeholder="Şifrenizi tekrar girin"
+                        placeholder="••••••••"
                         className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm outline-none focus:ring-2 focus:ring-ice-500 focus:border-transparent transition-all"
                         autoComplete="new-password"
                       />
@@ -289,17 +279,17 @@ export default function AuthModal() {
                       whileTap={{ scale: 0.99 }}
                       className="w-full py-3.5 bg-ice-500 hover:bg-ice-600 text-white font-semibold rounded-xl text-sm transition-colors shadow-lg shadow-ice-500/20 min-h-[48px]"
                     >
-                      Hesap Oluştur
+                      {t('registerBtn')}
                     </motion.button>
 
                     <p className="text-center text-sm text-neutral-500">
-                      Zaten üye misiniz?{' '}
+                      {t('hasAccount')}{' '}
                       <button
                         type="button"
                         onClick={() => switchTab('login')}
                         className="text-ice-600 font-medium hover:text-ice-700"
                       >
-                        Giriş yapın
+                        {t('orLogin')}
                       </button>
                     </p>
                   </motion.form>

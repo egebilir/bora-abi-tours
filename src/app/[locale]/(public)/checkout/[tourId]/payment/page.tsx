@@ -1,12 +1,12 @@
 'use client';
 
 import { useState, useEffect, use } from 'react';
-import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import Link from 'next/link';
 import { useAdminStore } from '@/lib/admin-store';
 import { useUserAuth } from '@/lib/user-auth';
 import { useCurrency } from '@/lib/currency';
+import { useTranslations } from 'next-intl';
+import { Link, useRouter } from '@/i18n/routing';
 
 interface CheckoutData {
   tourId: string;
@@ -44,9 +44,12 @@ function formatExpiry(val: string): string {
 export default function PaymentPage({ params }: { params: Promise<{ tourId: string }> }) {
   const { tourId } = use(params);
   const router = useRouter();
-  const { createBooking, tours } = useAdminStore();
+  const { createBooking } = useAdminStore();
   const { user } = useUserAuth();
   const { formatPrice } = useCurrency();
+
+  const t = useTranslations('payment');
+  const tc = useTranslations('common');
 
   const [checkoutData, setCheckoutData] = useState<CheckoutData | null>(null);
   const [card, setCard] = useState({ holder: '', number: '', expiry: '', cvv: '' });
@@ -64,17 +67,17 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
   }, [tourId, router]);
 
   if (!checkoutData) {
-    return <main className="min-h-screen bg-neutral-50 pt-20 flex items-center justify-center"><p className="text-neutral-400">Yükleniyor...</p></main>;
+    return <main className="min-h-screen bg-neutral-50 pt-20 flex items-center justify-center"><p className="text-neutral-400">{tc('loading')}</p></main>;
   }
 
   const cardType = getCardType(card.number);
 
   const validate = () => {
     const e: Record<string, string> = {};
-    if (!card.holder.trim()) e.holder = 'Kart sahibi zorunlu';
-    if (card.number.replace(/\s/g, '').length < 16) e.number = '16 haneli kart numarası giriniz';
-    if (card.expiry.length < 5) e.expiry = 'MM/YY formatında giriniz';
-    if (card.cvv.length < 3) e.cvv = '3 haneli CVV giriniz';
+    if (!card.holder.trim()) e.holder = '!';
+    if (card.number.replace(/\s/g, '').length < 16) e.number = '!';
+    if (card.expiry.length < 5) e.expiry = '!';
+    if (card.cvv.length < 3) e.cvv = '!';
     setErrors(e);
     return Object.keys(e).length === 0;
   };
@@ -82,19 +85,12 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
   const handlePay = async () => {
     if (!validate()) return;
     setProcessing(true);
-
-    // Simulate processing
     await new Promise(r => setTimeout(r, 1500));
-
-    // Show 3D Secure overlay
     setProcessing(false);
     setShow3DS(true);
-
-    // Simulate 3D Secure verification
     await new Promise(r => setTimeout(r, 2500));
     setShow3DS(false);
 
-    // Create booking
     const booking = {
       id: `bk-${Date.now()}`,
       tourId: checkoutData.tourId,
@@ -112,32 +108,27 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
     };
 
     createBooking(booking);
-
-    // Store booking for success page
     sessionStorage.setItem('booking-result', JSON.stringify(booking));
-
     router.push(`/checkout/${tourId}/success`);
   };
 
   return (
     <main className="min-h-screen bg-neutral-50 pt-16 lg:pt-20 pb-12">
-      {/* Breadcrumb */}
       <div className="bg-white border-b border-neutral-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          <nav className="flex items-center gap-2 text-sm text-neutral-400" aria-label="Payment breadcrumb">
-            <Link href="/" className="hover:text-ice-500 transition-colors">Ana Sayfa</Link>
+          <nav className="flex items-center gap-2 text-sm text-neutral-400">
+            <Link href="/" className="hover:text-ice-500 transition-colors">{tc('home')}</Link>
             <span>/</span>
-            <Link href={`/checkout/${tourId}`} className="hover:text-ice-500 transition-colors">Rezervasyon</Link>
+            <Link href={`/checkout/${tourId}`} className="hover:text-ice-500 transition-colors">{tc('reservation')}</Link>
             <span>/</span>
-            <span className="text-neutral-700 font-medium">Ödeme</span>
+            <span className="text-neutral-700 font-medium">{tc('payment')}</span>
           </nav>
         </div>
       </div>
 
-      {/* Steps */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center justify-center gap-0 mb-8">
-          {[{ n: 1, label: 'Bilgiler' }, { n: 2, label: 'Ödeme' }, { n: 3, label: 'Onay' }].map((step, i) => (
+          {[{ n: 1, label: tc('steps') }, { n: 2, label: tc('payment') }, { n: 3, label: tc('confirmation') }].map((step, i) => (
             <div key={step.n} className="flex items-center">
               <div className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium ${step.n <= 2 ? 'bg-ice-500 text-white' : 'bg-neutral-100 text-neutral-400'}`}>
                 <span className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-xs font-bold">{step.n <= 1 ? '✓' : step.n}</span>
@@ -152,21 +143,19 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
             className="bg-white rounded-2xl border border-neutral-100 shadow-sm p-5 sm:p-7">
 
-            {/* Header */}
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-full bg-ice-50 flex items-center justify-center text-ice-600">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-neutral-900">Güvenli Ödeme</h1>
-                <p className="text-xs text-neutral-400">256-bit SSL ile korunmaktadır</p>
+                <h1 className="text-xl font-bold text-neutral-900">{t('title')}</h1>
+                <p className="text-xs text-neutral-400">{t('ssl')}</p>
               </div>
             </div>
 
-            {/* Order summary mini */}
             <div className="bg-neutral-50 rounded-xl p-4 mb-6 border border-neutral-100">
               <div className="flex items-center justify-between text-sm">
-                <span className="text-neutral-600">{checkoutData.tourTitle} — {checkoutData.count} kişi</span>
+                <span className="text-neutral-600">{checkoutData.tourTitle} — {checkoutData.count} {tc('person')}</span>
                 <span className="font-bold text-ice-600 text-lg">{formatPrice(checkoutData.totalPrice)}</span>
               </div>
             </div>
@@ -190,36 +179,34 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
               </div>
               <div className="absolute bottom-5 sm:bottom-6 left-5 sm:left-6 right-5 sm:right-6 flex justify-between items-end">
                 <div>
-                  <div className="text-[10px] uppercase tracking-wider opacity-50 mb-0.5">Kart Sahibi</div>
-                  <div className="text-sm font-medium tracking-wide opacity-90">{card.holder || 'AD SOYAD'}</div>
+                  <div className="text-[10px] uppercase tracking-wider opacity-50 mb-0.5">{t('holder')}</div>
+                  <div className="text-sm font-medium tracking-wide opacity-90">{card.holder || '••••••'}</div>
                 </div>
                 <div className="text-right">
-                  <div className="text-[10px] uppercase tracking-wider opacity-50 mb-0.5">Son Kullanma</div>
+                  <div className="text-[10px] uppercase tracking-wider opacity-50 mb-0.5">{t('expiry')}</div>
                   <div className="text-sm font-medium opacity-90">{card.expiry || 'MM/YY'}</div>
                 </div>
               </div>
-              {/* Chip */}
               <div className="absolute top-5 left-5 sm:top-6 sm:left-6 w-10 h-7 rounded-md bg-amber-300/60 border border-amber-400/40" />
             </div>
 
             {/* Card Form */}
             <div className="space-y-4">
               <div>
-                <label htmlFor="card-holder" className="block text-sm font-medium text-neutral-700 mb-1.5">Kart Sahibi</label>
+                <label htmlFor="card-holder" className="block text-sm font-medium text-neutral-700 mb-1.5">{t('holder')}</label>
                 <input id="card-holder" type="text" value={card.holder}
                   onChange={e => setCard(p => ({ ...p, holder: e.target.value.toUpperCase() }))}
-                  className={`w-full px-4 py-3 rounded-xl border text-sm outline-none focus:ring-2 focus:ring-ice-500 ${errors.holder ? 'border-red-300' : 'border-neutral-200'}`}
-                  placeholder="AD SOYAD" aria-label="Kart sahibi adı" />
+                  className={`w-full px-4 py-3 rounded-xl border text-sm outline-none focus:ring-2 focus:ring-ice-500 ${errors.holder ? 'border-red-300' : 'border-neutral-200'}`} />
                 {errors.holder && <p className="text-red-500 text-xs mt-1">{errors.holder}</p>}
               </div>
 
               <div>
-                <label htmlFor="card-number" className="block text-sm font-medium text-neutral-700 mb-1.5">Kart Numarası</label>
+                <label htmlFor="card-number" className="block text-sm font-medium text-neutral-700 mb-1.5">{t('number')}</label>
                 <div className="relative">
                   <input id="card-number" type="text" value={card.number}
                     onChange={e => setCard(p => ({ ...p, number: formatCardNumber(e.target.value) }))}
                     className={`w-full px-4 py-3 pr-16 rounded-xl border text-sm outline-none focus:ring-2 focus:ring-ice-500 font-mono tracking-wider ${errors.number ? 'border-red-300' : 'border-neutral-200'}`}
-                    placeholder="4242 4242 4242 4242" maxLength={19} aria-label="Kart numarası" />
+                    placeholder="4242 4242 4242 4242" maxLength={19} />
                   <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
                     <span className={`text-xs font-bold italic ${cardType === 'visa' ? 'text-blue-600' : 'text-neutral-300'}`}>VISA</span>
                     <div className="flex -space-x-1.5">
@@ -233,47 +220,44 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label htmlFor="card-expiry" className="block text-sm font-medium text-neutral-700 mb-1.5">Son Kullanma</label>
+                  <label htmlFor="card-expiry" className="block text-sm font-medium text-neutral-700 mb-1.5">{t('expiry')}</label>
                   <input id="card-expiry" type="text" value={card.expiry}
                     onChange={e => setCard(p => ({ ...p, expiry: formatExpiry(e.target.value) }))}
                     className={`w-full px-4 py-3 rounded-xl border text-sm outline-none focus:ring-2 focus:ring-ice-500 font-mono ${errors.expiry ? 'border-red-300' : 'border-neutral-200'}`}
-                    placeholder="MM/YY" maxLength={5} aria-label="Son kullanma tarihi" />
+                    placeholder="MM/YY" maxLength={5} />
                   {errors.expiry && <p className="text-red-500 text-xs mt-1">{errors.expiry}</p>}
                 </div>
                 <div>
-                  <label htmlFor="card-cvv" className="block text-sm font-medium text-neutral-700 mb-1.5">CVV</label>
+                  <label htmlFor="card-cvv" className="block text-sm font-medium text-neutral-700 mb-1.5">{t('cvv')}</label>
                   <input id="card-cvv" type="password" value={card.cvv}
                     onChange={e => setCard(p => ({ ...p, cvv: e.target.value.replace(/\D/g, '').slice(0, 4) }))}
                     className={`w-full px-4 py-3 rounded-xl border text-sm outline-none focus:ring-2 focus:ring-ice-500 font-mono ${errors.cvv ? 'border-red-300' : 'border-neutral-200'}`}
-                    placeholder="•••" maxLength={4} aria-label="CVV güvenlik kodu" />
+                    placeholder="•••" maxLength={4} />
                   {errors.cvv && <p className="text-red-500 text-xs mt-1">{errors.cvv}</p>}
                 </div>
               </div>
             </div>
 
-            {/* Pay Button */}
             <motion.button whileHover={{ scale: 1.01 }} whileTap={{ scale: 0.98 }}
               onClick={handlePay} disabled={processing}
-              className="w-full mt-6 py-4 bg-ice-500 hover:bg-ice-600 disabled:bg-ice-300 text-white font-bold rounded-xl text-base transition-colors shadow-lg shadow-ice-500/20 min-h-[52px] flex items-center justify-center gap-2"
-              aria-label="Ödemeyi onayla">
+              className="w-full mt-6 py-4 bg-ice-500 hover:bg-ice-600 disabled:bg-ice-300 text-white font-bold rounded-xl text-base transition-colors shadow-lg shadow-ice-500/20 min-h-[52px] flex items-center justify-center gap-2">
               {processing ? (
                 <>
                   <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: 'linear' }}
                     className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full" />
-                  İşleniyor...
+                  {t('processing')}
                 </>
               ) : (
-                <>🔒 {formatPrice(checkoutData.totalPrice)} Öde</>
+                <>🔒 {formatPrice(checkoutData.totalPrice)} {t('pay')}</>
               )}
             </motion.button>
 
-            {/* Trust badges */}
             <div className="mt-4 flex items-center justify-center gap-4 text-xs text-neutral-400">
-              <span className="flex items-center gap-1">🔒 SSL Korumalı</span>
+              <span className="flex items-center gap-1">🔒 {t('sslBadge')}</span>
               <span>•</span>
-              <span className="flex items-center gap-1">💳 Güvenli Ödeme</span>
+              <span className="flex items-center gap-1">💳 {t('safePay')}</span>
               <span>•</span>
-              <span className="flex items-center gap-1">✓ Ücretsiz İptal</span>
+              <span className="flex items-center gap-1">✓ {t('freeCancel')}</span>
             </div>
           </motion.div>
         </div>
@@ -290,13 +274,13 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
                 <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1.5, ease: 'linear' }}
                   className="w-8 h-8 border-3 border-ice-200 border-t-ice-500 rounded-full" style={{ borderWidth: 3 }} />
               </div>
-              <h3 className="text-lg font-bold text-neutral-900 mb-2">3D Secure Doğrulama</h3>
-              <p className="text-sm text-neutral-500 mb-4">Bankanız tarafından doğrulama yapılıyor...</p>
+              <h3 className="text-lg font-bold text-neutral-900 mb-2">{t('secure3d')}</h3>
+              <p className="text-sm text-neutral-500 mb-4">{t('secure3dDesc')}</p>
               <div className="flex items-center justify-center gap-2 text-xs text-neutral-400">
                 <svg className="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
-                Güvenli bağlantı ile korunmaktadır
+                {t('secureConn')}
               </div>
             </motion.div>
           </motion.div>

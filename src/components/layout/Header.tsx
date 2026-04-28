@@ -7,12 +7,18 @@ import { useCurrency, CURRENCIES } from '@/lib/currency';
 import { useUserAuth } from '@/lib/user-auth';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname, Link } from '@/i18n/routing';
+import type { Locale } from '@/i18n/routing';
 
 const categoryKeys = ['all', 'cultural', 'nature', 'boat', 'daily'] as const;
 
-const languages = [
-  { code: 'tr' as const, label: 'Türkçe', flag: '🇹🇷' },
-  { code: 'en' as const, label: 'English', flag: '🇬🇧' },
+const languages: { code: Locale; label: string; flag: string }[] = [
+  { code: 'tr', label: 'Türkçe', flag: '🇹🇷' },
+  { code: 'en', label: 'English', flag: '🇬🇧' },
+  { code: 'ru', label: 'Русский', flag: '🇷🇺' },
+  { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
+  { code: 'it', label: 'Italiano', flag: '🇮🇹' },
+  { code: 'ar', label: 'العربية', flag: '🇸🇦' },
+  { code: 'pl', label: 'Polski', flag: '🇵🇱' },
 ];
 
 export default function Header() {
@@ -51,7 +57,7 @@ export default function Header() {
     }
   }, [langOpen, currencyOpen, userMenuOpen]);
 
-  const handleLangChange = (newLocale: 'tr' | 'en') => {
+  const handleLangChange = (newLocale: Locale) => {
     router.replace(pathname, { locale: newLocale });
     setLangOpen(false);
   };

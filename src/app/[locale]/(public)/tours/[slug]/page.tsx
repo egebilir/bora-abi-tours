@@ -29,9 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tour = data.tours.find((t) => t.id === slug);
   if (!tour) return {};
 
-  const isEn = locale === 'en';
-  const title = isEn && tour.titleEn ? tour.titleEn : tour.title;
-  const description = isEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
+  const useEn = locale !== 'tr';
+  const title = useEn && tour.titleEn ? tour.titleEn : tour.title;
+  const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
 
   return {
     title: `${title} | Bora Abi Tours`,
@@ -52,10 +52,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     alternates: {
       canonical: `https://weareshorex.com/${locale}/tours/${tour.id}`,
-      languages: {
-        tr: `https://weareshorex.com/tr/tours/${tour.id}`,
-        en: `https://weareshorex.com/en/tours/${tour.id}`,
-      },
+      languages: Object.fromEntries(
+        ['tr','en','ru','de','it','ar','pl'].map(l => [l, `https://weareshorex.com/${l}/tours/${tour.id}`])
+      ),
     },
   };
 }
@@ -69,7 +68,7 @@ export default async function TourDetailPage({ params }: Props) {
 
   const relatedTours = data.tours.filter((t) => t.id !== tour.id).slice(0, 4);
 
-  const isEn = locale === 'en';
+  const useEn = locale !== 'tr';
 
   return (
     <>
@@ -84,9 +83,9 @@ export default async function TourDetailPage({ params }: Props) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             generateBreadcrumbJsonLd([
-              { name: isEn ? 'Home' : 'Ana Sayfa', url: `https://weareshorex.com/${locale}` },
-              { name: isEn ? 'Tours' : 'Turlar', url: `https://weareshorex.com/${locale}#tours` },
-              { name: isEn && tour.titleEn ? tour.titleEn : tour.title, url: `https://weareshorex.com/${locale}/tours/${tour.id}` },
+              { name: useEn ? 'Home' : 'Ana Sayfa', url: `https://weareshorex.com/${locale}` },
+              { name: useEn ? 'Tours' : 'Turlar', url: `https://weareshorex.com/${locale}#tours` },
+              { name: useEn && tour.titleEn ? tour.titleEn : tour.title, url: `https://weareshorex.com/${locale}/tours/${tour.id}` },
             ])
           ),
         }}
