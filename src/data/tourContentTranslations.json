@@ -1,0 +1,1874 @@
+{
+  "efes-antik-kenti": {
+    "ru": {
+      "title": "Тур по Древнему Эфесу",
+      "description": "Откройте Эфес — один из наиболее хорошо сохранившихся древних городов мира — с профессиональным гидом. Увидьте знаковые сооружения: Библиотеку Цельса, Большой Театр и Храм Адриана.",
+      "fullDescription": "Эфес — одно из наиболее хорошо сохранившихся археологических мест в мире и объект Всемирного наследия ЮНЕСКО, привлекающий более 2 миллионов посетителей ежегодно. Расположенный всего в 20 минутах от Кушадасы, этот удивительный комплекс раскрывает величие Римской империи.\n\nВо время тура вы пройдёте по мраморным улицам, где когда-то ходили римские императоры, осмотрите двухэтажный фасад Библиотеки Цельса и посетите Большой Театр вместимостью 25 000 зрителей.",
+      "duration": "6 часов",
+      "meetingPoint": "Вход в порт Кушадасы",
+      "highlights": [
+        "Библиотека Цельса",
+        "Большой Театр",
+        "Храм Адриана",
+        "Террасные Дома"
+      ],
+      "inclusions": [
+        "Профессиональный гид",
+        "Трансфер на кондиционированном транспорте",
+        "Входные билеты",
+        "Обед",
+        "Вода и закуски"
+      ],
+      "exclusions": [
+        "Личные расходы",
+        "Доплата за Террасные Дома (€8)",
+        "Чаевые"
+      ],
+      "importantInfo": [
+        "Наденьте удобную обувь для ходьбы",
+        "Возьмите солнцезащитный крем и шляпу",
+        "Имейте при себе минимум 1 литр воды",
+        "Не забудьте фотоаппарат"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00",
+          "title": "Встреча и отправление",
+          "description": "Отправление из порта Кушадасы на кондиционированном транспорте"
+        },
+        {
+          "time": "09:45",
+          "title": "Древний Эфес",
+          "description": "Начало экскурсии по древнему городу с гидом"
+        },
+        {
+          "time": "11:30",
+          "title": "Библиотека Цельса",
+          "description": "Детальный осмотр знаменитой библиотеки"
+        },
+        {
+          "time": "12:30",
+          "title": "Обед",
+          "description": "Блюда эгейской кухни в местном ресторане"
+        },
+        {
+          "time": "14:00",
+          "title": "Храм Артемиды",
+          "description": "Руины одного из Семи Чудес Света"
+        },
+        {
+          "time": "15:00",
+          "title": "Возвращение",
+          "description": "Возвращение в Кушадасы"
+        }
+      ]
+    },
+    "de": {
+      "title": "Tour durch die antike Stadt Ephesus",
+      "description": "Entdecken Sie Ephesus, eine der am besten erhaltenen antiken Städte der Welt, mit einem professionellen Reiseführer. Sehen Sie ikonische Bauwerke wie die Celsus-Bibliothek, das Große Theater und den Hadrian-Tempel.",
+      "fullDescription": "Ephesus ist eine der am besten erhaltenen archäologischen Stätten der Welt und UNESCO-Weltkulturerbe, das jährlich über 2 Millionen Besucher anzieht. Nur 20 Minuten von Kuşadası entfernt, offenbart diese außergewöhnliche Stätte die Pracht des Römischen Reiches.\n\nWährend der Tour wandeln Sie auf Marmorstraßen, auf denen einst römische Kaiser gingen, bewundern die zweistöckige Fassade der Celsus-Bibliothek und besuchen das Große Theater mit 25.000 Sitzplätzen.",
+      "duration": "6 Stunden",
+      "meetingPoint": "Hafeneingang Kuşadası",
+      "highlights": [
+        "Celsus-Bibliothek",
+        "Großes Theater",
+        "Hadrian-Tempel",
+        "Terrassenhäuser"
+      ],
+      "inclusions": [
+        "Professioneller Reiseführer",
+        "Klimatisierter Transfer",
+        "Eintrittsgelder",
+        "Mittagessen",
+        "Wasser und Snacks"
+      ],
+      "exclusions": [
+        "Persönliche Ausgaben",
+        "Zusatzgebühr Terrassenhäuser (€8)",
+        "Trinkgelder"
+      ],
+      "importantInfo": [
+        "Tragen Sie bequeme Wanderschuhe",
+        "Bringen Sie Sonnencreme und einen Hut mit",
+        "Nehmen Sie mindestens 1 Liter Wasser mit",
+        "Vergessen Sie Ihre Kamera nicht"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00",
+          "title": "Treffpunkt & Abfahrt",
+          "description": "Abfahrt vom Hafen Kuşadası mit klimatisiertem Fahrzeug"
+        },
+        {
+          "time": "09:45",
+          "title": "Antikes Ephesus",
+          "description": "Geführte Tour durch die antike Stadt beginnt"
+        },
+        {
+          "time": "11:30",
+          "title": "Celsus-Bibliothek",
+          "description": "Detaillierte Besichtigung der ikonischen Bibliothek"
+        },
+        {
+          "time": "12:30",
+          "title": "Mittagessen",
+          "description": "Ägäische Küche in einem lokalen Restaurant"
+        },
+        {
+          "time": "14:00",
+          "title": "Artemis-Tempel",
+          "description": "Ruinen eines der Sieben Weltwunder"
+        },
+        {
+          "time": "15:00",
+          "title": "Rückkehr",
+          "description": "Rückfahrt nach Kuşadası"
+        }
+      ]
+    },
+    "it": {
+      "title": "Tour dell'Antica Efeso",
+      "description": "Scoprite Efeso, una delle città antiche meglio conservate al mondo, con una guida professionale. Ammirate strutture iconiche come la Biblioteca di Celso, il Grande Teatro e il Tempio di Adriano.",
+      "fullDescription": "Efeso è uno dei siti archeologici meglio conservati al mondo e Patrimonio dell'Umanità UNESCO, che attrae oltre 2 milioni di visitatori ogni anno. Situato a soli 20 minuti da Kuşadası, questo straordinario sito rivela la grandezza dell'Impero Romano.\n\nDurante il tour camminerete lungo strade di marmo percorse un tempo da imperatori romani, ammirerete la facciata a due piani della Biblioteca di Celso e visiterete il Grande Teatro da 25.000 posti.",
+      "duration": "6 ore",
+      "meetingPoint": "Ingresso del Porto di Kuşadası",
+      "highlights": [
+        "Biblioteca di Celso",
+        "Grande Teatro",
+        "Tempio di Adriano",
+        "Case a Terrazza"
+      ],
+      "inclusions": [
+        "Guida professionale",
+        "Transfer con veicolo climatizzato",
+        "Biglietti d'ingresso",
+        "Pranzo",
+        "Acqua e snack"
+      ],
+      "exclusions": [
+        "Spese personali",
+        "Supplemento Case a Terrazza (€8)",
+        "Mance"
+      ],
+      "importantInfo": [
+        "Indossate scarpe comode da passeggio",
+        "Portate crema solare e cappello",
+        "Portate almeno 1 litro d'acqua",
+        "Non dimenticate la fotocamera"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00",
+          "title": "Incontro e Partenza",
+          "description": "Partenza dal porto di Kuşadası con veicolo climatizzato"
+        },
+        {
+          "time": "09:45",
+          "title": "Antica Efeso",
+          "description": "Inizio del tour guidato della città antica"
+        },
+        {
+          "time": "11:30",
+          "title": "Biblioteca di Celso",
+          "description": "Esplorazione dettagliata dell'iconica biblioteca"
+        },
+        {
+          "time": "12:30",
+          "title": "Pranzo",
+          "description": "Cucina egea in un ristorante locale"
+        },
+        {
+          "time": "14:00",
+          "title": "Tempio di Artemide",
+          "description": "Rovine di una delle Sette Meraviglie del Mondo"
+        },
+        {
+          "time": "15:00",
+          "title": "Ritorno",
+          "description": "Ritorno a Kuşadası"
+        }
+      ]
+    },
+    "ar": {
+      "title": "جولة مدينة أفسس القديمة",
+      "description": "اكتشف أفسس، إحدى أفضل المدن القديمة المحفوظة في العالم، مع مرشد محترف. شاهد المعالم الأيقونية مثل مكتبة سيلسوس والمسرح الكبير ومعبد هادريان.",
+      "fullDescription": "أفسس هي واحدة من أفضل المواقع الأثرية المحفوظة في العالم وموقع تراث عالمي لليونسكو، تجذب أكثر من مليوني زائر سنوياً. تقع على بعد 20 دقيقة فقط من كوشاداسي.\n\nخلال الجولة ستسير على شوارع رخامية مشى عليها أباطرة روما، وستشاهد واجهة مكتبة سيلسوس ذات الطابقين وتزور المسرح الكبير الذي يتسع لـ 25,000 متفرج.",
+      "duration": "6 ساعات",
+      "meetingPoint": "مدخل ميناء كوشاداسي",
+      "highlights": [
+        "مكتبة سيلسوس",
+        "المسرح الكبير",
+        "معبد هادريان",
+        "بيوت التراسات"
+      ],
+      "inclusions": [
+        "مرشد محترف",
+        "نقل بمركبة مكيفة",
+        "رسوم الدخول",
+        "غداء",
+        "ماء ووجبات خفيفة"
+      ],
+      "exclusions": [
+        "المصاريف الشخصية",
+        "رسوم إضافية لبيوت التراسات (€8)",
+        "البقشيش"
+      ],
+      "importantInfo": [
+        "ارتدِ أحذية مشي مريحة",
+        "أحضر واقي شمس وقبعة",
+        "احمل لتراً واحداً من الماء على الأقل",
+        "لا تنسَ الكاميرا"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00",
+          "title": "الالتقاء والانطلاق",
+          "description": "الانطلاق من ميناء كوشاداسي بمركبة مكيفة"
+        },
+        {
+          "time": "09:45",
+          "title": "مدينة أفسس القديمة",
+          "description": "بداية الجولة المصحوبة بمرشد في المدينة القديمة"
+        },
+        {
+          "time": "11:30",
+          "title": "مكتبة سيلسوس",
+          "description": "استكشاف تفصيلي للمكتبة الأيقونية"
+        },
+        {
+          "time": "12:30",
+          "title": "الغداء",
+          "description": "تجربة المطبخ الإيجي في مطعم محلي"
+        },
+        {
+          "time": "14:00",
+          "title": "معبد أرتميس",
+          "description": "أطلال إحدى عجائب الدنيا السبع"
+        },
+        {
+          "time": "15:00",
+          "title": "العودة",
+          "description": "العودة إلى كوشاداسي"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Wycieczka do Starożytnego Efezu",
+      "description": "Odkryj Efez — jedno z najlepiej zachowanych starożytnych miast na świecie — z profesjonalnym przewodnikiem. Zobacz ikoniczne budowle: Bibliotekę Celsusa, Wielki Teatr i Świątynię Hadriana.",
+      "fullDescription": "Efez jest jednym z najlepiej zachowanych stanowisk archeologicznych na świecie i obiektem Światowego Dziedzictwa UNESCO, przyciągającym ponad 2 miliony odwiedzających rocznie. Położony zaledwie 20 minut od Kuşadası.\n\nPodczas wycieczki przejdziesz marmurowymi ulicami, którymi niegdyś stąpali cesarze rzymscy, podziwiasz dwupiętrową fasadę Biblioteki Celsusa i odwiedzisz Wielki Teatr na 25 000 miejsc.",
+      "duration": "6 godzin",
+      "meetingPoint": "Wejście do portu Kuşadası",
+      "highlights": [
+        "Biblioteka Celsusa",
+        "Wielki Teatr",
+        "Świątynia Hadriana",
+        "Domy Tarasowe"
+      ],
+      "inclusions": [
+        "Profesjonalny przewodnik",
+        "Transfer klimatyzowanym pojazdem",
+        "Opłaty wstępu",
+        "Obiad",
+        "Woda i przekąski"
+      ],
+      "exclusions": [
+        "Wydatki osobiste",
+        "Dopłata za Domy Tarasowe (€8)",
+        "Napiwki"
+      ],
+      "importantInfo": [
+        "Załóż wygodne buty do chodzenia",
+        "Weź krem z filtrem i kapelusz",
+        "Miej ze sobą co najmniej 1 litr wody",
+        "Nie zapomnij aparatu fotograficznego"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00",
+          "title": "Spotkanie i wyjazd",
+          "description": "Wyjazd z portu Kuşadası klimatyzowanym pojazdem"
+        },
+        {
+          "time": "09:45",
+          "title": "Starożytny Efez",
+          "description": "Początek zwiedzania starożytnego miasta z przewodnikiem"
+        },
+        {
+          "time": "11:30",
+          "title": "Biblioteka Celsusa",
+          "description": "Szczegółowe zwiedzanie słynnej biblioteki"
+        },
+        {
+          "time": "12:30",
+          "title": "Obiad",
+          "description": "Kuchnia egejska w lokalnej restauracji"
+        },
+        {
+          "time": "14:00",
+          "title": "Świątynia Artemidy",
+          "description": "Ruiny jednego z Siedmiu Cudów Świata"
+        },
+        {
+          "time": "15:00",
+          "title": "Powrót",
+          "description": "Powrót do Kuşadası"
+        }
+      ]
+    }
+  },
+  "pamukkale-gunubilirlik": {
+    "ru": {
+      "title": "Однодневный тур в Памуккале",
+      "description": "Посетите знаменитые белые травертины Памуккале и древний город Иераполис. Искупайтесь в античном бассейне Клеопатры.",
+      "fullDescription": "Памуккале — «Хлопковый замок» — это уникальное природное чудо с белоснежными травертиновыми террасами, образованными термальными источниками на протяжении тысячелетий. Объект Всемирного наследия ЮНЕСКО.\n\nВы также посетите руины древнего Иераполиса, включая хорошо сохранившийся театр и некрополь. По желанию можно искупаться в античном бассейне Клеопатры с минеральной водой.",
+      "duration": "12 часов",
+      "meetingPoint": "Вход в порт Кушадасы",
+      "highlights": [
+        "Белые травертины",
+        "Древний Иераполис",
+        "Бассейн Клеопатры",
+        "Термальные источники"
+      ],
+      "inclusions": [
+        "Профессиональный гид",
+        "Кондиционированный транспорт",
+        "Входные билеты",
+        "Обед",
+        "Вода"
+      ],
+      "exclusions": [
+        "Вход в бассейн Клеопатры (€15)",
+        "Личные расходы",
+        "Чаевые"
+      ],
+      "importantInfo": [
+        "Возьмите купальник и полотенце",
+        "Наденьте удобную обувь",
+        "Поездка длится 3 часа в одну сторону",
+        "Возьмите тёплую одежду на вечер"
+      ],
+      "itinerary": [
+        {
+          "time": "07:00",
+          "title": "Встреча и отправление",
+          "description": "Ранний выезд из Кушадасы"
+        },
+        {
+          "time": "10:00",
+          "title": "Прибытие в Памуккале",
+          "description": "Прибытие к белым террасам"
+        },
+        {
+          "time": "10:30",
+          "title": "Травертины",
+          "description": "Прогулка по белоснежным террасам"
+        },
+        {
+          "time": "12:00",
+          "title": "Древний Иераполис",
+          "description": "Осмотр руин античного города"
+        },
+        {
+          "time": "13:30",
+          "title": "Обед",
+          "description": "Турецкая кухня в местном ресторане"
+        },
+        {
+          "time": "15:00",
+          "title": "Возвращение",
+          "description": "Возвращение в Кушадасы"
+        }
+      ]
+    },
+    "de": {
+      "title": "Pamukkale Tagestour",
+      "description": "Besuchen Sie die berühmten weißen Travertinterrassen von Pamukkale und die antike Stadt Hierapolis. Baden Sie im antiken Kleopatra-Pool.",
+      "fullDescription": "Pamukkale — die «Baumwollfestung» — ist ein einzigartiges Naturwunder mit schneeweißen Travertinterrassen, die über Jahrtausende durch Thermalquellen entstanden sind. UNESCO-Weltkulturerbe.\n\nSie besuchen auch die Ruinen des antiken Hierapolis mit dem gut erhaltenen Theater und der Nekropole. Optional können Sie im antiken Kleopatra-Pool mit Mineralwasser baden.",
+      "duration": "12 Stunden",
+      "meetingPoint": "Hafeneingang Kuşadası",
+      "highlights": [
+        "Weiße Travertine",
+        "Antikes Hierapolis",
+        "Kleopatra-Pool",
+        "Thermalquellen"
+      ],
+      "inclusions": [
+        "Professioneller Reiseführer",
+        "Klimatisierter Transport",
+        "Eintrittsgelder",
+        "Mittagessen",
+        "Wasser"
+      ],
+      "exclusions": [
+        "Eintritt Kleopatra-Pool (€15)",
+        "Persönliche Ausgaben",
+        "Trinkgelder"
+      ],
+      "importantInfo": [
+        "Bringen Sie Badesachen und Handtuch mit",
+        "Tragen Sie bequeme Schuhe",
+        "Die Fahrt dauert 3 Stunden pro Strecke",
+        "Nehmen Sie warme Kleidung für den Abend mit"
+      ],
+      "itinerary": [
+        {
+          "time": "07:00",
+          "title": "Treffpunkt & Abfahrt",
+          "description": "Frühe Abfahrt aus Kuşadası"
+        },
+        {
+          "time": "10:00",
+          "title": "Ankunft in Pamukkale",
+          "description": "Ankunft an den weißen Terrassen"
+        },
+        {
+          "time": "10:30",
+          "title": "Travertinterrassen",
+          "description": "Spaziergang über die weißen Terrassen"
+        },
+        {
+          "time": "12:00",
+          "title": "Antikes Hierapolis",
+          "description": "Besichtigung der antiken Ruinen"
+        },
+        {
+          "time": "13:30",
+          "title": "Mittagessen",
+          "description": "Türkische Küche im lokalen Restaurant"
+        },
+        {
+          "time": "15:00",
+          "title": "Rückkehr",
+          "description": "Rückfahrt nach Kuşadası"
+        }
+      ]
+    },
+    "it": {
+      "title": "Tour Giornaliero a Pamukkale",
+      "description": "Visitate le famose terrazze di travertino bianco di Pamukkale e l'antica città di Hierapolis. Fate il bagno nell'antica Piscina di Cleopatra.",
+      "fullDescription": "Pamukkale — il «Castello di Cotone» — è una meraviglia naturale unica con terrazze di travertino bianco neve formate da sorgenti termali nel corso di millenni. Patrimonio dell'Umanità UNESCO.\n\nVisiterete anche le rovine dell'antica Hierapolis con il teatro ben conservato e la necropoli. È possibile fare il bagno nella Piscina di Cleopatra con acqua minerale.",
+      "duration": "12 ore",
+      "meetingPoint": "Ingresso del Porto di Kuşadası",
+      "highlights": [
+        "Travertini Bianchi",
+        "Antica Hierapolis",
+        "Piscina di Cleopatra",
+        "Sorgenti Termali"
+      ],
+      "inclusions": [
+        "Guida professionale",
+        "Trasporto climatizzato",
+        "Biglietti d'ingresso",
+        "Pranzo",
+        "Acqua"
+      ],
+      "exclusions": [
+        "Ingresso Piscina di Cleopatra (€15)",
+        "Spese personali",
+        "Mance"
+      ],
+      "importantInfo": [
+        "Portate costume da bagno e asciugamano",
+        "Indossate scarpe comode",
+        "Il viaggio dura 3 ore per tratta",
+        "Portate vestiti caldi per la sera"
+      ],
+      "itinerary": [
+        {
+          "time": "07:00",
+          "title": "Incontro e Partenza",
+          "description": "Partenza mattutina da Kuşadası"
+        },
+        {
+          "time": "10:00",
+          "title": "Arrivo a Pamukkale",
+          "description": "Arrivo alle terrazze bianche"
+        },
+        {
+          "time": "10:30",
+          "title": "Terrazze di Travertino",
+          "description": "Passeggiata sulle terrazze bianche"
+        },
+        {
+          "time": "12:00",
+          "title": "Antica Hierapolis",
+          "description": "Visita delle rovine antiche"
+        },
+        {
+          "time": "13:30",
+          "title": "Pranzo",
+          "description": "Cucina turca in un ristorante locale"
+        },
+        {
+          "time": "15:00",
+          "title": "Ritorno",
+          "description": "Ritorno a Kuşadası"
+        }
+      ]
+    },
+    "ar": {
+      "title": "جولة يومية إلى باموكالي",
+      "description": "زوروا المدرجات الترافرتينية البيضاء الشهيرة في باموكالي ومدينة هيرابوليس القديمة. استحموا في حمام كليوباترا القديم.",
+      "fullDescription": "باموكالي — «قلعة القطن» — هي أعجوبة طبيعية فريدة بمدرجاتها الترافرتينية البيضاء التي تشكلت عبر آلاف السنين من الينابيع الحرارية. موقع تراث عالمي لليونسكو.\n\nستزورون أيضاً أطلال مدينة هيرابوليس القديمة بمسرحها المحفوظ جيداً. يمكنكم السباحة في حمام كليوباترا القديم بمياهه المعدنية.",
+      "duration": "12 ساعة",
+      "meetingPoint": "مدخل ميناء كوشاداسي",
+      "highlights": [
+        "المدرجات البيضاء",
+        "هيرابوليس القديمة",
+        "حمام كليوباترا",
+        "الينابيع الحرارية"
+      ],
+      "inclusions": [
+        "مرشد محترف",
+        "نقل مكيف",
+        "رسوم الدخول",
+        "غداء",
+        "ماء"
+      ],
+      "exclusions": [
+        "دخول حمام كليوباترا (€15)",
+        "مصاريف شخصية",
+        "بقشيش"
+      ],
+      "importantInfo": [
+        "أحضر ملابس سباحة ومنشفة",
+        "ارتدِ أحذية مريحة",
+        "الرحلة تستغرق 3 ساعات في كل اتجاه",
+        "أحضر ملابس دافئة للمساء"
+      ],
+      "itinerary": [
+        {
+          "time": "07:00",
+          "title": "الالتقاء والانطلاق",
+          "description": "انطلاق مبكر من كوشاداسي"
+        },
+        {
+          "time": "10:00",
+          "title": "الوصول إلى باموكالي",
+          "description": "الوصول إلى المدرجات البيضاء"
+        },
+        {
+          "time": "10:30",
+          "title": "المدرجات الترافرتينية",
+          "description": "جولة سيراً على الأقدام فوق المدرجات البيضاء"
+        },
+        {
+          "time": "12:00",
+          "title": "هيرابوليس القديمة",
+          "description": "زيارة أطلال المدينة القديمة"
+        },
+        {
+          "time": "13:30",
+          "title": "الغداء",
+          "description": "المطبخ التركي في مطعم محلي"
+        },
+        {
+          "time": "15:00",
+          "title": "العودة",
+          "description": "العودة إلى كوشاداسي"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Jednodniowa Wycieczka do Pamukkale",
+      "description": "Odwiedź słynne białe tarasy trawertynowe Pamukkale i starożytne miasto Hierapolis. Wykąp się w antycznym basenie Kleopatry.",
+      "fullDescription": "Pamukkale — «Bawełniany Zamek» — to unikalne cudo natury z białymi tarasami trawertynowymi, formowanymi przez tysiąclecia przez źródła termalne. Obiekt Światowego Dziedzictwa UNESCO.\n\nOdwiedzisz również ruiny starożytnego Hierapolis z dobrze zachowanym teatrem i nekropolią. Opcjonalnie możesz wykąpać się w antycznym basenie Kleopatry z wodą mineralną.",
+      "duration": "12 godzin",
+      "meetingPoint": "Wejście do portu Kuşadası",
+      "highlights": [
+        "Białe trawertyny",
+        "Starożytne Hierapolis",
+        "Basen Kleopatry",
+        "Źródła termalne"
+      ],
+      "inclusions": [
+        "Profesjonalny przewodnik",
+        "Klimatyzowany transport",
+        "Opłaty wstępu",
+        "Obiad",
+        "Woda"
+      ],
+      "exclusions": [
+        "Wstęp do basenu Kleopatry (€15)",
+        "Wydatki osobiste",
+        "Napiwki"
+      ],
+      "importantInfo": [
+        "Weź strój kąpielowy i ręcznik",
+        "Załóż wygodne buty",
+        "Podróż trwa 3 godziny w jedną stronę",
+        "Weź ciepłe ubranie na wieczór"
+      ],
+      "itinerary": [
+        {
+          "time": "07:00",
+          "title": "Spotkanie i wyjazd",
+          "description": "Wczesny wyjazd z Kuşadası"
+        },
+        {
+          "time": "10:00",
+          "title": "Przyjazd do Pamukkale",
+          "description": "Przyjazd do białych tarasów"
+        },
+        {
+          "time": "10:30",
+          "title": "Tarasy trawertynowe",
+          "description": "Spacer po białych tarasach"
+        },
+        {
+          "time": "12:00",
+          "title": "Starożytne Hierapolis",
+          "description": "Zwiedzanie starożytnych ruin"
+        },
+        {
+          "time": "13:30",
+          "title": "Obiad",
+          "description": "Kuchnia turecka w lokalnej restauracji"
+        },
+        {
+          "time": "15:00",
+          "title": "Powrót",
+          "description": "Powrót do Kuşadası"
+        }
+      ]
+    }
+  },
+  "sirince-koyu-turu": {
+    "ru": {
+      "title": "Деревня Шириндже и дегустация вин",
+      "description": "Прогулка среди каменных домов скрытой жемчужины — деревни Шириндже, дегустация местных вин и аутентичный турецкий завтрак.",
+      "fullDescription": "Шириндже — очаровательная деревня в горах, известная своими историческими каменными домами, фруктовыми винами и тихой атмосферой. Всего в 8 км от Эфеса.\n\nВо время тура вы прогуляетесь по мощёным улочкам, попробуете 5 видов местных фруктовых вин и насладитесь настоящим деревенским завтраком с домашними продуктами.",
+      "duration": "5 часов",
+      "meetingPoint": "Центр Кушадасы",
+      "highlights": [
+        "Каменные дома",
+        "Дегустация вин",
+        "Деревенский завтрак",
+        "Ремёсла"
+      ],
+      "inclusions": [
+        "Гид",
+        "Трансфер",
+        "Дегустация вин (5 видов)",
+        "Деревенский завтрак"
+      ],
+      "exclusions": [
+        "Личные покупки",
+        "Дополнительные напитки",
+        "Чаевые"
+      ],
+      "importantInfo": [
+        "Наденьте удобную обувь (мощёные улицы)",
+        "Возьмите наличные (магазины в деревне)",
+        "Дегустация вин — 18+"
+      ],
+      "itinerary": [
+        {
+          "time": "08:30",
+          "title": "Отправление",
+          "description": "Выезд из центра Кушадасы в Шириндже"
+        },
+        {
+          "time": "09:15",
+          "title": "Экскурсия по деревне",
+          "description": "Прогулка по каменным домам и улочкам с гидом"
+        },
+        {
+          "time": "10:30",
+          "title": "Дегустация вин",
+          "description": "Дегустация 5 видов местных фруктовых вин"
+        },
+        {
+          "time": "12:00",
+          "title": "Деревенский завтрак",
+          "description": "Аутентичный эгейский завтрак"
+        },
+        {
+          "time": "13:30",
+          "title": "Возвращение",
+          "description": "Возвращение в Кушадасы"
+        }
+      ]
+    },
+    "de": {
+      "title": "Dorf Şirince & Weinverkostung",
+      "description": "Spazieren Sie zwischen Steinhäusern im versteckten Juwel Şirince, probieren Sie lokale Weine und genießen Sie ein authentisches türkisches Frühstück.",
+      "fullDescription": "Şirince ist ein charmantes Bergdorf, bekannt für historische Steinhäuser, Fruchtweine und ruhige Atmosphäre. Nur 8 km von Ephesus entfernt.\n\nSie spazieren durch kopfsteingepflasterte Gassen, probieren 5 Sorten lokaler Fruchtweine und genießen ein authentisches Dorffrühstück.",
+      "duration": "5 Stunden",
+      "meetingPoint": "Stadtzentrum Kuşadası",
+      "highlights": [
+        "Steinhäuser",
+        "Weinverkostung",
+        "Dorffrühstück",
+        "Kunsthandwerk"
+      ],
+      "inclusions": [
+        "Reiseführer",
+        "Transfer",
+        "Weinverkostung (5 Sorten)",
+        "Dorffrühstück"
+      ],
+      "exclusions": [
+        "Persönliche Einkäufe",
+        "Zusätzliche Getränke",
+        "Trinkgelder"
+      ],
+      "importantInfo": [
+        "Bequeme Schuhe tragen (Kopfsteinpflaster)",
+        "Bargeld mitnehmen (Dorfläden)",
+        "Weinverkostung ab 18 Jahren"
+      ],
+      "itinerary": [
+        {
+          "time": "08:30",
+          "title": "Abfahrt",
+          "description": "Fahrt vom Zentrum Kuşadası nach Şirince"
+        },
+        {
+          "time": "09:15",
+          "title": "Dorfrundgang",
+          "description": "Geführter Rundgang durch Steinhäuser und Gassen"
+        },
+        {
+          "time": "10:30",
+          "title": "Weinverkostung",
+          "description": "Verkostung von 5 lokalen Fruchtweinen"
+        },
+        {
+          "time": "12:00",
+          "title": "Dorffrühstück",
+          "description": "Authentisches ägäisches Frühstück"
+        },
+        {
+          "time": "13:30",
+          "title": "Rückkehr",
+          "description": "Rückfahrt nach Kuşadası"
+        }
+      ]
+    },
+    "it": {
+      "title": "Villaggio di Şirince e Degustazione Vini",
+      "description": "Passeggiate tra case in pietra nel gioiello nascosto di Şirince, degustate vini locali e godetevi una colazione turca autentica.",
+      "fullDescription": "Şirince è un affascinante villaggio montano noto per case in pietra storiche, vini alla frutta e atmosfera tranquilla. A soli 8 km da Efeso.\n\nDurante il tour passeggerete per vicoli acciottolati, assaggerete 5 tipi di vini locali e gusterete una colazione di villaggio autentica.",
+      "duration": "5 ore",
+      "meetingPoint": "Centro di Kuşadası",
+      "highlights": [
+        "Case in pietra",
+        "Degustazione vini",
+        "Colazione di villaggio",
+        "Artigianato"
+      ],
+      "inclusions": [
+        "Guida",
+        "Transfer",
+        "Degustazione vini (5 tipi)",
+        "Colazione di villaggio"
+      ],
+      "exclusions": [
+        "Acquisti personali",
+        "Bevande extra",
+        "Mance"
+      ],
+      "importantInfo": [
+        "Indossate scarpe comode (strade acciottolate)",
+        "Portate contanti (negozi del villaggio)",
+        "Degustazione vini: 18+"
+      ],
+      "itinerary": [
+        {
+          "time": "08:30",
+          "title": "Partenza",
+          "description": "Viaggio dal centro di Kuşadası a Şirince"
+        },
+        {
+          "time": "09:15",
+          "title": "Tour del villaggio",
+          "description": "Tour guidato tra case in pietra e vicoli"
+        },
+        {
+          "time": "10:30",
+          "title": "Degustazione vini",
+          "description": "Degustazione di 5 vini locali alla frutta"
+        },
+        {
+          "time": "12:00",
+          "title": "Colazione di villaggio",
+          "description": "Autentica colazione egea"
+        },
+        {
+          "time": "13:30",
+          "title": "Ritorno",
+          "description": "Ritorno a Kuşadası"
+        }
+      ]
+    },
+    "ar": {
+      "title": "قرية شيرينجه وتذوق النبيذ",
+      "description": "تجولوا بين البيوت الحجرية في جوهرة شيرينجه المخفية، تذوقوا النبيذ المحلي واستمتعوا بفطور تركي أصيل.",
+      "fullDescription": "شيرينجه قرية جبلية ساحرة تشتهر ببيوتها الحجرية التاريخية ونبيذ الفاكهة وأجوائها الهادئة. تبعد 8 كم فقط عن أفسس.\n\nستتجولون في أزقة مرصوفة بالحجارة وتتذوقون 5 أنواع من النبيذ المحلي وتستمتعون بفطور قروي أصيل.",
+      "duration": "5 ساعات",
+      "meetingPoint": "مركز كوشاداسي",
+      "highlights": [
+        "بيوت حجرية",
+        "تذوق النبيذ",
+        "فطور قروي",
+        "حرف يدوية"
+      ],
+      "inclusions": [
+        "مرشد",
+        "نقل",
+        "تذوق نبيذ (5 أنواع)",
+        "فطور قروي"
+      ],
+      "exclusions": [
+        "مشتريات شخصية",
+        "مشروبات إضافية",
+        "بقشيش"
+      ],
+      "importantInfo": [
+        "ارتدِ أحذية مريحة (شوارع مرصوفة)",
+        "أحضر نقوداً (متاجر القرية)",
+        "تذوق النبيذ: 18+"
+      ],
+      "itinerary": [
+        {
+          "time": "08:30",
+          "title": "الانطلاق",
+          "description": "الرحلة من مركز كوشاداسي إلى شيرينجه"
+        },
+        {
+          "time": "09:15",
+          "title": "جولة القرية",
+          "description": "جولة مع مرشد بين البيوت الحجرية والأزقة"
+        },
+        {
+          "time": "10:30",
+          "title": "تذوق النبيذ",
+          "description": "تذوق 5 أنواع من النبيذ المحلي"
+        },
+        {
+          "time": "12:00",
+          "title": "فطور قروي",
+          "description": "تجربة فطور إيجي أصيل"
+        },
+        {
+          "time": "13:30",
+          "title": "العودة",
+          "description": "العودة إلى كوشاداسي"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Wioska Şirince i degustacja win",
+      "description": "Spaceruj wśród kamiennych domów ukrytej perły Şirince, degustuj lokalne wina i ciesz się autentycznym tureckim śniadaniem.",
+      "fullDescription": "Şirince to urocza górska wioska znana z historycznych kamiennych domów, win owocowych i spokojnej atmosfery. Zaledwie 8 km od Efezu.\n\nPodczas wycieczki przejdziesz brukowanymi uliczkami, spróbujesz 5 rodzajów lokalnych win i zjesz autentyczne wiejskie śniadanie.",
+      "duration": "5 godzin",
+      "meetingPoint": "Centrum Kuşadası",
+      "highlights": [
+        "Kamienne domy",
+        "Degustacja win",
+        "Wiejskie śniadanie",
+        "Rękodzieło"
+      ],
+      "inclusions": [
+        "Przewodnik",
+        "Transfer",
+        "Degustacja win (5 rodzajów)",
+        "Wiejskie śniadanie"
+      ],
+      "exclusions": [
+        "Zakupy osobiste",
+        "Dodatkowe napoje",
+        "Napiwki"
+      ],
+      "importantInfo": [
+        "Załóż wygodne buty (brukowane ulice)",
+        "Weź gotówkę (sklepy wiejskie)",
+        "Degustacja win: od 18 lat"
+      ],
+      "itinerary": [
+        {
+          "time": "08:30",
+          "title": "Wyjazd",
+          "description": "Podróż z centrum Kuşadası do Şirince"
+        },
+        {
+          "time": "09:15",
+          "title": "Zwiedzanie wioski",
+          "description": "Spacer z przewodnikiem wśród kamiennych domów"
+        },
+        {
+          "time": "10:30",
+          "title": "Degustacja win",
+          "description": "Degustacja 5 lokalnych win owocowych"
+        },
+        {
+          "time": "12:00",
+          "title": "Wiejskie śniadanie",
+          "description": "Autentyczne egejskie śniadanie"
+        },
+        {
+          "time": "13:30",
+          "title": "Powrót",
+          "description": "Powrót do Kuşadası"
+        }
+      ]
+    }
+  },
+  "dalyan-kaplumbaga": {
+    "ru": {
+      "title": "Дальян и Черепаший Пляж",
+      "description": "Увидьте скальные гробницы с лодки в дельте Дальян, понаблюдайте за черепахами каретта-каретта на пляже Изтузу, примите грязевую ванну.",
+      "fullDescription": "Дальян — природный рай на юго-западе Турции. Лодочная прогулка по каналу Дальян, скальные гробницы ликийских царей, грязевые ванны и пляж Изтузу — место гнездования черепах.\n\nВы проплывёте мимо впечатляющих скальных гробниц, искупаетесь в целебной грязи и посетите знаменитый пляж Изтузу.",
+      "duration": "10 часов",
+      "meetingPoint": "Порт Кушадасы",
+      "highlights": [
+        "Пляж Изтузу",
+        "Скальные гробницы",
+        "Грязевые ванны",
+        "Черепахи каретта"
+      ],
+      "inclusions": [
+        "Гид",
+        "Автобусный трансфер",
+        "Прогулка на лодке",
+        "Грязевые ванны",
+        "Обед",
+        "Страховка"
+      ],
+      "exclusions": [
+        "Напитки",
+        "Аренда шезлонга",
+        "Личные расходы"
+      ],
+      "importantInfo": [
+        "Возьмите купальник и полотенце",
+        "Возьмите сменную одежду для грязевой ванны",
+        "Водонепроницаемый чехол для телефона",
+        "Возьмите солнцезащитный крем и шляпу"
+      ],
+      "itinerary": [
+        {
+          "time": "07:30",
+          "title": "Отправление",
+          "description": "Выезд из Кушадасы в Дальян"
+        },
+        {
+          "time": "10:00",
+          "title": "Прогулка на лодке",
+          "description": "Лодочная прогулка по каналу с осмотром скальных гробниц"
+        },
+        {
+          "time": "11:30",
+          "title": "Грязевые ванны",
+          "description": "Целебная грязевая ванна и термальное купание"
+        },
+        {
+          "time": "13:00",
+          "title": "Обед",
+          "description": "Рыбный обед на берегу реки Дальян"
+        },
+        {
+          "time": "14:30",
+          "title": "Пляж Изтузу",
+          "description": "Место гнездования черепах каретта-каретта"
+        },
+        {
+          "time": "16:30",
+          "title": "Возвращение",
+          "description": "Возвращение в Кушадасы"
+        }
+      ]
+    },
+    "de": {
+      "title": "Dalyan & Schildkrötenstrand",
+      "description": "Sehen Sie die Felsengräber per Boot im Dalyan-Delta, beobachten Sie Unechte Karettschildkröten am İztuzu-Strand und genießen Sie ein Schlammbad.",
+      "fullDescription": "Dalyan ist ein Naturparadies im Südwesten der Türkei. Bootsfahrt durch den Dalyan-Kanal, lykische Felsengräber, Schlammbäder und der Iztuzu-Strand — Nistplatz der Schildkröten.\n\nSie fahren an beeindruckenden Felsengräbern vorbei, nehmen ein heilendes Schlammbad und besuchen den berühmten Iztuzu-Strand.",
+      "duration": "10 Stunden",
+      "meetingPoint": "Hafen Kuşadası",
+      "highlights": [
+        "İztuzu-Strand",
+        "Felsengräber",
+        "Schlammbad",
+        "Karettschildkröten"
+      ],
+      "inclusions": [
+        "Reiseführer",
+        "Bustransfer",
+        "Bootstour",
+        "Schlammbad",
+        "Mittagessen",
+        "Versicherung"
+      ],
+      "exclusions": [
+        "Getränke",
+        "Liege am Strand",
+        "Persönliche Ausgaben"
+      ],
+      "importantInfo": [
+        "Badesachen und Handtuch mitbringen",
+        "Wechselkleidung für Schlammbad",
+        "Wasserdichte Handyhülle empfohlen",
+        "Sonnencreme und Hut mitbringen"
+      ],
+      "itinerary": [
+        {
+          "time": "07:30",
+          "title": "Abfahrt",
+          "description": "Fahrt von Kuşadası nach Dalyan"
+        },
+        {
+          "time": "10:00",
+          "title": "Bootstour",
+          "description": "Bootsfahrt durch den Dalyan-Kanal mit Blick auf Felsengräber"
+        },
+        {
+          "time": "11:30",
+          "title": "Schlammbad",
+          "description": "Heilendes Schlammbad und Thermalbaden"
+        },
+        {
+          "time": "13:00",
+          "title": "Mittagessen",
+          "description": "Fisch-Mittagessen am Dalyan-Fluss"
+        },
+        {
+          "time": "14:30",
+          "title": "İztuzu-Strand",
+          "description": "Nistplatz der Karettschildkröten"
+        },
+        {
+          "time": "16:30",
+          "title": "Rückkehr",
+          "description": "Rückfahrt nach Kuşadası"
+        }
+      ]
+    },
+    "it": {
+      "title": "Dalyan e Spiaggia delle Tartarughe",
+      "description": "Vedete le tombe rupestri in barca nel delta di Dalyan, osservate le tartarughe Caretta sulla spiaggia di İztuzu e godetevi un bagno di fango.",
+      "fullDescription": "Dalyan è un paradiso naturale nel sud-ovest della Turchia. Giro in barca nel canale di Dalyan, tombe rupestri licie, bagni di fango e spiaggia di Iztuzu — luogo di nidificazione delle tartarughe.\n\nNavigherete lungo impressionanti tombe rupestri, vi immergerete nel fango curativo e visiterete la famosa spiaggia di İztuzu.",
+      "duration": "10 ore",
+      "meetingPoint": "Porto di Kuşadası",
+      "highlights": [
+        "Spiaggia İztuzu",
+        "Tombe rupestri",
+        "Bagno di fango",
+        "Tartarughe Caretta"
+      ],
+      "inclusions": [
+        "Guida",
+        "Transfer in autobus",
+        "Tour in barca",
+        "Bagno di fango",
+        "Pranzo",
+        "Assicurazione"
+      ],
+      "exclusions": [
+        "Bevande",
+        "Lettino in spiaggia",
+        "Spese personali"
+      ],
+      "importantInfo": [
+        "Portate costume e asciugamano",
+        "Portate vestiti di ricambio per il fango",
+        "Custodia impermeabile per telefono consigliata",
+        "Portate crema solare e cappello"
+      ],
+      "itinerary": [
+        {
+          "time": "07:30",
+          "title": "Partenza",
+          "description": "Viaggio da Kuşadası a Dalyan"
+        },
+        {
+          "time": "10:00",
+          "title": "Tour in barca",
+          "description": "Giro in barca nel canale con vista sulle tombe"
+        },
+        {
+          "time": "11:30",
+          "title": "Bagno di fango",
+          "description": "Bagno di fango curativo e nuoto termale"
+        },
+        {
+          "time": "13:00",
+          "title": "Pranzo",
+          "description": "Pranzo a base di pesce sul fiume Dalyan"
+        },
+        {
+          "time": "14:30",
+          "title": "Spiaggia İztuzu",
+          "description": "Luogo di nidificazione delle tartarughe Caretta"
+        },
+        {
+          "time": "16:30",
+          "title": "Ritorno",
+          "description": "Ritorno a Kuşadası"
+        }
+      ]
+    },
+    "ar": {
+      "title": "دالين وشاطئ السلاحف",
+      "description": "شاهدوا المقابر الصخرية من القارب في دلتا دالين، راقبوا سلاحف كاريتا على شاطئ إزتوزو واستمتعوا بحمام الطين.",
+      "fullDescription": "دالين جنة طبيعية في جنوب غرب تركيا. جولة بالقارب في قناة دالين، مقابر صخرية ليقية، حمامات طين وشاطئ إزتوزو — موطن تعشيش السلاحف.\n\nستبحرون أمام المقابر الصخرية المذهلة، تستحمون في الطين العلاجي وتزورون شاطئ إزتوزو الشهير.",
+      "duration": "10 ساعات",
+      "meetingPoint": "ميناء كوشاداسي",
+      "highlights": [
+        "شاطئ إزتوزو",
+        "المقابر الصخرية",
+        "حمام الطين",
+        "سلاحف كاريتا"
+      ],
+      "inclusions": [
+        "مرشد",
+        "نقل بالحافلة",
+        "جولة بالقارب",
+        "حمام طين",
+        "غداء",
+        "تأمين"
+      ],
+      "exclusions": [
+        "مشروبات",
+        "إيجار كرسي الشاطئ",
+        "مصاريف شخصية"
+      ],
+      "importantInfo": [
+        "أحضر ملابس سباحة ومنشفة",
+        "أحضر ملابس بديلة لحمام الطين",
+        "غلاف مقاوم للماء للهاتف",
+        "أحضر واقي شمس وقبعة"
+      ],
+      "itinerary": [
+        {
+          "time": "07:30",
+          "title": "الانطلاق",
+          "description": "الرحلة من كوشاداسي إلى دالين"
+        },
+        {
+          "time": "10:00",
+          "title": "جولة بالقارب",
+          "description": "جولة في قناة دالين مع مشاهدة المقابر الصخرية"
+        },
+        {
+          "time": "11:30",
+          "title": "حمام الطين",
+          "description": "حمام طين علاجي وسباحة حرارية"
+        },
+        {
+          "time": "13:00",
+          "title": "الغداء",
+          "description": "غداء أسماك على ضفاف نهر دالين"
+        },
+        {
+          "time": "14:30",
+          "title": "شاطئ إزتوزو",
+          "description": "موطن تعشيش سلاحف كاريتا كاريتا"
+        },
+        {
+          "time": "16:30",
+          "title": "العودة",
+          "description": "العودة إلى كوشاداسي"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Dalyan i Plaża Żółwi",
+      "description": "Zobaczcie skalne grobowce z łodzi w delcie Dalyan, obserwujcie żółwie karetta na plaży İztuzu i weźcie kąpiel błotną.",
+      "fullDescription": "Dalyan to naturalny raj w południowo-zachodniej Turcji. Rejs łodzią kanałem Dalyan, licyjskie grobowce skalne, kąpiele błotne i plaża İztuzu — miejsce gniazdowania żółwi.\n\nPrzepłyniecie obok imponujących skalnych grobowców, zanurzycie się w leczniczym błocie i odwiedzicie słynną plażę İztuzu.",
+      "duration": "10 godzin",
+      "meetingPoint": "Port Kuşadası",
+      "highlights": [
+        "Plaża İztuzu",
+        "Skalne grobowce",
+        "Kąpiel błotna",
+        "Żółwie karetta"
+      ],
+      "inclusions": [
+        "Przewodnik",
+        "Transfer autobusem",
+        "Rejs łodzią",
+        "Kąpiel błotna",
+        "Obiad",
+        "Ubezpieczenie"
+      ],
+      "exclusions": [
+        "Napoje",
+        "Wynajem leżaka",
+        "Wydatki osobiste"
+      ],
+      "importantInfo": [
+        "Weź strój kąpielowy i ręcznik",
+        "Weź ubranie na zmianę do błota",
+        "Wodoodporny pokrowiec na telefon",
+        "Weź krem z filtrem i kapelusz"
+      ],
+      "itinerary": [
+        {
+          "time": "07:30",
+          "title": "Wyjazd",
+          "description": "Podróż z Kuşadası do Dalyan"
+        },
+        {
+          "time": "10:00",
+          "title": "Rejs łodzią",
+          "description": "Rejs kanałem z widokiem na skalne grobowce"
+        },
+        {
+          "time": "11:30",
+          "title": "Kąpiel błotna",
+          "description": "Lecznicza kąpiel błotna i pływanie termalne"
+        },
+        {
+          "time": "13:00",
+          "title": "Obiad",
+          "description": "Obiad rybny nad rzeką Dalyan"
+        },
+        {
+          "time": "14:30",
+          "title": "Plaża İztuzu",
+          "description": "Miejsce gniazdowania żółwi karetta"
+        },
+        {
+          "time": "16:30",
+          "title": "Powrót",
+          "description": "Powrót do Kuşadası"
+        }
+      ]
+    }
+  },
+  "dilek-yarimadasi": {
+    "ru": {
+      "title": "Поход по полуострову Дилек",
+      "description": "Пеший поход по национальному парку полуострова Дилек, купание в кристально чистых бухтах, знакомство с эндемичными растениями.",
+      "fullDescription": "Национальный парк полуострова Дилек — одна из самых нетронутых природных территорий Эгейского побережья. Густые сосновые леса, скрытые бухты и богатая дикая природа.\n\nВас ждёт пеший маршрут длиной 3 км, легендарная Пещера Зевса и купание в бухте Айдынлык с кристально чистой водой.",
+      "duration": "7 часов",
+      "meetingPoint": "Центр Кушадасы",
+      "highlights": [
+        "Бухта Айдынлык",
+        "Пещера Зевса",
+        "Пешие прогулки",
+        "Дикая природа"
+      ],
+      "inclusions": [
+        "Гид-натуралист",
+        "Трансфер",
+        "Вход в нацпарк",
+        "Пикник",
+        "Вода"
+      ],
+      "exclusions": [
+        "Личное снаряжение",
+        "Дополнительные напитки"
+      ],
+      "importantInfo": [
+        "Треккинговая обувь обязательна",
+        "Возьмите минимум 2 литра воды",
+        "Используйте средство от насекомых",
+        "Возьмите купальник (остановка в бухте)"
+      ],
+      "itinerary": [
+        {
+          "time": "08:00",
+          "title": "Отправление",
+          "description": "Трансфер в Нацпарк полуострова Дилек"
+        },
+        {
+          "time": "08:45",
+          "title": "Поход",
+          "description": "Пеший маршрут 3 км с гидом"
+        },
+        {
+          "time": "10:30",
+          "title": "Пещера Зевса",
+          "description": "Исследование легендарной пещеры"
+        },
+        {
+          "time": "11:30",
+          "title": "Бухта Айдынлык",
+          "description": "Купание в кристально чистой воде"
+        },
+        {
+          "time": "13:00",
+          "title": "Пикник",
+          "description": "Пикник на природе"
+        },
+        {
+          "time": "15:00",
+          "title": "Возвращение",
+          "description": "Возвращение в Кушадасы"
+        }
+      ]
+    },
+    "de": {
+      "title": "Dilek-Halbinsel Naturwanderung",
+      "description": "Wanderung durch den Nationalpark der Dilek-Halbinsel, Schwimmen in kristallklaren Buchten und Entdeckung endemischer Pflanzen.",
+      "fullDescription": "Der Nationalpark Dilek-Halbinsel ist eines der unberührtesten Naturgebiete der Ägäisküste. Dichte Kiefernwälder, versteckte Buchten und reiche Tierwelt.\n\nEs erwartet Sie ein 3 km langer Wanderweg, die legendäre Zeus-Höhle und Schwimmen in der Bucht Aydınlık.",
+      "duration": "7 Stunden",
+      "meetingPoint": "Stadtzentrum Kuşadası",
+      "highlights": [
+        "Bucht Aydınlık",
+        "Zeus-Höhle",
+        "Naturwanderung",
+        "Tierwelt"
+      ],
+      "inclusions": [
+        "Naturführer",
+        "Transfer",
+        "Nationalparkeintritt",
+        "Picknick",
+        "Wasser"
+      ],
+      "exclusions": [
+        "Persönliche Ausrüstung",
+        "Zusätzliche Getränke"
+      ],
+      "importantInfo": [
+        "Wanderschuhe sind Pflicht",
+        "Mindestens 2 Liter Wasser mitnehmen",
+        "Insektenschutz verwenden",
+        "Badesachen mitnehmen (Buchtstopp)"
+      ],
+      "itinerary": [
+        {
+          "time": "08:00",
+          "title": "Abfahrt",
+          "description": "Transfer zum Nationalpark Dilek-Halbinsel"
+        },
+        {
+          "time": "08:45",
+          "title": "Wanderung",
+          "description": "Geführte 3 km Wanderung"
+        },
+        {
+          "time": "10:30",
+          "title": "Zeus-Höhle",
+          "description": "Erkundung der legendären Höhle"
+        },
+        {
+          "time": "11:30",
+          "title": "Bucht Aydınlık",
+          "description": "Schwimmen im kristallklaren Wasser"
+        },
+        {
+          "time": "13:00",
+          "title": "Picknick",
+          "description": "Picknick in der Natur"
+        },
+        {
+          "time": "15:00",
+          "title": "Rückkehr",
+          "description": "Rückfahrt nach Kuşadası"
+        }
+      ]
+    },
+    "it": {
+      "title": "Escursione Naturale Penisola di Dilek",
+      "description": "Camminate nel parco nazionale della Penisola di Dilek, nuotate in baie cristalline e scoprite specie vegetali endemiche.",
+      "fullDescription": "Il Parco Nazionale della Penisola di Dilek è una delle aree naturali più incontaminate della costa egea. Fitte foreste di pini, baie nascoste e ricca fauna selvatica.\n\nVi attende un sentiero di 3 km, la leggendaria Grotta di Zeus e il nuoto nella baia di Aydınlık.",
+      "duration": "7 ore",
+      "meetingPoint": "Centro di Kuşadası",
+      "highlights": [
+        "Baia Aydınlık",
+        "Grotta di Zeus",
+        "Escursionismo",
+        "Fauna selvatica"
+      ],
+      "inclusions": [
+        "Guida naturalistica",
+        "Transfer",
+        "Ingresso parco nazionale",
+        "Picnic",
+        "Acqua"
+      ],
+      "exclusions": [
+        "Attrezzatura personale",
+        "Bevande extra"
+      ],
+      "importantInfo": [
+        "Scarpe da trekking obbligatorie",
+        "Portate almeno 2 litri d acqua",
+        "Usate repellente per insetti",
+        "Portate costume (sosta in baia)"
+      ],
+      "itinerary": [
+        {
+          "time": "08:00",
+          "title": "Partenza",
+          "description": "Transfer al Parco Nazionale Penisola di Dilek"
+        },
+        {
+          "time": "08:45",
+          "title": "Escursione",
+          "description": "Sentiero guidato di 3 km"
+        },
+        {
+          "time": "10:30",
+          "title": "Grotta di Zeus",
+          "description": "Esplorazione della leggendaria grotta"
+        },
+        {
+          "time": "11:30",
+          "title": "Baia Aydınlık",
+          "description": "Nuoto in acque cristalline"
+        },
+        {
+          "time": "13:00",
+          "title": "Picnic",
+          "description": "Picnic nella natura"
+        },
+        {
+          "time": "15:00",
+          "title": "Ritorno",
+          "description": "Ritorno a Kuşadası"
+        }
+      ]
+    },
+    "ar": {
+      "title": "رحلة طبيعية في شبه جزيرة ديلك",
+      "description": "تنزهوا في المنتزه الوطني لشبه جزيرة ديلك واسبحوا في خلجان صافية واكتشفوا أنواعاً نباتية متوطنة.",
+      "fullDescription": "المنتزه الوطني لشبه جزيرة ديلك من أكثر المناطق الطبيعية البكر على ساحل بحر إيجة. غابات صنوبر كثيفة وخلجان مخفية وحياة برية غنية.\n\nينتظركم مسار مشي بطول 3 كم وكهف زيوس الأسطوري والسباحة في خليج آيدينليك.",
+      "duration": "7 ساعات",
+      "meetingPoint": "مركز كوشاداسي",
+      "highlights": [
+        "خليج آيدينليك",
+        "كهف زيوس",
+        "المشي في الطبيعة",
+        "الحياة البرية"
+      ],
+      "inclusions": [
+        "مرشد طبيعة",
+        "نقل",
+        "دخول المنتزه الوطني",
+        "نزهة",
+        "ماء"
+      ],
+      "exclusions": [
+        "معدات شخصية",
+        "مشروبات إضافية"
+      ],
+      "importantInfo": [
+        "أحذية المشي إلزامية",
+        "أحضر 2 لتر ماء على الأقل",
+        "استخدم طارد الحشرات",
+        "أحضر ملابس سباحة (توقف في الخليج)"
+      ],
+      "itinerary": [
+        {
+          "time": "08:00",
+          "title": "الانطلاق",
+          "description": "النقل إلى المنتزه الوطني لشبه جزيرة ديلك"
+        },
+        {
+          "time": "08:45",
+          "title": "المشي",
+          "description": "مسار مشي 3 كم مع مرشد"
+        },
+        {
+          "time": "10:30",
+          "title": "كهف زيوس",
+          "description": "استكشاف الكهف الأسطوري"
+        },
+        {
+          "time": "11:30",
+          "title": "خليج آيدينليك",
+          "description": "السباحة في مياه صافية"
+        },
+        {
+          "time": "13:00",
+          "title": "نزهة",
+          "description": "نزهة في الطبيعة"
+        },
+        {
+          "time": "15:00",
+          "title": "العودة",
+          "description": "العودة إلى كوشاداسي"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Wędrówka po Półwyspie Dilek",
+      "description": "Wędruj po parku narodowym Półwyspu Dilek, pływaj w krystalicznie czystych zatokach i odkrywaj endemiczne gatunki roślin.",
+      "fullDescription": "Park Narodowy Półwyspu Dilek to jedno z najbardziej dziewiczych obszarów przyrodniczych wybrzeża Egejskiego. Gęste lasy sosnowe, ukryte zatoki i bogata dzika przyroda.\n\nCzeka na Ciebie 3 km szlak, legendarna Jaskinia Zeusa i kąpiel w zatoce Aydınlık.",
+      "duration": "7 godzin",
+      "meetingPoint": "Centrum Kuşadası",
+      "highlights": [
+        "Zatoka Aydınlık",
+        "Jaskinia Zeusa",
+        "Wędrówki",
+        "Dzika przyroda"
+      ],
+      "inclusions": [
+        "Przewodnik przyrodniczy",
+        "Transfer",
+        "Wstęp do parku",
+        "Piknik",
+        "Woda"
+      ],
+      "exclusions": [
+        "Sprzęt osobisty",
+        "Dodatkowe napoje"
+      ],
+      "importantInfo": [
+        "Buty trekkingowe obowiązkowe",
+        "Weź minimum 2 litry wody",
+        "Użyj repelenta na owady",
+        "Weź strój kąpielowy (przystanek w zatoce)"
+      ],
+      "itinerary": [
+        {
+          "time": "08:00",
+          "title": "Wyjazd",
+          "description": "Transfer do Parku Narodowego Półwyspu Dilek"
+        },
+        {
+          "time": "08:45",
+          "title": "Wędrówka",
+          "description": "Szlak 3 km z przewodnikiem"
+        },
+        {
+          "time": "10:30",
+          "title": "Jaskinia Zeusa",
+          "description": "Zwiedzanie legendarnej jaskini"
+        },
+        {
+          "time": "11:30",
+          "title": "Zatoka Aydınlık",
+          "description": "Kąpiel w krystalicznie czystej wodzie"
+        },
+        {
+          "time": "13:00",
+          "title": "Piknik",
+          "description": "Piknik na łonie natury"
+        },
+        {
+          "time": "15:00",
+          "title": "Powrót",
+          "description": "Powrót do Kuşadası"
+        }
+      ]
+    }
+  },
+  "tekne-turu-adalari": {
+    "ru": {
+      "title": "Морская прогулка по островам Кушадасы",
+      "description": "Откройте скрытые бухты и острова во время морской прогулки по бирюзовым водам Эгейского моря. Шведский стол, снорклинг и музыка.",
+      "fullDescription": "Морская прогулка на целый день по прекраснейшим бухтам и островам Кушадасы. Профессиональный экипаж, шведский стол со свежей рыбой и мезе, снорклинг и музыка.\n\nВас ждут остановки у Голубиного острова, скрытых бухт для снорклинга и купания в бирюзовых водах Эгейского моря.",
+      "duration": "8 часов",
+      "meetingPoint": "Марина Кушадасы",
+      "highlights": [
+        "Голубиный остров",
+        "Снорклинг",
+        "Шведский стол",
+        "Загорание"
+      ],
+      "inclusions": [
+        "Капитан и экипаж",
+        "Шведский стол",
+        "Безалкогольные напитки",
+        "Снаряжение для снорклинга",
+        "Музыка и развлечения",
+        "Страховка"
+      ],
+      "exclusions": [
+        "Алкогольные напитки",
+        "Фотоуслуги",
+        "Чаевые"
+      ],
+      "importantInfo": [
+        "Возьмите купальник и полотенце",
+        "Солнцезащитный крем и очки",
+        "Таблетки от морской болезни (при необходимости)",
+        "Водонепроницаемая сумка для ценностей"
+      ],
+      "itinerary": [
+        {
+          "time": "09:30",
+          "title": "Отплытие из марины",
+          "description": "Приветственный коктейль на борту в марине Кушадасы"
+        },
+        {
+          "time": "10:30",
+          "title": "Голубиный остров",
+          "description": "Купание у острова"
+        },
+        {
+          "time": "12:00",
+          "title": "Скрытая бухта",
+          "description": "Снорклинг и дайвинг"
+        },
+        {
+          "time": "13:30",
+          "title": "Шведский стол",
+          "description": "Свежая рыба и мезе на борту"
+        },
+        {
+          "time": "15:00",
+          "title": "Свободное плавание",
+          "description": "Свободное купание и загорание в бирюзовых водах"
+        },
+        {
+          "time": "17:30",
+          "title": "Возвращение в марину",
+          "description": "Возвращение в марину на закате"
+        }
+      ]
+    },
+    "de": {
+      "title": "Kuşadası Bootstour & Inseln",
+      "description": "Entdecken Sie versteckte Buchten und Inseln bei einer ganztägigen Bootstour im türkisfarbenen Ägäischen Meer. Offenes Buffet, Schnorcheln und Musik.",
+      "fullDescription": "Ganztägige Bootstour zu den schönsten Buchten und Inseln von Kuşadası. Professionelle Crew, offenes Buffet mit frischem Fisch und Meze, Schnorcheln und Musik.\n\nSie machen Halt an der Taubeninsel, versteckten Buchten zum Schnorcheln und Schwimmen im türkisfarbenen Ägäischen Meer.",
+      "duration": "8 Stunden",
+      "meetingPoint": "Marina Kuşadası",
+      "highlights": [
+        "Taubeninsel",
+        "Schnorcheln",
+        "Offenes Buffet",
+        "Sonnenbaden"
+      ],
+      "inclusions": [
+        "Kapitän und Crew",
+        "Offenes Buffet",
+        "Softdrinks",
+        "Schnorchelausrüstung",
+        "Musik und Unterhaltung",
+        "Versicherung"
+      ],
+      "exclusions": [
+        "Alkoholische Getränke",
+        "Fotodienst",
+        "Trinkgelder"
+      ],
+      "importantInfo": [
+        "Badesachen und Handtuch mitbringen",
+        "Sonnencreme und Sonnenbrille",
+        "Reisetabletten (bei Bedarf)",
+        "Wasserdichte Tasche für Wertsachen"
+      ],
+      "itinerary": [
+        {
+          "time": "09:30",
+          "title": "Abfahrt von der Marina",
+          "description": "Willkommenscocktail an Bord in der Marina Kuşadası"
+        },
+        {
+          "time": "10:30",
+          "title": "Taubeninsel",
+          "description": "Badestopp an der Insel"
+        },
+        {
+          "time": "12:00",
+          "title": "Versteckte Bucht",
+          "description": "Schnorcheln und Tauchen"
+        },
+        {
+          "time": "13:30",
+          "title": "Buffet-Mittagessen",
+          "description": "Frischer Fisch und Meze an Bord"
+        },
+        {
+          "time": "15:00",
+          "title": "Freischwimmen",
+          "description": "Freies Schwimmen und Sonnenbaden im türkisen Wasser"
+        },
+        {
+          "time": "17:30",
+          "title": "Rückkehr zur Marina",
+          "description": "Rückkehr zur Marina bei Sonnenuntergang"
+        }
+      ]
+    },
+    "it": {
+      "title": "Gita in Barca e Isole di Kuşadası",
+      "description": "Scoprite baie nascoste e isole in una gita in barca nelle acque turchesi dell Egeo. Buffet aperto, snorkeling e musica.",
+      "fullDescription": "Gita in barca di un giorno intero nelle baie e isole più belle di Kuşadası. Equipaggio professionale, buffet aperto con pesce fresco e meze, snorkeling e musica.\n\nVi fermerete all Isola dei Piccioni, baie nascoste per snorkeling e nuoto nelle acque turchesi dell Egeo.",
+      "duration": "8 ore",
+      "meetingPoint": "Marina di Kuşadası",
+      "highlights": [
+        "Isola dei Piccioni",
+        "Snorkeling",
+        "Buffet aperto",
+        "Prendere il sole"
+      ],
+      "inclusions": [
+        "Capitano ed equipaggio",
+        "Buffet aperto",
+        "Bevande analcoliche",
+        "Attrezzatura snorkeling",
+        "Musica e intrattenimento",
+        "Assicurazione"
+      ],
+      "exclusions": [
+        "Bevande alcoliche",
+        "Servizio fotografico",
+        "Mance"
+      ],
+      "importantInfo": [
+        "Portate costume e asciugamano",
+        "Crema solare e occhiali da sole",
+        "Compresse per il mal di mare (se necessario)",
+        "Borsa impermeabile per oggetti di valore"
+      ],
+      "itinerary": [
+        {
+          "time": "09:30",
+          "title": "Partenza dalla marina",
+          "description": "Cocktail di benvenuto a bordo nella marina di Kuşadası"
+        },
+        {
+          "time": "10:30",
+          "title": "Isola dei Piccioni",
+          "description": "Sosta per il bagno intorno all isola"
+        },
+        {
+          "time": "12:00",
+          "title": "Baia nascosta",
+          "description": "Snorkeling e immersioni"
+        },
+        {
+          "time": "13:30",
+          "title": "Pranzo a buffet",
+          "description": "Pesce fresco e meze a bordo"
+        },
+        {
+          "time": "15:00",
+          "title": "Nuoto libero",
+          "description": "Nuoto libero e sole nelle acque turchesi"
+        },
+        {
+          "time": "17:30",
+          "title": "Ritorno alla marina",
+          "description": "Ritorno alla marina al tramonto"
+        }
+      ]
+    },
+    "ar": {
+      "title": "رحلة بحرية وجزر كوشاداسي",
+      "description": "اكتشفوا الخلجان والجزر المخفية في رحلة بحرية في مياه بحر إيجة الفيروزية. بوفيه مفتوح، غطس وموسيقى.",
+      "fullDescription": "رحلة بحرية ليوم كامل في أجمل خلجان وجزر كوشاداسي. طاقم محترف، بوفيه مفتوح مع أسماك طازجة ومزة، غطس وموسيقى.\n\nستتوقفون عند جزيرة الحمام، خلجان مخفية للغطس والسباحة في مياه بحر إيجة الفيروزية.",
+      "duration": "8 ساعات",
+      "meetingPoint": "مرسى كوشاداسي",
+      "highlights": [
+        "جزيرة الحمام",
+        "الغطس",
+        "بوفيه مفتوح",
+        "حمام شمس"
+      ],
+      "inclusions": [
+        "قبطان وطاقم",
+        "بوفيه مفتوح",
+        "مشروبات غازية",
+        "معدات غطس",
+        "موسيقى وترفيه",
+        "تأمين"
+      ],
+      "exclusions": [
+        "مشروبات كحولية",
+        "خدمة تصوير",
+        "بقشيش"
+      ],
+      "importantInfo": [
+        "أحضر ملابس سباحة ومنشفة",
+        "واقي شمس ونظارات شمسية",
+        "أدوية دوار البحر (إن لزم)",
+        "حقيبة مقاومة للماء للأشياء الثمينة"
+      ],
+      "itinerary": [
+        {
+          "time": "09:30",
+          "title": "الانطلاق من المرسى",
+          "description": "كوكتيل ترحيبي على متن القارب في مرسى كوشاداسي"
+        },
+        {
+          "time": "10:30",
+          "title": "جزيرة الحمام",
+          "description": "توقف للسباحة حول الجزيرة"
+        },
+        {
+          "time": "12:00",
+          "title": "خليج مخفي",
+          "description": "أنشطة غطس وغوص"
+        },
+        {
+          "time": "13:30",
+          "title": "غداء بوفيه",
+          "description": "أسماك طازجة ومزة على متن القارب"
+        },
+        {
+          "time": "15:00",
+          "title": "سباحة حرة",
+          "description": "سباحة وحمام شمس في المياه الفيروزية"
+        },
+        {
+          "time": "17:30",
+          "title": "العودة إلى المرسى",
+          "description": "العودة عند غروب الشمس"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Rejs i Wyspy Kuşadası",
+      "description": "Odkryj ukryte zatoki i wyspy podczas całodziennego rejsu po turkusowych wodach Morza Egejskiego. Bufet, snorkeling i muzyka.",
+      "fullDescription": "Całodzienny rejs po najpiękniejszych zatokach i wyspach Kuşadası. Profesjonalna załoga, bufet ze świeżymi rybami i meze, snorkeling i muzyka.\n\nOdwiedzisz Wyspę Gołębi, ukryte zatoki do snorkelingu i kąpieli w turkusowych wodach Egejskich.",
+      "duration": "8 godzin",
+      "meetingPoint": "Marina Kuşadası",
+      "highlights": [
+        "Wyspa Gołębi",
+        "Snorkeling",
+        "Otwarty bufet",
+        "Opalanie"
+      ],
+      "inclusions": [
+        "Kapitan i załoga",
+        "Otwarty bufet",
+        "Napoje bezalkoholowe",
+        "Sprzęt do snorkelingu",
+        "Muzyka i rozrywka",
+        "Ubezpieczenie"
+      ],
+      "exclusions": [
+        "Napoje alkoholowe",
+        "Usługa fotograficzna",
+        "Napiwki"
+      ],
+      "importantInfo": [
+        "Weź strój kąpielowy i ręcznik",
+        "Krem z filtrem i okulary przeciwsłoneczne",
+        "Tabletki na chorobę morską (w razie potrzeby)",
+        "Wodoodporna torba na kosztowności"
+      ],
+      "itinerary": [
+        {
+          "time": "09:30",
+          "title": "Wypłynięcie z mariny",
+          "description": "Powitalny koktajl na pokładzie w marinie Kuşadası"
+        },
+        {
+          "time": "10:30",
+          "title": "Wyspa Gołębi",
+          "description": "Przerwa na kąpiel przy wyspie"
+        },
+        {
+          "time": "12:00",
+          "title": "Ukryta zatoka",
+          "description": "Snorkeling i nurkowanie"
+        },
+        {
+          "time": "13:30",
+          "title": "Obiad z bufetu",
+          "description": "Świeże ryby i meze na pokładzie"
+        },
+        {
+          "time": "15:00",
+          "title": "Wolna kąpiel",
+          "description": "Swobodna kąpiel i opalanie w turkusowych wodach"
+        },
+        {
+          "time": "17:30",
+          "title": "Powrót do mariny",
+          "description": "Powrót do mariny o zachodzie słońca"
+        }
+      ]
+    }
+  }
+}

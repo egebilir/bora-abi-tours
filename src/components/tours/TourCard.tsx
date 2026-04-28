@@ -6,6 +6,7 @@ import { Tour } from '@/types';
 import { getCategoryIcon, getStarRating, cn } from '@/lib/utils';
 import { JsonLdScript, generateTourProductJsonLd } from '@/lib/seo';
 import { useCurrency } from '@/lib/currency';
+import { getLocalizedTourContent } from '@/lib/tour-translations';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 
@@ -53,10 +54,8 @@ export default function TourCard({ tour, index }: TourCardProps) {
   const tsp = useTranslations('socialProof');
   const locale = useLocale();
 
-  const useEn = locale !== 'tr';
-  const title = useEn && tour.titleEn ? tour.titleEn : tour.title;
-  const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
-  const duration = useEn && tour.durationEn ? tour.durationEn : tour.duration;
+  const content = getLocalizedTourContent(tour, locale);
+  const { title, description, duration } = content;
   const isPopular = tour.rating >= 4.7 && tour.reviewCount >= 200;
 
   return (

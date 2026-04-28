@@ -10,6 +10,7 @@ import { useAdminStoreSafe } from '@/lib/admin-store';
 import TourCard from '@/components/tours/TourCard';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, useRouter } from '@/i18n/routing';
+import { getLocalizedTourContent } from '@/lib/tour-translations';
 
 interface TourDetailClientProps {
   tour: Tour;
@@ -42,21 +43,8 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
   const store = useAdminStoreSafe();
   const [descExpanded, setDescExpanded] = useState(false);
 
-  const useEn = locale !== 'tr';
-  const title = useEn && tour.titleEn ? tour.titleEn : tour.title;
-  const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
-  const fullDescription = useEn && tour.fullDescriptionEn ? tour.fullDescriptionEn : tour.fullDescription;
-  const duration = useEn && tour.durationEn ? tour.durationEn : tour.duration;
-  const meetingPoint = useEn && tour.meetingPointEn ? tour.meetingPointEn : tour.meetingPoint;
-  const highlights = useEn && tour.highlightsEn?.length ? tour.highlightsEn : tour.highlights;
-  const inclusions = tour.inclusions; // No En field in data — same for all
-  const exclusions = tour.exclusions; // No En field in data — same for all
-  const importantInfo = useEn && tour.importantInfoEn?.length ? tour.importantInfoEn : tour.importantInfo;
-  const itinerary = tour.itinerary.map(step => ({
-    time: step.time,
-    title: useEn && step.titleEn ? step.titleEn : step.title,
-    description: useEn && step.descriptionEn ? step.descriptionEn : step.description,
-  }));
+  const content = getLocalizedTourContent(tour, locale);
+  const { title, description, fullDescription, duration, meetingPoint, highlights, inclusions, exclusions, importantInfo, itinerary } = content;
 
   const capacity = store?.getTourCapacity(tour.id) ?? { total: 0, booked: 0, available: 999 };
   const isSoldOut = capacity.available <= 0;
