@@ -1,52 +1,52 @@
 {
   "hero": {
-    "tagline": "History, Nature & Culture Combined",
+    "tagline": "History, Nature and Culture Combined",
     "title": "DISCOVER, FEEL,",
     "titleCursive": "Remember!",
-    "subtitle": "An unforgettable journey from the stunning shores of KuÅŸadasÄ± to the enchanting history of Ephesus and the peaceful streets of Åirince.",
+    "subtitle": "An unforgettable journey from the unique beaches of Kuşadası to the enchanting history of Ephesus and the peaceful streets of Şirince.",
     "cta": "EXPLORE OUR TOURS"
   },
   "destinations": {
-    "kusadasi": { "title": "KUÅADASI", "desc": "The heart of vacation with its unique coves, crystal-clear waters, and vibrant atmosphere." },
-    "efes": { "title": "EPHESUS", "desc": "Thousands of years of history, breathtaking ruins, and a unique cultural heritage." },
-    "sirince": { "title": "ÅÄ°RÄ°NCE", "desc": "A hidden paradise with historic stone houses, local delicacies, and a peaceful atmosphere." }
+    "kusadasi": { "title": "KUŞADASI", "desc": "The heart of vacation with its unique coves, crystal-clear sea and vibrant atmosphere." },
+    "efes": { "title": "EPHESUS", "desc": "Thousands of years of history, mesmerizing ruins and a unique heritage." },
+    "sirince": { "title": "ŞİRİNCE", "desc": "A hidden paradise with historic stone houses, local flavors and a peaceful atmosphere." }
   },
   "header": {
-    "findTour": "Find a Tour",
+    "findTour": "Find Tour",
     "search": "Search tours...",
-    "login": "Sign In / Sign Up",
-    "logout": "Sign Out",
+    "login": "Login / Sign Up",
+    "logout": "Logout",
     "hello": "Hello"
   },
   "tourCard": {
     "featured": "Featured",
-    "closed": "Sold Out",
+    "closed": "Sales Closed",
     "languages": "languages",
     "details": "View Details",
     "perPerson": "/ person"
   },
   "tourGrid": {
     "title": "Popular Tours",
-    "subtitle": "Discover the most popular tour experiences in KuÅŸadasÄ±",
+    "subtitle": "Discover the most preferred tour experiences in Kuşadası",
     "advancedFilters": "Advanced Filters",
     "priceRange": "Price Range",
     "tourLang": "Tour Language",
     "clearFilters": "Clear Filters",
     "found": "tours found",
-    "noResults": "No tours match these filters.",
-    "tryAgain": "Try changing the filters.",
+    "noResults": "No tours found matching these filters.",
+    "tryAgain": "Try changing your filters.",
     "showAll": "Show All Tours"
   },
   "tourDetail": {
     "highlights": "Highlights",
-    "itinerary": "Itinerary",
-    "notIncluded": "Not Included",
+    "itinerary": "Tour Itinerary",
     "included": "What's Included?",
+    "notIncluded": "Not Included",
     "importantInfo": "Important Information",
-    "reserve": "Book Now",
+    "reserve": "Reserve Now",
     "soldOut": "Sold Out",
-    "closedSale": "Closed",
-    "freeCancel": "Free cancellation â€¢ Instant confirmation",
+    "closedSale": "Sales Closed",
+    "freeCancel": "Free cancellation • Instant confirmation",
     "whatsapp": "Contact via WhatsApp",
     "related": "You Might Also Like",
     "duration": "Duration",
@@ -55,19 +55,19 @@
     "languages": "Languages",
     "perPerson": "/ per person",
     "readMore": "Read More",
-    "readLess": "Read Less",
-    "mapLink": "View on Map"
+    "readLess": "Show Less",
+    "mapLink": "Show on Map"
   },
   "checkout": {
-    "title": "Booking Information",
+    "title": "Reservation Details",
     "name": "Full Name",
     "email": "Email",
     "phone": "Phone (WhatsApp)",
     "language": "Guide Language",
-    "count": "Number of Guests",
+    "count": "Number of Participants",
     "notes": "Special Notes",
-    "notesHint": "Allergies, disabilities, dietary needs, child seats, etc.",
-    "next": "Proceed to Payment â†’",
+    "notesHint": "Allergies, disabilities, special diet, child seat, etc.",
+    "next": "Proceed to Payment →",
     "summary": "Tour Summary",
     "unitPrice": "Unit price",
     "serviceFee": "Service fee",
@@ -75,37 +75,37 @@
     "total": "Total",
     "date": "Date",
     "time": "Time",
-    "people": "Guests",
+    "people": "People",
     "lang": "Language",
-    "guarantee": "Free cancellation â€¢ Instant confirmation"
+    "guarantee": "Free cancellation • Instant confirmation"
   },
   "payment": {
     "title": "Secure Payment",
-    "ssl": "Protected with 256-bit SSL encryption",
-    "holder": "Cardholder Name",
+    "ssl": "Protected with 256-bit SSL",
+    "holder": "Card Holder",
     "number": "Card Number",
-    "expiry": "Expiration",
+    "expiry": "Expiry Date",
     "cvv": "CVV",
     "pay": "Pay",
     "processing": "Processing...",
     "secure3d": "3D Secure Verification",
-    "secure3dDesc": "Your bank is verifying the transaction...",
+    "secure3dDesc": "Verification by your bank is in progress...",
     "secureConn": "Protected with secure connection",
     "sslBadge": "SSL Protected",
     "safePay": "Secure Payment",
     "freeCancel": "Free Cancellation"
   },
   "success": {
-    "title": "Booking Confirmed!",
+    "title": "Your Reservation is Confirmed!",
     "emailSent": "Confirmation details have been sent to your email.",
     "refCode": "Reference Code",
     "guest": "Guest",
     "date": "Date",
-    "people": "Guests",
+    "people": "People",
     "lang": "Language",
     "totalPaid": "Total Paid",
-    "addNote": "Add a Special Note",
-    "addNoteDesc": "Share any allergies, disabilities, or special needs â€” our guide and team will be prepared for you.",
+    "addNote": "Add Your Special Note",
+    "addNoteDesc": "Add information about allergies, disabilities, child seats, etc. — so our guide and team can be prepared for you.",
     "saveNote": "Save Note",
     "saved": "Saved!",
     "whatsapp": "Share via WhatsApp",
@@ -113,7 +113,7 @@
     "explore": "Explore Our Tours"
   },
   "footer": {
-    "about": "Discover the finest tours in the Aegean with professional guides. Serving you since 2010.",
+    "about": "Discover the most beautiful tours of the Aegean with professional guides. Serving you since 2010.",
     "tours": "Tours",
     "culturalTours": "Cultural Tours",
     "natureTours": "Nature Tours",
@@ -124,7 +124,7 @@
     "aboutUs": "About Us",
     "ourGuides": "Our Guides",
     "blog": "Blog",
-    "career": "Careers",
+    "career": "Career",
     "contactLink": "Contact",
     "contact": "Contact",
     "rights": "All rights reserved.",
@@ -142,7 +142,7 @@
   "common": {
     "home": "Home",
     "tours": "Tours",
-    "reservation": "Booking",
+    "reservation": "Reservation",
     "payment": "Payment",
     "confirmation": "Confirmation",
     "person": "person",
@@ -154,30 +154,28 @@
     "tourNotFound": "Tour not found."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours â€” KuÅŸadasÄ± Tour Booking",
-    "homeDesc": "Discover the best tours in and around KuÅŸadasÄ±. Ephesus, Pamukkale, boat trips, nature hikes and more. Professional guides, affordable prices."
+    "homeTitle": "Bora Abi Tours — Kuşadası Tour Booking",
+    "homeDesc": "Discover the best tours around Kuşadası. Ephesus, Pamukkale, boat tours, nature hikes and more. Professional guides, affordable prices."
   },
   "auth": {
-    "loginTitle": "Sign In",
+    "loginTitle": "Login",
     "registerTitle": "Sign Up",
     "name": "Full Name",
     "email": "Email",
     "password": "Password",
     "phone": "Phone",
-    "loginBtn": "Sign In",
+    "loginBtn": "Login",
     "registerBtn": "Sign Up",
     "noAccount": "Don't have an account?",
     "hasAccount": "Already a member?",
-    "orLogin": "or sign in",
+    "orLogin": "or login",
     "orRegister": "or sign up"
-  }
-,
+  },
   "whatsapp": {
     "tooltip": "Need help? Chat with us on WhatsApp!",
     "defaultMessage": "Hello! I would like to learn more about your tours.",
     "tourMessage": "Hello! I would like to learn more about the {tour} tour."
-  }
-,
+  },
   "socialProof": {
     "viewing": "people are viewing this tour",
     "spotsLeft": "Only {count} spots left!",
