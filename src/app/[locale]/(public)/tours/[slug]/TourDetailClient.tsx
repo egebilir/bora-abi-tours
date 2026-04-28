@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { Tour, LANGUAGE_LABELS } from '@/types';
@@ -32,6 +32,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
   const tc = useTranslations('categories');
   const tcom = useTranslations('common');
   const tcard = useTranslations('tourCard');
+  const tsp = useTranslations('socialProof');
 
   const starData = getStarRating(tour.rating);
   const starsStr = '★'.repeat(starData.full) + (starData.half ? '½' : '') + '☆'.repeat(starData.empty);
@@ -48,6 +49,17 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
 
   const capacity = store?.getTourCapacity(tour.id) ?? { total: 0, booked: 0, available: 999 };
   const isSoldOut = capacity.available <= 0;
+  const isPopular = tour.rating >= 4.7 && tour.reviewCount >= 200;
+
+  // Simulated social proof (deterministic per tour, not random on every render)
+  const viewerCount = useMemo(() => {
+    const hash = tour.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
+    return 5 + (hash % 18); // 5-22 viewers
+  }, [tour.id]);
+  const bookedTodayCount = useMemo(() => {
+    const hash = tour.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
+    return 2 + (hash % 8); // 2-9 booked today
+  }, [tour.id]);
 
   const handleReserve = () => {
     if (isSoldOut || !tour.isOpen) return;
@@ -92,6 +104,28 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                 </div>
               )}
             </motion.div>
+
+            {/* Social Proof Banner */}
+            {tour.isOpen && (
+              <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={1.5}
+                className="flex flex-wrap items-center gap-3">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-orange-50 border border-orange-100 text-xs font-semibold text-orange-700">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75" />
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500" />
+                  </span>
+                  {viewerCount} {tsp('viewing')}
+                </span>
+                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-100 text-xs font-semibold text-emerald-700">
+                  ✓ {tsp('bookedToday', { count: bookedTodayCount })}
+                </span>
+                {isPopular && (
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-red-50 border border-red-100 text-xs font-semibold text-red-600">
+                    🔥 {tsp('likelySellOut')}
+                  </span>
+                )}
+              </motion.div>
+            )}
 
             {/* Title & quick info */}
             <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={2}>

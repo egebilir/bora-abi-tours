@@ -1,15 +1,15 @@
 {
   "hero": {
     "tagline": "Geschichte, Natur & Kultur vereint",
-    "title": "ENTDECKEN, FÜHLEN,",
+    "title": "ENTDECKEN, FÃœHLEN,",
     "titleCursive": "Erinnern!",
-    "subtitle": "Eine unvergessliche Reise von den atemberaubenden Küsten Kuşadası's zur faszinierenden Geschichte von Ephesus und den friedlichen Gassen von Şirince.",
+    "subtitle": "Eine unvergessliche Reise von den atemberaubenden KÃ¼sten KuÅŸadasÄ±'s zur faszinierenden Geschichte von Ephesus und den friedlichen Gassen von Åirince.",
     "cta": "UNSERE TOUREN ENTDECKEN"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "Das Herz des Urlaubs mit einzigartigen Buchten, kristallklarem Wasser und lebhafter Atmosphäre." },
+    "kusadasi": { "title": "KUÅADASI", "desc": "Das Herz des Urlaubs mit einzigartigen Buchten, kristallklarem Wasser und lebhafter AtmosphÃ¤re." },
     "efes": { "title": "EPHESUS", "desc": "Jahrtausende Geschichte, atemberaubende Ruinen und ein einzigartiges Kulturerbe." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "Ein verstecktes Paradies mit historischen Steinhäusern, lokalen Spezialitäten und friedlicher Atmosphäre." }
+    "sirince": { "title": "ÅÄ°RÄ°NCE", "desc": "Ein verstecktes Paradies mit historischen SteinhÃ¤usern, lokalen SpezialitÃ¤ten und friedlicher AtmosphÃ¤re." }
   },
   "header": {
     "findTour": "Tour finden",
@@ -27,14 +27,14 @@
   },
   "tourGrid": {
     "title": "Beliebte Touren",
-    "subtitle": "Entdecken Sie die beliebtesten Touren in Kuşadası",
+    "subtitle": "Entdecken Sie die beliebtesten Touren in KuÅŸadasÄ±",
     "advancedFilters": "Erweiterte Filter",
     "priceRange": "Preisbereich",
     "tourLang": "Toursprache",
-    "clearFilters": "Filter zurücksetzen",
+    "clearFilters": "Filter zurÃ¼cksetzen",
     "found": "Touren gefunden",
-    "noResults": "Keine Touren für diese Filter.",
-    "tryAgain": "Versuchen Sie, die Filter zu ändern.",
+    "noResults": "Keine Touren fÃ¼r diese Filter.",
+    "tryAgain": "Versuchen Sie, die Filter zu Ã¤ndern.",
     "showAll": "Alle Touren anzeigen"
   },
   "tourDetail": {
@@ -46,9 +46,9 @@
     "reserve": "Jetzt buchen",
     "soldOut": "Ausverkauft",
     "closedSale": "Geschlossen",
-    "freeCancel": "Kostenlose Stornierung • Sofortige Bestätigung",
-    "whatsapp": "Kontakt über WhatsApp",
-    "related": "Das könnte Ihnen auch gefallen",
+    "freeCancel": "Kostenlose Stornierung â€¢ Sofortige BestÃ¤tigung",
+    "whatsapp": "Kontakt Ã¼ber WhatsApp",
+    "related": "Das kÃ¶nnte Ihnen auch gefallen",
     "duration": "Dauer",
     "startTime": "Startzeit",
     "meetingPoint": "Treffpunkt",
@@ -60,28 +60,28 @@
   },
   "checkout": {
     "title": "Buchungsinformationen",
-    "name": "Vollständiger Name",
+    "name": "VollstÃ¤ndiger Name",
     "email": "E-Mail",
     "phone": "Telefon (WhatsApp)",
     "language": "Reiseleitersprache",
-    "count": "Anzahl der Gäste",
+    "count": "Anzahl der GÃ¤ste",
     "notes": "Besondere Hinweise",
-    "notesHint": "Allergien, Behinderungen, Ernährungsbedürfnisse, Kindersitze usw.",
-    "next": "Zur Zahlung →",
-    "summary": "Tour-Übersicht",
+    "notesHint": "Allergien, Behinderungen, ErnÃ¤hrungsbedÃ¼rfnisse, Kindersitze usw.",
+    "next": "Zur Zahlung â†’",
+    "summary": "Tour-Ãœbersicht",
     "unitPrice": "Einzelpreis",
-    "serviceFee": "Servicegebühr",
+    "serviceFee": "ServicegebÃ¼hr",
     "serviceIncluded": "Inklusive",
     "total": "Gesamt",
     "date": "Datum",
     "time": "Uhrzeit",
-    "people": "Gäste",
+    "people": "GÃ¤ste",
     "lang": "Sprache",
-    "guarantee": "Kostenlose Stornierung • Sofortige Bestätigung"
+    "guarantee": "Kostenlose Stornierung â€¢ Sofortige BestÃ¤tigung"
   },
   "payment": {
     "title": "Sichere Zahlung",
-    "ssl": "Geschützt durch 256-Bit SSL-Verschlüsselung",
+    "ssl": "GeschÃ¼tzt durch 256-Bit SSL-VerschlÃ¼sselung",
     "holder": "Karteninhaber",
     "number": "Kartennummer",
     "expiry": "Ablaufdatum",
@@ -89,31 +89,31 @@
     "pay": "Bezahlen",
     "processing": "Verarbeitung...",
     "secure3d": "3D Secure Verifizierung",
-    "secure3dDesc": "Ihre Bank überprüft die Transaktion...",
-    "secureConn": "Durch sichere Verbindung geschützt",
-    "sslBadge": "SSL Geschützt",
+    "secure3dDesc": "Ihre Bank Ã¼berprÃ¼ft die Transaktion...",
+    "secureConn": "Durch sichere Verbindung geschÃ¼tzt",
+    "sslBadge": "SSL GeschÃ¼tzt",
     "safePay": "Sichere Zahlung",
     "freeCancel": "Kostenlose Stornierung"
   },
   "success": {
-    "title": "Buchung bestätigt!",
-    "emailSent": "Bestätigungsdetails wurden an Ihre E-Mail gesendet.",
+    "title": "Buchung bestÃ¤tigt!",
+    "emailSent": "BestÃ¤tigungsdetails wurden an Ihre E-Mail gesendet.",
     "refCode": "Referenznummer",
     "guest": "Gast",
     "date": "Datum",
-    "people": "Gäste",
+    "people": "GÃ¤ste",
     "lang": "Sprache",
     "totalPaid": "Gesamtbetrag",
-    "addNote": "Sonderwunsch hinzufügen",
-    "addNoteDesc": "Teilen Sie uns Allergien, Behinderungen oder besondere Bedürfnisse mit — unser Guide und Team werden vorbereitet sein.",
+    "addNote": "Sonderwunsch hinzufÃ¼gen",
+    "addNoteDesc": "Teilen Sie uns Allergien, Behinderungen oder besondere BedÃ¼rfnisse mit â€” unser Guide und Team werden vorbereitet sein.",
     "saveNote": "Notiz speichern",
     "saved": "Gespeichert!",
-    "whatsapp": "Über WhatsApp teilen",
+    "whatsapp": "Ãœber WhatsApp teilen",
     "home": "Zur Startseite",
     "explore": "Unsere Touren entdecken"
   },
   "footer": {
-    "about": "Entdecken Sie die schönsten Touren der Ägäis mit professionellen Guides. Seit 2010 für Sie da.",
+    "about": "Entdecken Sie die schÃ¶nsten Touren der Ã„gÃ¤is mit professionellen Guides. Seit 2010 fÃ¼r Sie da.",
     "tours": "Touren",
     "culturalTours": "Kulturtouren",
     "natureTours": "Naturtouren",
@@ -121,7 +121,7 @@
     "dailyTours": "Tagestouren",
     "allTours": "Alle Touren",
     "company": "Unternehmen",
-    "aboutUs": "Über uns",
+    "aboutUs": "Ãœber uns",
     "ourGuides": "Unsere Guides",
     "blog": "Blog",
     "career": "Karriere",
@@ -144,7 +144,7 @@
     "tours": "Touren",
     "reservation": "Buchung",
     "payment": "Zahlung",
-    "confirmation": "Bestätigung",
+    "confirmation": "BestÃ¤tigung",
     "person": "Person",
     "perPerson": "/ Person",
     "steps": "Details",
@@ -154,13 +154,13 @@
     "tourNotFound": "Tour nicht gefunden."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours — Kuşadası Tourbuchung",
-    "homeDesc": "Entdecken Sie die besten Touren in und um Kuşadası. Ephesus, Pamukkale, Bootstouren und vieles mehr."
+    "homeTitle": "Bora Abi Tours â€” KuÅŸadasÄ± Tourbuchung",
+    "homeDesc": "Entdecken Sie die besten Touren in und um KuÅŸadasÄ±. Ephesus, Pamukkale, Bootstouren und vieles mehr."
   },
   "auth": {
     "loginTitle": "Anmelden",
     "registerTitle": "Registrieren",
-    "name": "Vollständiger Name",
+    "name": "VollstÃ¤ndiger Name",
     "email": "E-Mail",
     "password": "Passwort",
     "phone": "Telefon",
@@ -174,7 +174,14 @@
 ,
   "whatsapp": {
     "tooltip": "Brauchen Sie Hilfe? Schreiben Sie uns auf WhatsApp!",
-    "defaultMessage": "Hallo! Ich möchte mehr über Ihre Touren erfahren.",
-    "tourMessage": "Hallo! Ich möchte mehr über die Tour {tour} erfahren."
+    "defaultMessage": "Hallo! Ich mÃ¶chte mehr Ã¼ber Ihre Touren erfahren.",
+    "tourMessage": "Hallo! Ich mÃ¶chte mehr Ã¼ber die Tour {tour} erfahren."
+  }
+,
+  "socialProof": {
+    "viewing": "Personen sehen sich diese Tour an",
+    "spotsLeft": "Nur noch {count} Pl\u00e4tze!",
+    "bookedToday": "{count} Personen haben heute gebucht",
+    "likelySellOut": "Wird wahrscheinlich ausverkauft"
   }
 }

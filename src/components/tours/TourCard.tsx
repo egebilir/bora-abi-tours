@@ -50,10 +50,13 @@ export default function TourCard({ tour, index }: TourCardProps) {
   const { formatPrice } = useCurrency();
   const t = useTranslations('tourCard');
   const tc = useTranslations('categories');
+  const tsp = useTranslations('socialProof');
   const locale = useLocale();
 
-  const title = locale === 'en' && tour.titleEn ? tour.titleEn : tour.title;
-  const description = locale === 'en' && tour.descriptionEn ? tour.descriptionEn : tour.description;
+  const useEn = locale !== 'tr';
+  const title = useEn && tour.titleEn ? tour.titleEn : tour.title;
+  const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
+  const isPopular = tour.rating >= 4.7 && tour.reviewCount >= 200;
 
   return (
     <>
@@ -85,13 +88,19 @@ export default function TourCard({ tour, index }: TourCardProps) {
             </span>
           </div>
 
-          {tour.featured && (
-            <div className="absolute top-3 right-3">
+          {/* Top-right badges */}
+          <div className="absolute top-3 right-3 flex flex-col items-end gap-1.5">
+            {tour.featured && (
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-400 text-amber-900">
                 ⭐ {t('featured')}
               </span>
-            </div>
-          )}
+            )}
+            {isPopular && tour.isOpen && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-red-500 text-white animate-pulse">
+                🔥 {tsp('likelySellOut')}
+              </span>
+            )}
+          </div>
 
           {!tour.isOpen && (
             <div className="absolute inset-0 bg-black/50 flex items-center justify-center z-10">

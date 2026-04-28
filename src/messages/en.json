@@ -3,13 +3,13 @@
     "tagline": "History, Nature & Culture Combined",
     "title": "DISCOVER, FEEL,",
     "titleCursive": "Remember!",
-    "subtitle": "An unforgettable journey from the stunning shores of Kuşadası to the enchanting history of Ephesus and the peaceful streets of Şirince.",
+    "subtitle": "An unforgettable journey from the stunning shores of KuÅŸadasÄ± to the enchanting history of Ephesus and the peaceful streets of Åirince.",
     "cta": "EXPLORE OUR TOURS"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "The heart of vacation with its unique coves, crystal-clear waters, and vibrant atmosphere." },
+    "kusadasi": { "title": "KUÅADASI", "desc": "The heart of vacation with its unique coves, crystal-clear waters, and vibrant atmosphere." },
     "efes": { "title": "EPHESUS", "desc": "Thousands of years of history, breathtaking ruins, and a unique cultural heritage." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "A hidden paradise with historic stone houses, local delicacies, and a peaceful atmosphere." }
+    "sirince": { "title": "ÅÄ°RÄ°NCE", "desc": "A hidden paradise with historic stone houses, local delicacies, and a peaceful atmosphere." }
   },
   "header": {
     "findTour": "Find a Tour",
@@ -27,7 +27,7 @@
   },
   "tourGrid": {
     "title": "Popular Tours",
-    "subtitle": "Discover the most popular tour experiences in Kuşadası",
+    "subtitle": "Discover the most popular tour experiences in KuÅŸadasÄ±",
     "advancedFilters": "Advanced Filters",
     "priceRange": "Price Range",
     "tourLang": "Tour Language",
@@ -46,7 +46,7 @@
     "reserve": "Book Now",
     "soldOut": "Sold Out",
     "closedSale": "Closed",
-    "freeCancel": "Free cancellation • Instant confirmation",
+    "freeCancel": "Free cancellation â€¢ Instant confirmation",
     "whatsapp": "Contact via WhatsApp",
     "related": "You Might Also Like",
     "duration": "Duration",
@@ -67,7 +67,7 @@
     "count": "Number of Guests",
     "notes": "Special Notes",
     "notesHint": "Allergies, disabilities, dietary needs, child seats, etc.",
-    "next": "Proceed to Payment →",
+    "next": "Proceed to Payment â†’",
     "summary": "Tour Summary",
     "unitPrice": "Unit price",
     "serviceFee": "Service fee",
@@ -77,7 +77,7 @@
     "time": "Time",
     "people": "Guests",
     "lang": "Language",
-    "guarantee": "Free cancellation • Instant confirmation"
+    "guarantee": "Free cancellation â€¢ Instant confirmation"
   },
   "payment": {
     "title": "Secure Payment",
@@ -105,7 +105,7 @@
     "lang": "Language",
     "totalPaid": "Total Paid",
     "addNote": "Add a Special Note",
-    "addNoteDesc": "Share any allergies, disabilities, or special needs — our guide and team will be prepared for you.",
+    "addNoteDesc": "Share any allergies, disabilities, or special needs â€” our guide and team will be prepared for you.",
     "saveNote": "Save Note",
     "saved": "Saved!",
     "whatsapp": "Share via WhatsApp",
@@ -154,8 +154,8 @@
     "tourNotFound": "Tour not found."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours — Kuşadası Tour Booking",
-    "homeDesc": "Discover the best tours in and around Kuşadası. Ephesus, Pamukkale, boat trips, nature hikes and more. Professional guides, affordable prices."
+    "homeTitle": "Bora Abi Tours â€” KuÅŸadasÄ± Tour Booking",
+    "homeDesc": "Discover the best tours in and around KuÅŸadasÄ±. Ephesus, Pamukkale, boat trips, nature hikes and more. Professional guides, affordable prices."
   },
   "auth": {
     "loginTitle": "Sign In",
@@ -176,5 +176,12 @@
     "tooltip": "Need help? Chat with us on WhatsApp!",
     "defaultMessage": "Hello! I would like to learn more about your tours.",
     "tourMessage": "Hello! I would like to learn more about the {tour} tour."
+  }
+,
+  "socialProof": {
+    "viewing": "people are viewing this tour",
+    "spotsLeft": "Only {count} spots left!",
+    "bookedToday": "{count} people booked today",
+    "likelySellOut": "Likely to Sell Out"
   }
 }

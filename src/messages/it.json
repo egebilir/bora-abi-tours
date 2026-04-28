@@ -3,13 +3,13 @@
     "tagline": "Storia, Natura e Cultura Insieme",
     "title": "SCOPRI, SENTI,",
     "titleCursive": "Ricorda!",
-    "subtitle": "Un viaggio indimenticabile dalle splendide coste di Kuşadası alla storia incantevole di Efeso e alle tranquille strade di Şirince.",
+    "subtitle": "Un viaggio indimenticabile dalle splendide coste di KuÅŸadasÄ± alla storia incantevole di Efeso e alle tranquille strade di Åirince.",
     "cta": "ESPLORA I NOSTRI TOUR"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "Il cuore della vacanza con baie uniche, acque cristalline e un'atmosfera vivace." },
+    "kusadasi": { "title": "KUÅADASI", "desc": "Il cuore della vacanza con baie uniche, acque cristalline e un'atmosfera vivace." },
     "efes": { "title": "EFESO", "desc": "Migliaia di anni di storia, rovine mozzafiato e un patrimonio culturale unico." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "Un paradiso nascosto con case in pietra storiche, prelibatezze locali e un'atmosfera tranquilla." }
+    "sirince": { "title": "ÅÄ°RÄ°NCE", "desc": "Un paradiso nascosto con case in pietra storiche, prelibatezze locali e un'atmosfera tranquilla." }
   },
   "header": {
     "findTour": "Trova un tour",
@@ -27,7 +27,7 @@
   },
   "tourGrid": {
     "title": "Tour Popolari",
-    "subtitle": "Scopri le esperienze di tour più popolari a Kuşadası",
+    "subtitle": "Scopri le esperienze di tour piÃ¹ popolari a KuÅŸadasÄ±",
     "advancedFilters": "Filtri avanzati",
     "priceRange": "Fascia di prezzo",
     "tourLang": "Lingua del tour",
@@ -41,12 +41,12 @@
     "highlights": "Punti salienti",
     "itinerary": "Itinerario",
     "notIncluded": "Non incluso",
-    "included": "Cosa è incluso?",
+    "included": "Cosa Ã¨ incluso?",
     "importantInfo": "Informazioni importanti",
     "reserve": "Prenota ora",
     "soldOut": "Esaurito",
     "closedSale": "Chiuso",
-    "freeCancel": "Cancellazione gratuita • Conferma istantanea",
+    "freeCancel": "Cancellazione gratuita â€¢ Conferma istantanea",
     "whatsapp": "Contatta via WhatsApp",
     "related": "Potrebbe piacerti anche",
     "duration": "Durata",
@@ -54,7 +54,7 @@
     "meetingPoint": "Punto d'incontro",
     "languages": "Lingue",
     "perPerson": "/ persona",
-    "readMore": "Leggi di più",
+    "readMore": "Leggi di piÃ¹",
     "readLess": "Mostra meno",
     "mapLink": "Vedi sulla mappa"
   },
@@ -66,8 +66,8 @@
     "language": "Lingua della guida",
     "count": "Numero di ospiti",
     "notes": "Note speciali",
-    "notesHint": "Allergie, disabilità, esigenze alimentari, seggiolini per bambini, ecc.",
-    "next": "Procedi al pagamento →",
+    "notesHint": "Allergie, disabilitÃ , esigenze alimentari, seggiolini per bambini, ecc.",
+    "next": "Procedi al pagamento â†’",
     "summary": "Riepilogo del tour",
     "unitPrice": "Prezzo unitario",
     "serviceFee": "Costo del servizio",
@@ -77,7 +77,7 @@
     "time": "Orario",
     "people": "Ospiti",
     "lang": "Lingua",
-    "guarantee": "Cancellazione gratuita • Conferma istantanea"
+    "guarantee": "Cancellazione gratuita â€¢ Conferma istantanea"
   },
   "payment": {
     "title": "Pagamento sicuro",
@@ -105,7 +105,7 @@
     "lang": "Lingua",
     "totalPaid": "Totale pagato",
     "addNote": "Aggiungi una nota speciale",
-    "addNoteDesc": "Condividi allergie, disabilità o esigenze speciali — la nostra guida e il team saranno preparati per te.",
+    "addNoteDesc": "Condividi allergie, disabilitÃ  o esigenze speciali â€” la nostra guida e il team saranno preparati per te.",
     "saveNote": "Salva nota",
     "saved": "Salvato!",
     "whatsapp": "Condividi su WhatsApp",
@@ -154,8 +154,8 @@
     "tourNotFound": "Tour non trovato."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours — Prenotazione tour a Kuşadası",
-    "homeDesc": "Scopri i migliori tour a Kuşadası e dintorni. Efeso, Pamukkale, gite in barca e molto altro."
+    "homeTitle": "Bora Abi Tours â€” Prenotazione tour a KuÅŸadasÄ±",
+    "homeDesc": "Scopri i migliori tour a KuÅŸadasÄ± e dintorni. Efeso, Pamukkale, gite in barca e molto altro."
   },
   "auth": {
     "loginTitle": "Accedi",
@@ -167,14 +167,21 @@
     "loginBtn": "Accedi",
     "registerBtn": "Registrati",
     "noAccount": "Non hai un account?",
-    "hasAccount": "Già membro?",
+    "hasAccount": "GiÃ  membro?",
     "orLogin": "o accedi",
     "orRegister": "o registrati"
   }
 ,
   "whatsapp": {
     "tooltip": "Hai bisogno di aiuto? Scrivici su WhatsApp!",
-    "defaultMessage": "Ciao! Vorrei saperne di più sui vostri tour.",
-    "tourMessage": "Ciao! Vorrei saperne di più sul tour {tour}."
+    "defaultMessage": "Ciao! Vorrei saperne di piÃ¹ sui vostri tour.",
+    "tourMessage": "Ciao! Vorrei saperne di piÃ¹ sul tour {tour}."
+  }
+,
+  "socialProof": {
+    "viewing": "persone stanno guardando questo tour",
+    "spotsLeft": "Solo {count} posti rimasti!",
+    "bookedToday": "{count} persone hanno prenotato oggi",
+    "likelySellOut": "Probabilmente esaurito"
   }
 }
