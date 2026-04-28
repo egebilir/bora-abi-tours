@@ -7,9 +7,18 @@
     "cta": "SCOPRI I NOSTRI TOUR"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "Il cuore della vacanza con baie uniche, mare cristallino e atmosfera vivace." },
-    "efes": { "title": "EFESO", "desc": "Migliaia di anni di storia, rovine affascinanti e un patrimonio unico." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "Un paradiso nascosto con case in pietra storiche, sapori locali e atmosfera tranquilla." }
+    "kusadasi": {
+      "title": "KUŞADASI",
+      "desc": "Il cuore della vacanza con baie uniche, mare cristallino e atmosfera vivace."
+    },
+    "efes": {
+      "title": "EFESO",
+      "desc": "Migliaia di anni di storia, rovine affascinanti e un patrimonio unico."
+    },
+    "sirince": {
+      "title": "ŞİRİNCE",
+      "desc": "Un paradiso nascosto con case in pietra storiche, sapori locali e atmosfera tranquilla."
+    }
   },
   "header": {
     "findTour": "Trova Tour",
@@ -77,7 +86,15 @@
     "time": "Ora",
     "people": "Persone",
     "lang": "Lingua",
-    "guarantee": "Cancellazione gratuita • Conferma istantanea"
+    "guarantee": "Cancellazione gratuita • Conferma istantanea",
+    "selectDate": "Seleziona la data preferita",
+    "dateNote": "La data selezionata sarà confermata in base alla disponibilità. Sarete avvisati tramite WhatsApp o e-mail.",
+    "dateRequired": "Seleziona una data",
+    "monthNames": "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre",
+    "weekDays": "Lun,Mar,Mer,Gio,Ven,Sab,Dom",
+    "today": "Oggi",
+    "preferredDate": "Data preferita",
+    "dateConfirmNote": "La data selezionata sarà confermata in base alla disponibilità. Vi contatteremo a breve."
   },
   "payment": {
     "title": "Pagamento Sicuro",
@@ -110,7 +127,9 @@
     "saved": "Salvato!",
     "whatsapp": "Condividi via WhatsApp",
     "home": "Torna alla Home",
-    "explore": "Scopri i Nostri Tour"
+    "explore": "Scopri i Nostri Tour",
+    "dateConfirmNote": "La data selezionata sarà confermata in base alla disponibilità. Vi contatteremo a breve tramite WhatsApp o e-mail.",
+    "pending": "In attesa"
   },
   "footer": {
     "about": "Scopri i tour più belli dell'Egeo con guide professioniste. Al vostro servizio dal 2010.",

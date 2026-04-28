@@ -7,9 +7,18 @@
     "cta": "TURLARIMIZI KEŞFEDİN"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "Eşsiz koyları, masmavi denizi ve canlı atmosferi ile tatilin kalbi." },
-    "efes": { "title": "EFES", "desc": "Binlerce yıllık tarihi, büyüleyici kalıntıları ve eşsiz mirası." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "Tarihi taş evleri, yöresel lezzetleri ve huzur dolu atmosferiyle saklı bir cennet." }
+    "kusadasi": {
+      "title": "KUŞADASI",
+      "desc": "Eşsiz koyları, masmavi denizi ve canlı atmosferi ile tatilin kalbi."
+    },
+    "efes": {
+      "title": "EFES",
+      "desc": "Binlerce yıllık tarihi, büyüleyici kalıntıları ve eşsiz mirası."
+    },
+    "sirince": {
+      "title": "ŞİRİNCE",
+      "desc": "Tarihi taş evleri, yöresel lezzetleri ve huzur dolu atmosferiyle saklı bir cennet."
+    }
   },
   "header": {
     "findTour": "Tur Bul",
@@ -77,7 +86,15 @@
     "time": "Saat",
     "people": "Kişi Sayısı",
     "lang": "Dil",
-    "guarantee": "Ücretsiz iptal • Anında onay"
+    "guarantee": "Ücretsiz iptal • Anında onay",
+    "selectDate": "Tercih Ettiğiniz Tarihi Seçin",
+    "dateNote": "Tarih tercihiniz müsaitlik durumuna göre onaylanacaktır. Onay sonrası size WhatsApp veya e-posta ile bilgi verilecektir.",
+    "dateRequired": "Lütfen bir tarih seçin",
+    "monthNames": "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık",
+    "weekDays": "Pzt,Sal,Çar,Per,Cum,Cmt,Paz",
+    "today": "Bugün",
+    "preferredDate": "Tercih Edilen Tarih",
+    "dateConfirmNote": "Seçtiğiniz tarih müsaitlik durumuna göre onaylanacaktır. En kısa sürede size dönüş yapacağız."
   },
   "payment": {
     "title": "Güvenli Ödeme",
@@ -110,7 +127,9 @@
     "saved": "Kaydedildi!",
     "whatsapp": "WhatsApp ile Paylaş",
     "home": "Ana Sayfaya Dön",
-    "explore": "Turlarımızı Keşfedin"
+    "explore": "Turlarımızı Keşfedin",
+    "dateConfirmNote": "Seçtiğiniz tarih müsaitlik durumuna göre onaylanacaktır. En kısa sürede WhatsApp veya e-posta ile size dönüş yapacağız.",
+    "pending": "Onay Bekleniyor"
   },
   "footer": {
     "about": "Ege'nin en güzel turlarını profesyonel rehberler eşliğinde keşfedin. 2010'dan beri hizmetinizdeyiz.",

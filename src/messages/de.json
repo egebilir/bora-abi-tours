@@ -7,9 +7,18 @@
     "cta": "UNSERE TOUREN ENTDECKEN"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "Das Herz des Urlaubs mit einzigartigen Buchten, kristallklarem Meer und lebhafter Atmosphäre." },
-    "efes": { "title": "EPHESUS", "desc": "Jahrtausende Geschichte, faszinierende Ruinen und ein einzigartiges Erbe." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "Ein verstecktes Paradies mit historischen Steinhäusern, lokalen Köstlichkeiten und friedlicher Atmosphäre." }
+    "kusadasi": {
+      "title": "KUŞADASI",
+      "desc": "Das Herz des Urlaubs mit einzigartigen Buchten, kristallklarem Meer und lebhafter Atmosphäre."
+    },
+    "efes": {
+      "title": "EPHESUS",
+      "desc": "Jahrtausende Geschichte, faszinierende Ruinen und ein einzigartiges Erbe."
+    },
+    "sirince": {
+      "title": "ŞİRİNCE",
+      "desc": "Ein verstecktes Paradies mit historischen Steinhäusern, lokalen Köstlichkeiten und friedlicher Atmosphäre."
+    }
   },
   "header": {
     "findTour": "Tour finden",
@@ -77,7 +86,15 @@
     "time": "Zeit",
     "people": "Personen",
     "lang": "Sprache",
-    "guarantee": "Kostenlose Stornierung • Sofortige Bestätigung"
+    "guarantee": "Kostenlose Stornierung • Sofortige Bestätigung",
+    "selectDate": "Wählen Sie Ihr Wunschdatum",
+    "dateNote": "Ihr Wunschdatum wird je nach Verfügbarkeit bestätigt. Sie werden per WhatsApp oder E-Mail benachrichtigt.",
+    "dateRequired": "Bitte wählen Sie ein Datum",
+    "monthNames": "Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember",
+    "weekDays": "Mo,Di,Mi,Do,Fr,Sa,So",
+    "today": "Heute",
+    "preferredDate": "Wunschdatum",
+    "dateConfirmNote": "Ihr gewähltes Datum wird je nach Verfügbarkeit bestätigt. Wir melden uns in Kürze bei Ihnen."
   },
   "payment": {
     "title": "Sichere Zahlung",
@@ -110,7 +127,9 @@
     "saved": "Gespeichert!",
     "whatsapp": "Über WhatsApp teilen",
     "home": "Zurück zur Startseite",
-    "explore": "Unsere Touren entdecken"
+    "explore": "Unsere Touren entdecken",
+    "dateConfirmNote": "Ihr gewähltes Datum wird je nach Verfügbarkeit bestätigt. Wir melden uns in Kürze per WhatsApp oder E-Mail bei Ihnen.",
+    "pending": "Ausstehend"
   },
   "footer": {
     "about": "Entdecken Sie die schönsten Touren der Ägäis mit professionellen Reiseführern. Seit 2010 für Sie da.",

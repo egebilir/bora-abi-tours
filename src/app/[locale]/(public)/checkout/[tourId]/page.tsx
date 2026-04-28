@@ -9,6 +9,7 @@ import { useCurrency } from '@/lib/currency';
 import { LANGUAGE_LABELS, LANGUAGE_FLAGS } from '@/types';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, useRouter } from '@/i18n/routing';
+import DatePicker from '@/components/checkout/DatePicker';
 
 export default function CheckoutPage({ params }: { params: Promise<{ tourId: string }> }) {
   const { tourId } = use(params);
@@ -34,6 +35,7 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
     customerPhone: '',
     language: availableLanguages[0] || 'en',
     count: 1,
+    preferredDate: '',
     specialNotes: '',
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -76,6 +78,7 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
     if (!form.customerPhone.trim() || form.customerPhone.replace(/\D/g, '').length < 10) e.customerPhone = '!';
     if (form.count < 1) e.count = '!';
     if (form.count > capacity.available) e.count = `Max ${capacity.available}`;
+    if (!form.preferredDate) e.preferredDate = t('dateRequired');
     setErrors(e);
     return Object.keys(e).length === 0;
   };
@@ -90,7 +93,7 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
       ...form,
       unitPrice,
       totalPrice,
-      date: new Date().toISOString().split('T')[0],
+      date: form.preferredDate,
     }));
     router.push(`/checkout/${tour.id}/payment`);
   };
@@ -186,6 +189,23 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
                   </div>
                 </div>
 
+                {/* Date Picker */}
+                <div>
+                  <DatePicker
+                    value={form.preferredDate}
+                    onChange={(date) => { setForm(p => ({ ...p, preferredDate: date })); setErrors(e => { const n = { ...e }; delete n.preferredDate; return n; }); }}
+                    locale={locale}
+                    labels={{
+                      selectDate: t('selectDate'),
+                      dateNote: t('dateNote'),
+                      monthNames: t('monthNames'),
+                      weekDays: t('weekDays'),
+                      today: t('today'),
+                    }}
+                  />
+                  {errors.preferredDate && <p className="text-red-500 text-xs mt-1">{errors.preferredDate}</p>}
+                </div>
+
                 <div>
                   <label htmlFor="checkout-notes" className="block text-sm font-medium text-neutral-700 mb-1.5">📝 {t('notes')}</label>
                   <textarea id="checkout-notes" value={form.specialNotes}
@@ -217,7 +237,12 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
               <div className="space-y-2.5 text-sm mb-5">
                 <div className="flex items-center justify-between">
                   <span className="text-neutral-500">📅 {t('date')}</span>
-                  <span className="font-medium text-neutral-700">{new Date().toLocaleDateString(dateLocaleMap[locale] || 'en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                  <span className="font-medium text-neutral-700">
+                    {form.preferredDate
+                      ? new Date(form.preferredDate + 'T00:00:00').toLocaleDateString(dateLocaleMap[locale] || 'en-US', { day: 'numeric', month: 'long', year: 'numeric' })
+                      : <span className="text-neutral-400 italic">{t('selectDate')}</span>
+                    }
+                  </span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-neutral-500">🕐 {t('time')}</span>

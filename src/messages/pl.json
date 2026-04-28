@@ -7,9 +7,18 @@
     "cta": "ODKRYJ NASZE WYCIECZKI"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "Serce wakacji z unikalnymi zatokami, krystalicznie czystym morzem i tętniącą życiem atmosferą." },
-    "efes": { "title": "EFEZ", "desc": "Tysiące lat historii, fascynujące ruiny i unikalne dziedzictwo." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "Ukryty raj z historycznymi kamiennymi domami, lokalnymi smakami i spokojną atmosferą." }
+    "kusadasi": {
+      "title": "KUŞADASI",
+      "desc": "Serce wakacji z unikalnymi zatokami, krystalicznie czystym morzem i tętniącą życiem atmosferą."
+    },
+    "efes": {
+      "title": "EFEZ",
+      "desc": "Tysiące lat historii, fascynujące ruiny i unikalne dziedzictwo."
+    },
+    "sirince": {
+      "title": "ŞİRİNCE",
+      "desc": "Ukryty raj z historycznymi kamiennymi domami, lokalnymi smakami i spokojną atmosferą."
+    }
   },
   "header": {
     "findTour": "Znajdź wycieczkę",
@@ -77,7 +86,15 @@
     "time": "Godzina",
     "people": "Osoby",
     "lang": "Język",
-    "guarantee": "Darmowa anulacja • Natychmiastowe potwierdzenie"
+    "guarantee": "Darmowa anulacja • Natychmiastowe potwierdzenie",
+    "selectDate": "Wybierz preferowaną datę",
+    "dateNote": "Twoja data zostanie potwierdzona w zależności od dostępności. Zostaniesz powiadomiony przez WhatsApp lub e-mail.",
+    "dateRequired": "Proszę wybrać datę",
+    "monthNames": "Styczeń,Luty,Marzec,Kwiecień,Maj,Czerwiec,Lipiec,Sierpień,Wrzesień,Październik,Listopad,Grudzień",
+    "weekDays": "Pon,Wt,Śr,Czw,Pt,Sob,Ndz",
+    "today": "Dziś",
+    "preferredDate": "Preferowana data",
+    "dateConfirmNote": "Wybrana data zostanie potwierdzona w zależności od dostępności. Skontaktujemy się wkrótce."
   },
   "payment": {
     "title": "Bezpieczna płatność",
@@ -110,7 +127,9 @@
     "saved": "Zapisano!",
     "whatsapp": "Udostępnij przez WhatsApp",
     "home": "Wróć na stronę główną",
-    "explore": "Odkryj nasze wycieczki"
+    "explore": "Odkryj nasze wycieczki",
+    "dateConfirmNote": "Wybrana data zostanie potwierdzona w zależności od dostępności. Skontaktujemy się wkrótce przez WhatsApp lub e-mail.",
+    "pending": "Oczekuje"
   },
   "footer": {
     "about": "Odkryj najpiękniejsze wycieczki po Morzu Egejskim z profesjonalnymi przewodnikami. Służymy Ci od 2010 roku.",

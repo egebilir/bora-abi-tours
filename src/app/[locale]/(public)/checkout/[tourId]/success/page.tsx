@@ -130,6 +130,13 @@ export default function SuccessPage({ params }: { params: Promise<{ tourId: stri
               {t('emailSent')}
             </motion.p>
 
+            {/* Flex Booking Date Confirmation Note */}
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.85 }}
+              className="flex items-start gap-3 px-4 py-3.5 mb-6 bg-amber-50/70 rounded-xl border border-amber-100">
+              <span className="text-amber-500 text-lg mt-0.5 shrink-0">📅</span>
+              <p className="text-sm text-amber-700 leading-relaxed">{t('dateConfirmNote')}</p>
+            </motion.div>
+
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9 }}
               className="bg-neutral-50 rounded-2xl p-5 text-left space-y-3 border border-neutral-100">
               <div className="flex items-center justify-between text-sm">
@@ -142,7 +149,10 @@ export default function SuccessPage({ params }: { params: Promise<{ tourId: stri
               </div>
               <div className="flex items-center justify-between text-sm">
                 <span className="text-neutral-500">{t('date')}</span>
-                <span className="font-medium text-neutral-700">{new Date(booking.date).toLocaleDateString(dateLocaleMap[locale] || 'en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                <span className="flex items-center gap-2">
+                  <span className="font-medium text-neutral-700">{new Date(booking.date + 'T00:00:00').toLocaleDateString(dateLocaleMap[locale] || 'en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">{t('pending')}</span>
+                </span>
               </div>
               <div className="flex items-center justify-between text-sm">
                 <span className="text-neutral-500">{t('people')}</span>

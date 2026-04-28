@@ -7,9 +7,18 @@
     "cta": "EXPLORE OUR TOURS"
   },
   "destinations": {
-    "kusadasi": { "title": "KUŞADASI", "desc": "The heart of vacation with its unique coves, crystal-clear sea and vibrant atmosphere." },
-    "efes": { "title": "EPHESUS", "desc": "Thousands of years of history, mesmerizing ruins and a unique heritage." },
-    "sirince": { "title": "ŞİRİNCE", "desc": "A hidden paradise with historic stone houses, local flavors and a peaceful atmosphere." }
+    "kusadasi": {
+      "title": "KUŞADASI",
+      "desc": "The heart of vacation with its unique coves, crystal-clear sea and vibrant atmosphere."
+    },
+    "efes": {
+      "title": "EPHESUS",
+      "desc": "Thousands of years of history, mesmerizing ruins and a unique heritage."
+    },
+    "sirince": {
+      "title": "ŞİRİNCE",
+      "desc": "A hidden paradise with historic stone houses, local flavors and a peaceful atmosphere."
+    }
   },
   "header": {
     "findTour": "Find Tour",
@@ -77,7 +86,15 @@
     "time": "Time",
     "people": "People",
     "lang": "Language",
-    "guarantee": "Free cancellation • Instant confirmation"
+    "guarantee": "Free cancellation • Instant confirmation",
+    "selectDate": "Select Your Preferred Date",
+    "dateNote": "Your date preference will be confirmed based on availability. You will be notified via WhatsApp or email after confirmation.",
+    "dateRequired": "Please select a date",
+    "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+    "weekDays": "Mon,Tue,Wed,Thu,Fri,Sat,Sun",
+    "today": "Today",
+    "preferredDate": "Preferred Date",
+    "dateConfirmNote": "Your selected date will be confirmed based on availability. We will get back to you shortly."
   },
   "payment": {
     "title": "Secure Payment",
@@ -110,7 +127,9 @@
     "saved": "Saved!",
     "whatsapp": "Share via WhatsApp",
     "home": "Back to Home",
-    "explore": "Explore Our Tours"
+    "explore": "Explore Our Tours",
+    "dateConfirmNote": "Your selected date will be confirmed based on availability. We will get back to you shortly via WhatsApp or email.",
+    "pending": "Pending"
   },
   "footer": {
     "about": "Discover the most beautiful tours of the Aegean with professional guides. Serving you since 2010.",
