@@ -46,6 +46,17 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
   const title = useEn && tour.titleEn ? tour.titleEn : tour.title;
   const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
   const fullDescription = useEn && tour.fullDescriptionEn ? tour.fullDescriptionEn : tour.fullDescription;
+  const duration = useEn && tour.durationEn ? tour.durationEn : tour.duration;
+  const meetingPoint = useEn && tour.meetingPointEn ? tour.meetingPointEn : tour.meetingPoint;
+  const highlights = useEn && tour.highlightsEn?.length ? tour.highlightsEn : tour.highlights;
+  const inclusions = tour.inclusions; // No En field in data — same for all
+  const exclusions = tour.exclusions; // No En field in data — same for all
+  const importantInfo = useEn && tour.importantInfoEn?.length ? tour.importantInfoEn : tour.importantInfo;
+  const itinerary = tour.itinerary.map(step => ({
+    time: step.time,
+    title: useEn && step.titleEn ? step.titleEn : step.title,
+    description: useEn && step.descriptionEn ? step.descriptionEn : step.description,
+  }));
 
   const capacity = store?.getTourCapacity(tour.id) ?? { total: 0, booked: 0, available: 999 };
   const isSoldOut = capacity.available <= 0;
@@ -133,11 +144,11 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
               <div className="flex flex-wrap items-center gap-3 sm:gap-5 text-sm text-neutral-500 mb-4">
                 <span className="flex items-center gap-1.5">
                   <svg className="w-4 h-4 text-khaki-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                  {tour.duration}
+                  {duration}
                 </span>
                 <span className="flex items-center gap-1.5">
                   <svg className="w-4 h-4 text-khaki-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                  {tour.meetingPoint}
+                  {meetingPoint}
                 </span>
                 <span className="flex items-center gap-1.5">
                   <svg className="w-4 h-4 text-khaki-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -203,7 +214,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                 {t('highlights')}
               </h2>
               <div className="grid grid-cols-2 gap-3">
-                {tour.highlights.map((h, i) => (
+                {highlights.map((h, i) => (
                   <div key={i} className="flex items-center gap-2.5 px-4 py-3 bg-white rounded-xl border border-neutral-100 shadow-sm">
                     <span className="w-2 h-2 rounded-full bg-ice-400 shrink-0" />
                     <span className="text-sm font-medium text-neutral-700">{h}</span>
@@ -221,7 +232,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
               <div className="relative">
                 <div className="absolute left-[19px] top-3 bottom-3 w-0.5 bg-gradient-to-b from-ice-400 via-ice-300 to-khaki-300 rounded-full" />
                 <div className="space-y-6">
-                  {tour.itinerary.map((step, i) => (
+                  {itinerary.map((step, i) => (
                     <motion.div key={i} className="relative flex gap-4 pl-0" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.4, delay: 0.6 + i * 0.1 }}>
                       <div className="relative z-10 shrink-0 w-10 h-10 rounded-full bg-white border-2 border-ice-400 flex items-center justify-center shadow-sm">
                         <span className="text-xs font-bold text-ice-600">{step.time}</span>
@@ -246,7 +257,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                   {t('included')}
                 </h3>
                 <ul className="space-y-2.5">
-                  {tour.inclusions.map((item, i) => (
+                  {inclusions.map((item, i) => (
                     <li key={i} className="flex items-start gap-2.5 text-sm text-neutral-600">
                       <svg className="w-4 h-4 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                       {item}
@@ -262,7 +273,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                   {t('notIncluded')}
                 </h3>
                 <ul className="space-y-2.5">
-                  {tour.exclusions.map((item, i) => (
+                  {exclusions.map((item, i) => (
                     <li key={i} className="flex items-start gap-2.5 text-sm text-neutral-600">
                       <svg className="w-4 h-4 text-red-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
                       {item}
@@ -278,7 +289,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                 <span className="w-1 h-6 bg-ice-500 rounded-full" />
                 📍 {t('meetingPoint')}
               </h2>
-              <p className="text-neutral-600 mb-3">{tour.meetingPoint}</p>
+              <p className="text-neutral-600 mb-3">{meetingPoint}</p>
               {tour.meetingPointLat && tour.meetingPointLng && (
                 <a href={`https://www.google.com/maps?q=${tour.meetingPointLat},${tour.meetingPointLng}`} target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2.5 bg-ice-50 hover:bg-ice-100 text-ice-700 font-medium rounded-xl text-sm transition-colors border border-ice-100 min-h-[44px]">
@@ -295,7 +306,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                   ⚠️ {t('importantInfo')}
                 </h2>
                 <ul className="space-y-2.5">
-                  {tour.importantInfo.map((info, i) => (
+                  {importantInfo.map((info, i) => (
                     <li key={i} className="flex items-start gap-2.5 text-sm text-neutral-700">
                       <span className="w-5 h-5 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 shrink-0 mt-0.5 text-xs font-bold">{i + 1}</span>
                       {info}
@@ -322,7 +333,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-neutral-500">{t('duration')}</span>
-                    <span className="font-medium text-neutral-700">{tour.duration}</span>
+                    <span className="font-medium text-neutral-700">{duration}</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-neutral-500">{t('startTime')}</span>
@@ -330,7 +341,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-neutral-500">{t('meetingPoint')}</span>
-                    <span className="font-medium text-neutral-700 text-right max-w-[180px] truncate">{tour.meetingPoint}</span>
+                    <span className="font-medium text-neutral-700 text-right max-w-[180px] truncate">{meetingPoint}</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-neutral-500">{t('languages')}</span>

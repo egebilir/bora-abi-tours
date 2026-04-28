@@ -56,6 +56,7 @@ export default function TourCard({ tour, index }: TourCardProps) {
   const useEn = locale !== 'tr';
   const title = useEn && tour.titleEn ? tour.titleEn : tour.title;
   const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
+  const duration = useEn && tour.durationEn ? tour.durationEn : tour.duration;
   const isPopular = tour.rating >= 4.7 && tour.reviewCount >= 200;
 
   return (
@@ -130,7 +131,7 @@ export default function TourCard({ tour, index }: TourCardProps) {
               <svg className="w-4 h-4 text-khaki-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              {tour.duration}
+              {duration}
             </span>
             <span className="flex items-center gap-1">
               <svg className="w-4 h-4 text-khaki-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
