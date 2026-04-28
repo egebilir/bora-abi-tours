@@ -1,0 +1,1021 @@
+{
+  "tours": [
+    {
+      "id": "efes-antik-kenti",
+      "title": "Efes Antik Kenti Turu",
+      "titleEn": "Ephesus Ancient City Tour",
+      "description": "Dünyanın en iyi korunmuş antik kentlerinden Efes'i profesyonel rehber eşliğinde keşfedin. Celsus Kütüphanesi, Büyük Tiyatro ve Hadrian Tapınağı gibi ikonik yapıları yakından görün.",
+      "descriptionEn": "Discover Ephesus, one of the world's best-preserved ancient cities, with a professional guide. See iconic structures like the Library of Celsus, the Grand Theatre, and the Temple of Hadrian.",
+      "price": 45,
+      "currency": "EUR",
+      "duration": "6 saat",
+      "durationEn": "6 hours",
+      "category": "cultural",
+      "rating": 4.8,
+      "reviewCount": 342,
+      "highlights": [
+        "Celsus Kütüphanesi",
+        "Büyük Tiyatro",
+        "Hadrian Tapınağı",
+        "Terrace Evler"
+      ],
+      "highlightsEn": [
+        "Library of Celsus",
+        "Grand Theatre",
+        "Temple of Hadrian",
+        "Terrace Houses"
+      ],
+      "image": "/images/tours/ephesus.png",
+      "featured": true,
+      "languages": [
+        "tr",
+        "en",
+        "de",
+        "ru"
+      ],
+      "meetingPoint": "Kuşadası Liman Girişi",
+      "meetingPointEn": "Kuşadası Port Entrance",
+      "startTime": "09:00",
+      "itinerary": [
+        {
+          "time": "09:00",
+          "title": "Buluşma & Hareket",
+          "titleEn": "Meeting & Departure",
+          "description": "Kuşadası limanından klimalı araçla hareket",
+          "descriptionEn": "Departure from Kuşadası port by air-conditioned vehicle"
+        },
+        {
+          "time": "09:45",
+          "title": "Efes Antik Kenti",
+          "titleEn": "Ephesus Ancient City",
+          "description": "Rehber eşliğinde antik kent turu başlıyor",
+          "descriptionEn": "Guided tour of the ancient city begins"
+        },
+        {
+          "time": "11:30",
+          "title": "Celsus Kütüphanesi",
+          "titleEn": "Library of Celsus",
+          "description": "İkonik kütüphanenin detaylı incelenmesi",
+          "descriptionEn": "Detailed exploration of the iconic library"
+        },
+        {
+          "time": "12:30",
+          "title": "Öğle Yemeği",
+          "titleEn": "Lunch Break",
+          "description": "Yerel restoranda Ege mutfağı deneyimi",
+          "descriptionEn": "Aegean cuisine experience at a local restaurant"
+        },
+        {
+          "time": "14:00",
+          "title": "Artemis Tapınağı",
+          "titleEn": "Temple of Artemis",
+          "description": "Dünyanın yedi harikasından birinin kalıntıları",
+          "descriptionEn": "Ruins of one of the Seven Wonders of the World"
+        },
+        {
+          "time": "15:00",
+          "title": "Dönüş",
+          "titleEn": "Return",
+          "description": "Kuşadası'na dönüş",
+          "descriptionEn": "Return to Kuşadası"
+        }
+      ],
+      "inclusions": [
+        "Profesyonel rehber",
+        "Klimalı araç transferi",
+        "Giriş ücretleri",
+        "Öğle yemeği",
+        "Su ve atıştırmalık"
+      ],
+      "exclusions": [
+        "Kişisel harcamalar",
+        "Terrace Evler ek giriş ücreti (€8)",
+        "Bahşişler"
+      ],
+      "fullDescription": "Efes Antik Kenti, UNESCO Dünya Mirası listesinde yer alan ve yılda 2 milyondan fazla ziyaretçi çeken dünyanın en iyi korunmuş antik kentlerinden biridir. Kuşadası'ndan sadece 20 dakika uzaklıkta bulunan bu eşsiz arkeolojik alan, Roma İmparatorluğu döneminin ihtişamını gözler önüne serer.\n\nBora Abi Tours ile çıkacağınız bu profesyonel Efes turu, deneyimli ve lisanslı rehberlerimiz eşliğinde sizi 2.000 yıl öncesine götürecek. Celsus Kütüphanesi'nin muhteşem cephesi, 25.000 kişilik Büyük Tiyatro, Hadrian Tapınağı'nın zarif kabartmaları ve Terrace Evlerin zengin mozaikleri bu turun öne çıkan duraklarıdır.\n\nKuşadası Efes turu fiyatları arasında en uygun ve kapsamlı seçeneklerden birini sunuyoruz. Turumuz, klimalı lüks araçlarla otel transferi, tüm giriş ücretleri, profesyonel rehberlik ve yerel restoranda öğle yemeğini kapsamaktadır. Küçük gruplarla (maksimum 15 kişi) gerçekleştirilen turumuz sayesinde rehberinizi rahatça duyabilir ve sorularınızı sorabilirsiniz.\n\nEfes Antik Kenti turu sırasında, antik çağın en büyük açık hava kütüphanesi olan Celsus Kütüphanesi'ni yakından inceleyecek, gladyatör dövüşlerine ev sahipliği yapan devasa tiyatroyu gezecek ve Roma dönemine ait 'Curetes Caddesi' boyunca yürüyeceksiniz. İsteğe bağlı olarak ziyaret edebileceğiniz Terrace Evler, dönemin varlıklı ailelerinin yaşam koşullarını sergileyen muazzam fresklere ve mozaiklere ev sahipliği yapar.",
+      "fullDescriptionEn": "Ephesus Ancient City is one of the world's best-preserved archaeological sites and a UNESCO World Heritage Site, attracting over 2 million visitors annually. Located just 20 minutes from Kuşadası, this extraordinary site reveals the grandeur of the Roman Empire era.\n\nWith Bora Abi Tours, this professional Ephesus tour takes you back 2,000 years with our experienced, licensed guides. The magnificent façade of the Library of Celsus, the 25,000-seat Grand Theatre, the elegant reliefs of the Temple of Hadrian, and the rich mosaics of the Terrace Houses are among the highlights.\n\nWe offer one of the most affordable and comprehensive Kuşadası Ephesus tour options. Our tour includes air-conditioned luxury vehicle transfers, all entrance fees, professional guidance, and lunch at a local restaurant. With small groups (maximum 15 people), you can comfortably hear your guide and ask questions.\n\nDuring the Ephesus Ancient City tour, you'll closely examine the Library of Celsus — the largest open-air library of antiquity — explore the massive theatre that hosted gladiator fights, and walk along 'Curetes Street' from the Roman period. The optional Terrace Houses showcase extraordinary frescoes and mosaics that reveal the living conditions of wealthy families of the era.",
+      "imageAlt": "Efes Antik Kenti Celsus Kütüphanesi manzarası",
+      "imageMetaDescription": "Kuşadası çıkışlı profesyonel rehber eşliğinde Efes Antik Kenti turu",
+      "isOpen": true,
+      "tourBuses": [
+        {
+          "busId": "bus-1",
+          "guideId": "guide-1",
+          "language": "en",
+          "booked": 8
+        },
+        {
+          "busId": "bus-1",
+          "guideId": "guide-1",
+          "language": "de",
+          "booked": 4
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/tours/ephesus.png",
+          "alt": "Efes Antik Kenti Turu - Görsel 1",
+          "altEn": "Ephesus Ancient City Tour - Image 1"
+        },
+        {
+          "url": "/images/tours/pamukkale.png",
+          "alt": "Efes Antik Kenti Turu - Görsel 2",
+          "altEn": "Ephesus Ancient City Tour - Image 2"
+        }
+      ],
+      "meetingPointLat": 37.9395,
+      "meetingPointLng": 27.3417,
+      "importantInfo": [
+        "Rahat yürüyüş ayakkabısı giyin",
+        "Güneş kremi ve şapka getirin",
+        "En az 1 litre su bulundurun",
+        "Fotoğraf makinenizi unutmayın"
+      ],
+      "importantInfoEn": [
+        "Wear comfortable walking shoes",
+        "Bring sunscreen and a hat",
+        "Carry at least 1 liter of water",
+        "Don't forget your camera"
+      ]
+    },
+    {
+      "id": "pamukkale-gunubilirlik",
+      "title": "Pamukkale Günübirlik Turu",
+      "titleEn": "Pamukkale Day Trip",
+      "description": "UNESCO Dünya Mirası Pamukkale'nin bembeyaz travertenlerinde yürüyün ve Hierapolis antik kentini ziyaret edin. Kleopatra Havuzu'nda yüzme fırsatı!",
+      "descriptionEn": "Walk on the snow-white travertines of UNESCO World Heritage Pamukkale and visit the ancient city of Hierapolis. Swim in Cleopatra's Pool!",
+      "price": 55,
+      "currency": "EUR",
+      "duration": "12 saat",
+      "durationEn": "12 hours",
+      "category": "cultural",
+      "rating": 4.7,
+      "reviewCount": 218,
+      "highlights": [
+        "Travertenler",
+        "Hierapolis",
+        "Kleopatra Havuzu",
+        "Antik Tiyatro"
+      ],
+      "highlightsEn": [
+        "Travertines",
+        "Hierapolis",
+        "Cleopatra's Pool",
+        "Ancient Theatre"
+      ],
+      "image": "/images/tours/pamukkale.png",
+      "featured": true,
+      "languages": [
+        "tr",
+        "en",
+        "de"
+      ],
+      "meetingPoint": "Kuşadası Otogar",
+      "meetingPointEn": "Kuşadası Bus Station",
+      "startTime": "07:00",
+      "itinerary": [
+        {
+          "time": "07:00",
+          "title": "Erken Hareket",
+          "titleEn": "Early Departure",
+          "description": "Kuşadası'ndan Pamukkale'ye yolculuk (~3 saat)",
+          "descriptionEn": "Journey from Kuşadası to Pamukkale (~3 hours)"
+        },
+        {
+          "time": "10:00",
+          "title": "Hierapolis",
+          "titleEn": "Hierapolis",
+          "description": "Antik kentin kalıntılarını keşfetme",
+          "descriptionEn": "Explore the ruins of the ancient city"
+        },
+        {
+          "time": "11:30",
+          "title": "Travertenler",
+          "titleEn": "Travertines",
+          "description": "Bembeyaz teraslarda yürüyüş",
+          "descriptionEn": "Walk on the snow-white terraces"
+        },
+        {
+          "time": "13:00",
+          "title": "Öğle Yemeği",
+          "titleEn": "Lunch",
+          "description": "Açık büfe öğle yemeği",
+          "descriptionEn": "Open buffet lunch"
+        },
+        {
+          "time": "14:30",
+          "title": "Kleopatra Havuzu",
+          "titleEn": "Cleopatra's Pool",
+          "description": "Antik havuzda yüzme fırsatı (opsiyonel)",
+          "descriptionEn": "Optional swimming in the ancient pool"
+        },
+        {
+          "time": "16:00",
+          "title": "Dönüş Yolculuğu",
+          "titleEn": "Return Journey",
+          "description": "Kuşadası'na konforlu dönüş",
+          "descriptionEn": "Comfortable return to Kuşadası"
+        }
+      ],
+      "inclusions": [
+        "Profesyonel rehber",
+        "Lüks otobüs transferi",
+        "Giriş ücretleri",
+        "Açık büfe öğle yemeği",
+        "Sigorta"
+      ],
+      "exclusions": [
+        "Kleopatra Havuzu giriş ücreti (€10)",
+        "Kişisel harcamalar",
+        "Bahşişler"
+      ],
+      "fullDescription": "Pamukkale, 'Pamuk Kalesi' anlamına gelen ve UNESCO Dünya Mirası listesinde yer alan doğa harikası bir destinasyondur. Kuşadası'ndan günübirlik ulaşılabilen Pamukkale travertenleri, binlerce yıllık kalsiyum birikintileri ile oluşmuş bembeyaz terasları ve termal suları ile dünyaca ünlüdür.\n\nBora Abi Tours'un Kuşadası çıkışlı Pamukkale günübirlik turu, bu doğa mucizesini en konforlu şekilde deneyimlemenizi sağlar. Sabah erken saatte klimalı lüks otobüsümüzle hareket eder, yaklaşık 3 saatlik keyifli bir yolculuğun ardından Pamukkale'ye varırsınız.\n\nPamukkale tur programımız kapsamında önce antik Hierapolis kentini gezecek, Roma dönemine ait tiyatro, nekropol ve tapınak kalıntılarını inceleyeceksiniz. Ardından bembeyaz travertenlerin üzerinde yalın ayak yürüyerek termal suların şifa veren etkisini hissedeceksiniz.\n\nİsteğe bağlı olarak Kleopatra Havuzu'nda (Antik Havuz) yüzebilirsiniz. Efsaneye göre Kraliçe Kleopatra'nın da yüzdüğü bu termal havuz, antik sütunların arasından akan 36°C sıcaklığındaki mineralli suları ile benzersiz bir deneyim sunar. Açık büfe öğle yemeğimiz yerel Ege mutfağının en lezzetli örneklerini içerir.",
+      "fullDescriptionEn": "Pamukkale, meaning 'Cotton Castle,' is a UNESCO World Heritage natural wonder. The Pamukkale travertines, accessible as a day trip from Kuşadası, are world-famous for their snow-white terraces formed by thousands of years of calcium deposits and thermal waters.\n\nBora Abi Tours' Pamukkale day trip from Kuşadası lets you experience this natural miracle in ultimate comfort. Departing early morning in our air-conditioned luxury coach, you'll arrive in Pamukkale after an enjoyable 3-hour journey.\n\nOur Pamukkale tour program includes visiting the ancient city of Hierapolis, exploring Roman-era theatre, necropolis, and temple ruins. Then you'll walk barefoot on the snow-white travertines, feeling the healing effects of the thermal waters.\n\nOptionally, you can swim in Cleopatra's Pool (Antique Pool). Legend has it that Queen Cleopatra herself swam here — this thermal pool offers a unique experience with 36°C mineral-rich waters flowing between ancient columns. Our open buffet lunch features the finest examples of local Aegean cuisine.",
+      "imageAlt": "Pamukkale beyaz travertenleri ve termal havuzlar",
+      "imageMetaDescription": "Kuşadası'ndan günübirlik Pamukkale turu - travertenler ve Hierapolis",
+      "isOpen": true,
+      "tourBuses": [
+        {
+          "busId": "bus-2",
+          "guideId": "guide-1",
+          "language": "en",
+          "booked": 12
+        },
+        {
+          "busId": "bus-2",
+          "guideId": "guide-1",
+          "language": "tr",
+          "booked": 6
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/tours/pamukkale.png",
+          "alt": "Pamukkale Günübirlik Turu - Görsel 1",
+          "altEn": "Pamukkale Day Trip - Image 1"
+        },
+        {
+          "url": "/images/tours/ephesus.png",
+          "alt": "Pamukkale Günübirlik Turu - Görsel 2",
+          "altEn": "Pamukkale Day Trip - Image 2"
+        }
+      ],
+      "meetingPointLat": 37.9204,
+      "meetingPointLng": 27.175,
+      "importantInfo": [
+        "Mayo ve havlu getirin",
+        "Travertenlerde yalınayak yürünür",
+        "Güneş kremi zorunludur",
+        "Yolculuk 3 saat sürer, yanınıza atıştırmalık alın"
+      ],
+      "importantInfoEn": [
+        "Bring swimsuit and towel",
+        "You walk barefoot on travertines",
+        "Sunscreen is mandatory",
+        "The journey takes 3 hours, bring snacks"
+      ]
+    },
+    {
+      "id": "sirince-koyu-turu",
+      "title": "Şirince Köyü & Şarap Tadımı",
+      "titleEn": "Şirince Village & Wine Tasting",
+      "description": "Ege'nin saklı cenneti Şirince Köyü'nde taş evler arasında yürüyün, yerel şarapları tadın ve otantik Türk kahvaltısının keyfini çıkarın.",
+      "descriptionEn": "Stroll among stone houses in the hidden gem of Şirince Village, taste local wines, and enjoy an authentic Turkish breakfast.",
+      "price": 35,
+      "currency": "EUR",
+      "duration": "5 saat",
+      "durationEn": "5 hours",
+      "category": "daily",
+      "rating": 4.6,
+      "reviewCount": 156,
+      "highlights": [
+        "Taş Evler",
+        "Şarap Tadımı",
+        "Köy Kahvaltısı",
+        "El Sanatları"
+      ],
+      "highlightsEn": [
+        "Stone Houses",
+        "Wine Tasting",
+        "Village Breakfast",
+        "Handicrafts"
+      ],
+      "image": "/images/tours/sirince.png",
+      "featured": false,
+      "languages": [
+        "tr",
+        "en"
+      ],
+      "meetingPoint": "Kuşadası Merkez",
+      "meetingPointEn": "Kuşadası Center",
+      "startTime": "08:30",
+      "itinerary": [
+        {
+          "time": "08:30",
+          "title": "Hareket",
+          "titleEn": "Departure",
+          "description": "Kuşadası merkezden Şirince'ye yolculuk",
+          "descriptionEn": "Journey from Kuşadası center to Şirince"
+        },
+        {
+          "time": "09:15",
+          "title": "Köy Turu",
+          "titleEn": "Village Tour",
+          "description": "Taş evler ve sokaklar arasında rehberli tur",
+          "descriptionEn": "Guided tour among stone houses and streets"
+        },
+        {
+          "time": "10:30",
+          "title": "Şarap Tadımı",
+          "titleEn": "Wine Tasting",
+          "description": "5 farklı yerel şarabın tadımı",
+          "descriptionEn": "Tasting of 5 different local wines"
+        },
+        {
+          "time": "12:00",
+          "title": "Köy Kahvaltısı",
+          "titleEn": "Village Breakfast",
+          "description": "Otantik Ege kahvaltısı deneyimi",
+          "descriptionEn": "Authentic Aegean breakfast experience"
+        },
+        {
+          "time": "13:30",
+          "title": "Dönüş",
+          "titleEn": "Return",
+          "description": "Kuşadası'na dönüş",
+          "descriptionEn": "Return to Kuşadası"
+        }
+      ],
+      "inclusions": [
+        "Rehber",
+        "Transfer",
+        "Şarap tadımı (5 çeşit)",
+        "Köy kahvaltısı"
+      ],
+      "exclusions": [
+        "Kişisel alışveriş",
+        "Ekstra içecekler",
+        "Bahşişler"
+      ],
+      "fullDescription": "Şirince Köyü, Kuşadası'ndan sadece 30 dakika uzaklıkta, Selçuk ilçesinin tepelerinde saklı kalmış bir Ege cenneti. Osmanlı ve Rum mimarisinin iç içe geçtiği taş evleri, daracık sokakları ve yüzyıllık zeytin ağaçları ile ziyaretçilerine zamanda yolculuk hissi yaşatır.\n\nBora Abi Tours'un Şirince Köyü turu, bu otantik atmosferi bir de yerel tatlarla birleştiriyor. Turunuza köyün meşhur organik şarap üreticilerinden birinde 5 farklı şarap çeşidinin tadımı ile başlayacaksınız. Şirince'nin dünyaca ünlü meyve şarapları — böğürtlen, vişne, şeftali ve nar — damak zevkinize yeni boyutlar katacak.\n\nŞarap tadımının ardından köyün tarihi sokaklarında rehber eşliğinde yürüyüşe çıkacak, el yapımı zeytinyağı sabunları, doğal kozmetik ürünleri ve otantik hediyelik eşyaların satıldığı butik dükkânları keşfedeceksiniz. Turumuzun bir diğer özel anı ise geleneksel Türk köy kahvaltısı deneyimi: taze pişirilmiş gözleme, ev yapımı reçeller, köy peyniri ve organik zeytin ile unutulmaz bir kahvaltı masasına oturacaksınız.\n\nŞirince turu küçük gruplar halinde (maksimum 12 kişi) gerçekleştirilir ve köyün huzurlu atmosferini bozmadan otantik bir deneyim yaşamanızı sağlar.",
+      "fullDescriptionEn": "Şirince Village is an Aegean paradise hidden in the hills of Selçuk district, just 30 minutes from Kuşadası. With its stone houses blending Ottoman and Greek architecture, narrow streets, and centuries-old olive trees, it offers visitors a journey through time.\n\nBora Abi Tours' Şirince Village tour combines this authentic atmosphere with local flavors. Your tour begins with a tasting of 5 different wines at one of the village's famous organic wine producers. Şirince's world-renowned fruit wines — blackberry, sour cherry, peach, and pomegranate — will add new dimensions to your palate.\n\nAfter the wine tasting, you'll take a guided walk through the village's historic streets, discovering boutique shops selling handmade olive oil soaps, natural cosmetics, and authentic souvenirs. Another special moment is the traditional Turkish village breakfast experience: freshly made gözleme, homemade jams, village cheese, and organic olives at an unforgettable breakfast table.\n\nThe Şirince tour is conducted in small groups (maximum 12 people), ensuring an authentic experience without disturbing the village's peaceful atmosphere.",
+      "imageAlt": "Şirince Köyü taş evleri ve dar sokakları",
+      "imageMetaDescription": "Şirince Köyü turu - şarap tadımı ve otantik köy kahvaltısı",
+      "isOpen": true,
+      "tourBuses": [
+        {
+          "busId": "bus-3",
+          "guideId": "guide-3",
+          "language": "en",
+          "booked": 5
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/tours/sirince.png",
+          "alt": "Şirince Köyü & Şarap Tadımı - Görsel 1",
+          "altEn": "Şirince Village & Wine Tasting - Image 1"
+        },
+        {
+          "url": "/images/tours/ephesus.png",
+          "alt": "Şirince Köyü & Şarap Tadımı - Görsel 2",
+          "altEn": "Şirince Village & Wine Tasting - Image 2"
+        }
+      ],
+      "meetingPointLat": 37.9467,
+      "meetingPointLng": 27.1753,
+      "importantInfo": [
+        "Rahat ayakkabı giyin (taş sokaklar)",
+        "Nakit para bulundurun (köy dükkânları)",
+        "Şarap tadımında 18 yaş sınırı vardır"
+      ],
+      "importantInfoEn": [
+        "Wear comfortable shoes (cobblestone streets)",
+        "Carry cash (village shops)",
+        "Wine tasting has 18+ age limit"
+      ]
+    },
+    {
+      "id": "dalyan-kaplumbaga",
+      "title": "Dalyan & Kaplumbağa Plajı",
+      "titleEn": "Dalyan & Turtle Beach",
+      "description": "Dalyan Deltası'nda tekne ile kral mezarlarını görün, İztuzu Plajı'nda caretta caretta kaplumbağalarını izleyin ve çamur banyosu yapın.",
+      "descriptionEn": "See the rock tombs by boat in the Dalyan Delta, watch loggerhead turtles on İztuzu Beach, and enjoy a mud bath.",
+      "price": 60,
+      "currency": "EUR",
+      "duration": "10 saat",
+      "durationEn": "10 hours",
+      "category": "nature",
+      "rating": 4.9,
+      "reviewCount": 287,
+      "highlights": [
+        "İztuzu Plajı",
+        "Kral Mezarları",
+        "Çamur Banyosu",
+        "Caretta Caretta"
+      ],
+      "highlightsEn": [
+        "İztuzu Beach",
+        "Rock Tombs",
+        "Mud Bath",
+        "Loggerhead Turtles"
+      ],
+      "image": "/images/tours/dalyan.png",
+      "featured": true,
+      "languages": [
+        "tr",
+        "en",
+        "ru"
+      ],
+      "meetingPoint": "Kuşadası Liman",
+      "meetingPointEn": "Kuşadası Port",
+      "startTime": "07:30",
+      "itinerary": [
+        {
+          "time": "07:30",
+          "title": "Hareket",
+          "titleEn": "Departure",
+          "description": "Kuşadası'ndan Dalyan'a yolculuk",
+          "descriptionEn": "Journey from Kuşadası to Dalyan"
+        },
+        {
+          "time": "10:00",
+          "title": "Tekne Turu",
+          "titleEn": "Boat Trip",
+          "description": "Dalyan kanalında tekne ile kral mezarlarını izleme",
+          "descriptionEn": "Boat trip through Dalyan channel viewing rock tombs"
+        },
+        {
+          "time": "11:30",
+          "title": "Çamur Banyosu",
+          "titleEn": "Mud Bath",
+          "description": "Şifalı çamur banyosu ve termal yüzme",
+          "descriptionEn": "Healing mud bath and thermal swimming"
+        },
+        {
+          "time": "13:00",
+          "title": "Öğle Yemeği",
+          "titleEn": "Lunch",
+          "description": "Dalyan kenarında balık yemeği",
+          "descriptionEn": "Fish lunch by the Dalyan river"
+        },
+        {
+          "time": "14:30",
+          "title": "İztuzu Plajı",
+          "titleEn": "İztuzu Beach",
+          "description": "Caretta caretta kaplumbağalarının yuvalama alanı",
+          "descriptionEn": "Nesting ground of loggerhead turtles"
+        },
+        {
+          "time": "16:30",
+          "title": "Dönüş",
+          "titleEn": "Return",
+          "description": "Kuşadası'na dönüş",
+          "descriptionEn": "Return to Kuşadası"
+        }
+      ],
+      "inclusions": [
+        "Rehber",
+        "Otobüs transferi",
+        "Tekne turu",
+        "Çamur banyosu",
+        "Öğle yemeği",
+        "Sigorta"
+      ],
+      "exclusions": [
+        "İçecekler",
+        "Plaj şezlong ücreti",
+        "Kişisel harcamalar"
+      ],
+      "fullDescription": "Dalyan, Türkiye'nin güneybatısında Muğla iline bağlı, bozulmamış doğası ve zengin tarihi ile ünlü bir tatil beldesidir. Kuşadası çıkışlı Dalyan & Kaplumbağa Plajı turumuz, bu eşsiz destinasyonu tek günde keşfetmenin en konforlu yoludur.\n\nDalyan Deltası, dünyaca ünlü Likya kaya mezarlarına ev sahipliği yapar. Tekne turunuz sırasında, MÖ 4. yüzyıldan kalma ve uçurumun yüzüne oyulmuş bu muhteşem mezarları su üzerinden izleyeceksiniz — fotoğraf tutkunları için kaçırılmaz bir manzara!\n\nİztuzu Plajı (Kaplumbağa Plajı), nesli tehlike altındaki caretta caretta deniz kaplumbağalarının Akdeniz'deki en önemli yuvalama alanlarından biridir. Bu 4.5 km uzunluğundaki altın kumlu plajda yüzebilir, güneşlenebilir ve şanslıysanız kaplumbağa yavrularını gözlemleyebilirsiniz.\n\nTurun en eğlenceli duraklarından biri de Dalyan çamur banyosu! Volkanik kökenli bu doğal çamurun cilt güzelliğine ve sağlığa faydaları bilimsel olarak kanıtlanmıştır. Çamura gömüldükten sonra termal sularda yıkanarak cildinizi yenileyeceksiniz.\n\nÖğle yemeğinizi Dalyan Nehri kenarında, taze yakalanmış levrek ve çipura ile servis eden otantik bir restoranda yapacaksınız.",
+      "fullDescriptionEn": "Dalyan is a holiday resort in Muğla province, southwestern Turkey, famous for its unspoiled nature and rich history. Our Dalyan & Turtle Beach tour from Kuşadası is the most comfortable way to discover this unique destination in a single day.\n\nThe Dalyan Delta hosts the world-famous Lycian rock tombs. During your boat tour, you'll view these magnificent tombs carved into the cliff face dating back to the 4th century BC — an unmissable sight for photography enthusiasts!\n\nİztuzu Beach (Turtle Beach) is one of the most important nesting grounds in the Mediterranean for the endangered loggerhead sea turtles. On this 4.5 km golden sandy beach, you can swim, sunbathe, and if lucky, observe turtle hatchlings.\n\nOne of the tour's most fun stops is the Dalyan mud bath! The health and beauty benefits of this volcanic-origin natural mud are scientifically proven. After immersing in the mud, you'll rejuvenate your skin by bathing in thermal waters.\n\nYou'll enjoy lunch at an authentic restaurant by the Dalyan River, served with freshly caught sea bass and sea bream.",
+      "imageAlt": "Dalyan kanalı ve Likya kaya mezarları",
+      "imageMetaDescription": "Dalyan ve İztuzu Kaplumbağa Plajı turu - tekne gezisi ve çamur banyosu",
+      "isOpen": true,
+      "tourBuses": [
+        {
+          "busId": "bus-2",
+          "guideId": "guide-2",
+          "language": "en",
+          "booked": 8
+        },
+        {
+          "busId": "bus-2",
+          "guideId": "guide-2",
+          "language": "ru",
+          "booked": 4
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/tours/dalyan.png",
+          "alt": "Dalyan & Kaplumbağa Plajı - Görsel 1",
+          "altEn": "Dalyan & Turtle Beach - Image 1"
+        },
+        {
+          "url": "/images/tours/dilek.png",
+          "alt": "Dalyan & Kaplumbağa Plajı - Görsel 2",
+          "altEn": "Dalyan & Turtle Beach - Image 2"
+        }
+      ],
+      "meetingPointLat": 37.8566,
+      "meetingPointLng": 27.2622,
+      "importantInfo": [
+        "Mayo ve havlu getirin",
+        "Çamur banyosu için ek kıyafet alın",
+        "Su geçirmez telefon kılıfı önerilir",
+        "Güneş kremi ve şapka getirin"
+      ],
+      "importantInfoEn": [
+        "Bring swimsuit and towel",
+        "Bring extra clothes for mud bath",
+        "Waterproof phone case recommended",
+        "Bring sunscreen and hat"
+      ]
+    },
+    {
+      "id": "dilek-yarimadasi",
+      "title": "Dilek Yarımadası Doğa Yürüyüşü",
+      "titleEn": "Dilek Peninsula Nature Hike",
+      "description": "Milli park statüsündeki Dilek Yarımadası'nda eşsiz doğa yürüyüşü yapın, kristal berraklığındaki koylarda yüzün ve endemik bitki türlerini keşfedin.",
+      "descriptionEn": "Hike through the national park of Dilek Peninsula, swim in crystal-clear coves, and discover endemic plant species.",
+      "price": 30,
+      "currency": "EUR",
+      "duration": "7 saat",
+      "durationEn": "7 hours",
+      "category": "nature",
+      "rating": 4.5,
+      "reviewCount": 124,
+      "highlights": [
+        "Aydınlık Koyu",
+        "Zeus Mağarası",
+        "Doğa Yürüyüşü",
+        "Yaban Hayatı"
+      ],
+      "highlightsEn": [
+        "Aydınlık Cove",
+        "Zeus Cave",
+        "Nature Hiking",
+        "Wildlife"
+      ],
+      "image": "/images/tours/dilek.png",
+      "featured": false,
+      "languages": [
+        "tr",
+        "en"
+      ],
+      "meetingPoint": "Kuşadası Merkez",
+      "meetingPointEn": "Kuşadası Center",
+      "startTime": "08:00",
+      "itinerary": [
+        {
+          "time": "08:00",
+          "title": "Hareket",
+          "titleEn": "Departure",
+          "description": "Dilek Yarımadası Milli Parkı'na transfer",
+          "descriptionEn": "Transfer to Dilek Peninsula National Park"
+        },
+        {
+          "time": "08:45",
+          "title": "Doğa Yürüyüşü",
+          "titleEn": "Nature Hike",
+          "description": "3 km'lik patika boyunca rehberli yürüyüş",
+          "descriptionEn": "Guided hike along a 3km trail"
+        },
+        {
+          "time": "10:30",
+          "title": "Zeus Mağarası",
+          "titleEn": "Zeus Cave",
+          "description": "Efsanevi mağaranın keşfi",
+          "descriptionEn": "Exploration of the legendary cave"
+        },
+        {
+          "time": "11:30",
+          "title": "Aydınlık Koyu",
+          "titleEn": "Aydınlık Cove",
+          "description": "Kristal berraklığında suda yüzme",
+          "descriptionEn": "Swimming in crystal-clear water"
+        },
+        {
+          "time": "13:00",
+          "title": "Piknik",
+          "titleEn": "Picnic",
+          "description": "Doğada piknik öğle yemeği",
+          "descriptionEn": "Picnic lunch in nature"
+        },
+        {
+          "time": "15:00",
+          "title": "Dönüş",
+          "titleEn": "Return",
+          "description": "Kuşadası'na dönüş",
+          "descriptionEn": "Return to Kuşadası"
+        }
+      ],
+      "inclusions": [
+        "Doğa rehberi",
+        "Transfer",
+        "Milli park giriş ücreti",
+        "Piknik öğle yemeği",
+        "Su"
+      ],
+      "exclusions": [
+        "Kişisel ekipman",
+        "Ekstra içecekler"
+      ],
+      "fullDescription": "Dilek Yarımadası Büyük Menderes Deltası Milli Parkı, Kuşadası'na sadece 28 km uzaklıkta, Türkiye'nin en değerli doğa koruma alanlarından biridir. 27.675 hektarlık bu milli park, Ege Bölgesi'nin en zengin biyoçeşitliliğine ev sahipliği yapar ve doğa severler için gerçek bir cennet niteliğindedir.\n\nBora Abi Tours'un Dilek Yarımadası doğa yürüyüşü turu, bu eşsiz ekosistemin derinliklerine sizi götürür. Profesyonel doğa rehberimiz eşliğinde 3 km'lik işaretli patikada yürüyerek endemik bitki türlerini, yaban hayvanı izlerini ve kuş gözlem noktalarını keşfedeceksiniz.\n\nZeus Mağarası, park içindeki en mistik duraklardan biridir. Efsaneye göre tanrıların babası Zeus'un burada yıkandığı söylenir. Mağaranın buz gibi berrak sularında yüzmek, sıcak bir yaz gününde ferahlamanın en doğal yoludur.\n\nAydınlık Koyu, yarımadanın en güzel plajlarından biridir. Turkuaz renkli denizi, çam ormanlarıyla çevrili kıyısı ve el değmemiş doğasıyla Ege'nin en iyi korunmuş koylarından biri olarak bilinir. Burada yüzme ve şnorkel yapabilirsiniz.\n\nTurun ardından doğanın kalbinde hazırlanan piknik öğle yemeğimizle enerji toplayacaksınız. Tur, maksimum 10 kişilik küçük gruplarla yapılır ve doğaya saygılı bir şekilde gerçekleştirilir.",
+      "fullDescriptionEn": "Dilek Peninsula-Büyük Menderes Delta National Park, just 28 km from Kuşadası, is one of Turkey's most valuable nature conservation areas. This 27,675-hectare national park hosts the richest biodiversity in the Aegean Region and is a true paradise for nature lovers.\n\nBora Abi Tours' Dilek Peninsula nature hike takes you deep into this unique ecosystem. With our professional nature guide, you'll walk along a 3 km marked trail, discovering endemic plant species, wildlife tracks, and bird-watching spots.\n\nZeus Cave is one of the most mystical stops in the park. Legend has it that Zeus, father of the gods, bathed here. Swimming in the cave's ice-cold, crystal-clear waters is the most natural way to cool off on a hot summer day.\n\nAydınlık Cove is one of the peninsula's most beautiful beaches. Known for its turquoise waters, pine-forested shores, and untouched nature, it's considered one of the best-preserved coves in the Aegean. You can swim and snorkel here.\n\nAfter the hike, you'll recharge with our picnic lunch prepared in the heart of nature. The tour is conducted in small groups of maximum 10 people, carried out with respect for nature.",
+      "imageAlt": "Dilek Yarımadası Milli Parkı doğa yürüyüşü",
+      "imageMetaDescription": "Dilek Yarımadası doğa yürüyüşü - Zeus Mağarası ve Aydınlık Koyu",
+      "isOpen": true,
+      "tourBuses": [
+        {
+          "busId": "bus-3",
+          "guideId": "guide-2",
+          "language": "en",
+          "booked": 6
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/tours/dilek.png",
+          "alt": "Dilek Yarımadası Doğa Yürüyüşü - Görsel 1",
+          "altEn": "Dilek Peninsula Nature Hike - Image 1"
+        },
+        {
+          "url": "/images/tours/dalyan.png",
+          "alt": "Dilek Yarımadası Doğa Yürüyüşü - Görsel 2",
+          "altEn": "Dilek Peninsula Nature Hike - Image 2"
+        }
+      ],
+      "meetingPointLat": 37.9467,
+      "meetingPointLng": 27.1753,
+      "importantInfo": [
+        "Yürüyüş ayakkabısı zorunludur",
+        "En az 2 litre su getirin",
+        "Böcek kovucu kullanın",
+        "Mayo getirin (koy molası)"
+      ],
+      "importantInfoEn": [
+        "Hiking shoes are mandatory",
+        "Bring at least 2 liters of water",
+        "Use insect repellent",
+        "Bring swimsuit (cove stop)"
+      ]
+    },
+    {
+      "id": "tekne-turu-adalari",
+      "title": "Kuşadası Tekne Turu & Adalar",
+      "titleEn": "Kuşadası Boat Trip & Islands",
+      "description": "Ege'nin turkuaz sularında tam gün tekne turu ile gizli koyları ve adaları keşfedin. Açık büfe öğle yemeği, şnorkel ve müzik eşliğinde unutulmaz bir gün.",
+      "descriptionEn": "Discover hidden coves and islands on a full-day boat trip in the turquoise Aegean waters. Open buffet lunch, snorkeling, and music.",
+      "price": 40,
+      "currency": "EUR",
+      "duration": "8 saat",
+      "durationEn": "8 hours",
+      "category": "boat",
+      "rating": 4.7,
+      "reviewCount": 412,
+      "highlights": [
+        "Güvercin Adası",
+        "Şnorkel",
+        "Açık Büfe",
+        "Güneşlenme"
+      ],
+      "highlightsEn": [
+        "Pigeon Island",
+        "Snorkeling",
+        "Open Buffet",
+        "Sunbathing"
+      ],
+      "image": "/images/tours/boat-tour.png",
+      "featured": true,
+      "languages": [
+        "tr",
+        "en",
+        "ru",
+        "de"
+      ],
+      "meetingPoint": "Kuşadası Marina",
+      "meetingPointEn": "Kuşadası Marina",
+      "startTime": "09:30",
+      "itinerary": [
+        {
+          "time": "09:30",
+          "title": "Marina'dan Kalkış",
+          "titleEn": "Departure from Marina",
+          "description": "Kuşadası Marina'dan teknede karşılama kokteyli",
+          "descriptionEn": "Welcome cocktail on the boat at Kuşadası Marina"
+        },
+        {
+          "time": "10:30",
+          "title": "Güvercin Adası",
+          "titleEn": "Pigeon Island",
+          "description": "Adanın çevresinde yüzme molası",
+          "descriptionEn": "Swimming break around the island"
+        },
+        {
+          "time": "12:00",
+          "title": "Gizli Koy",
+          "titleEn": "Hidden Cove",
+          "description": "Şnorkel ve dalış aktiviteleri",
+          "descriptionEn": "Snorkeling and diving activities"
+        },
+        {
+          "time": "13:30",
+          "title": "Açık Büfe Yemek",
+          "titleEn": "Buffet Lunch",
+          "description": "Teknede taze balık ve mezeler",
+          "descriptionEn": "Fresh fish and meze on the boat"
+        },
+        {
+          "time": "15:00",
+          "title": "Serbest Yüzme",
+          "titleEn": "Free Swimming",
+          "description": "Turkuaz sularda serbest yüzme ve güneşlenme",
+          "descriptionEn": "Free swimming and sunbathing in turquoise waters"
+        },
+        {
+          "time": "17:30",
+          "title": "Marina'ya Dönüş",
+          "titleEn": "Return to Marina",
+          "description": "Gün batımında marina'ya dönüş",
+          "descriptionEn": "Return to marina at sunset"
+        }
+      ],
+      "inclusions": [
+        "Kaptan ve mürettebat",
+        "Açık büfe öğle yemeği",
+        "Meşrubatlar",
+        "Şnorkel ekipmanı",
+        "Müzik & eğlence",
+        "Sigorta"
+      ],
+      "exclusions": [
+        "Alkollü içecekler",
+        "Fotoğraf hizmeti",
+        "Bahşişler"
+      ],
+      "fullDescription": "Kuşadası tekne turu, Ege tatilinin vazgeçilmez deneyimlerinden biridir. Bora Abi Tours'un tam gün süren tekne turu ile Kuşadası kıyılarının gizli koylarını, berrak sularını ve pitoresk adalarını keşfedeceksiniz.\n\nTurumuz Kuşadası Marina'dan sabah 09:30'da kalkar. İlk durağımız tarihi Güvercin Adası çevresinde yüzme molasıdır. Ardından teknemiz, sadece denizden ulaşılabilen gizli koylara yol alır — turkuaz renkteki sular ve bakir doğa sizi büyüleyecek.\n\nŞnorkel tutkunları için deniz altı dünyasını keşfetme imkânı sunuyoruz. Ekipmanlarımız teknede mevcut olup, Ege'nin zengin deniz yaşamını — renkli balıklar, deniz yıldızları ve denizanaları — yakından gözlemleme şansı yakalayacaksınız.\n\nÖğle yemeğiniz teknede servis edilen açık büfe şeklindedir: taze ızgara balık, mevsim salataları, zeytinyağlı mezeler ve meyveler. Meşrubatlar (su, kola, meyve suyu) tur fiyatına dahildir.\n\nÖğleden sonra DJ eşliğinde müzik ve parti atmosferi ile eğlence başlar. Güverte üzerinde güneşlenme, denizde serbest yüzme ve köpük partisi gibi aktivitelerle gününüzü tamamlayacaksınız. Teknemiz 17:30'da gün batımının büyüleyici renkleri eşliğinde marina'ya döner.\n\nBu tur, aileler, çiftler ve arkadaş grupları için idealdir. 30 kişilik kapasitemiz sayesinde kalabalık olmadan, konforlu bir deniz deneyimi yaşarsınız.",
+      "fullDescriptionEn": "A Kuşadası boat trip is one of the essential experiences of an Aegean holiday. With Bora Abi Tours' full-day boat tour, you'll discover the hidden coves, crystal-clear waters, and picturesque islands along the Kuşadası coast.\n\nOur tour departs from Kuşadası Marina at 09:30. Our first stop is a swimming break around the historic Pigeon Island. Then our boat heads to hidden coves accessible only by sea — the turquoise waters and pristine nature will enchant you.\n\nFor snorkeling enthusiasts, we offer the chance to explore the underwater world. Equipment is available on board, and you'll have the opportunity to closely observe the Aegean's rich marine life — colorful fish, starfish, and jellyfish.\n\nLunch is served as an open buffet on the boat: fresh grilled fish, seasonal salads, olive oil mezes, and fruits. Soft drinks (water, cola, fruit juice) are included in the tour price.\n\nIn the afternoon, entertainment begins with music from our DJ and a party atmosphere. You'll complete your day with activities like sunbathing on deck, free swimming, and foam parties. Our boat returns to the marina at 17:30, accompanied by the enchanting colors of the sunset.\n\nThis tour is ideal for families, couples, and friend groups. With our 30-person capacity, you'll enjoy a comfortable sea experience without the crowds.",
+      "imageAlt": "Kuşadası tekne turu turkuaz deniz manzarası",
+      "imageMetaDescription": "Kuşadası tekne turu - gizli koylar, şnorkel ve açık büfe öğle yemeği",
+      "isOpen": true,
+      "tourBuses": [
+        {
+          "busId": "bus-2",
+          "guideId": "guide-4",
+          "language": "en",
+          "booked": 18
+        },
+        {
+          "busId": "bus-2",
+          "guideId": "guide-4",
+          "language": "ru",
+          "booked": 9
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/tours/boat-tour.png",
+          "alt": "Kuşadası Tekne Turu & Adalar - Görsel 1",
+          "altEn": "Kuşadası Boat Trip & Islands - Image 1"
+        },
+        {
+          "url": "/images/tours/dalyan.png",
+          "alt": "Kuşadası Tekne Turu & Adalar - Görsel 2",
+          "altEn": "Kuşadası Boat Trip & Islands - Image 2"
+        }
+      ],
+      "meetingPointLat": 37.8566,
+      "meetingPointLng": 27.2622,
+      "importantInfo": [
+        "Mayo ve havlu getirin",
+        "Güneş kremi ve güneş gözlüğü",
+        "Deniz tutması ilacı (gerekirse)",
+        "Değerli eşyalarınız için su geçirmez çanta"
+      ],
+      "importantInfoEn": [
+        "Bring swimsuit and towel",
+        "Sunscreen and sunglasses",
+        "Seasickness medicine (if needed)",
+        "Waterproof bag for valuables"
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "guide-1",
+      "name": "Ayşe Demir",
+      "languages": [
+        "tr",
+        "en",
+        "de"
+      ],
+      "specialization": "Tarih & Arkeoloji",
+      "specializationEn": "History & Archaeology",
+      "rating": 4.9,
+      "tourCount": 580,
+      "avatar": "/images/guides/guide-1.png",
+      "bio": "15 yıllık deneyimli arkeolog rehber. Efes ve antik kent turlarında uzman.",
+      "bioEn": "Experienced archaeologist guide with 15 years of expertise, specializing in Ephesus and ancient city tours."
+    },
+    {
+      "id": "guide-2",
+      "name": "Mehmet Yılmaz",
+      "languages": [
+        "tr",
+        "en",
+        "ru"
+      ],
+      "specialization": "Doğa & Macera",
+      "specializationEn": "Nature & Adventure",
+      "rating": 4.8,
+      "tourCount": 420,
+      "avatar": "/images/guides/guide-2.png",
+      "bio": "Doğa tutkunu, dağcılık ve su sporları sertifikalı profesyonel rehber.",
+      "bioEn": "Nature enthusiast, professional guide certified in mountaineering and water sports."
+    },
+    {
+      "id": "guide-3",
+      "name": "Elena Papadopoulou",
+      "languages": [
+        "en",
+        "de",
+        "el"
+      ],
+      "specialization": "Gastronomi & Kültür",
+      "specializationEn": "Gastronomy & Culture",
+      "rating": 4.7,
+      "tourCount": 310,
+      "avatar": "/images/guides/guide-3.png",
+      "bio": "Ege mutfağı ve şarap kültürü üzerine uzmanlaşmış kültür rehberi.",
+      "bioEn": "Cultural guide specializing in Aegean cuisine and wine culture."
+    },
+    {
+      "id": "guide-4",
+      "name": "Ali Kaptanoğlu",
+      "languages": [
+        "tr",
+        "en",
+        "fr"
+      ],
+      "specialization": "Deniz & Tekne Turları",
+      "specializationEn": "Marine & Boat Tours",
+      "rating": 4.9,
+      "tourCount": 650,
+      "avatar": "/images/guides/guide-4.png",
+      "bio": "20 yıllık kaptan ve rehber. Ege kıyılarının en deneyimli denizcisi.",
+      "bioEn": "Captain and guide with 20 years of experience. The most seasoned sailor of the Aegean coast."
+    }
+  ],
+  "buses": [
+    {
+      "id": "bus-1",
+      "name": "Mercedes Sprinter VIP",
+      "capacity": 16,
+      "features": [
+        "Klima",
+        "WiFi",
+        "USB Şarj",
+        "Mini Buzdolabı"
+      ],
+      "image": "/images/buses/bus-1.png"
+    },
+    {
+      "id": "bus-2",
+      "name": "Mercedes Tourismo Lüks",
+      "capacity": 46,
+      "features": [
+        "Klima",
+        "WiFi",
+        "TV",
+        "WC",
+        "USB Şarj"
+      ],
+      "image": "/images/buses/bus-2.png"
+    },
+    {
+      "id": "bus-3",
+      "name": "Ford Transit Comfort",
+      "capacity": 9,
+      "features": [
+        "Klima",
+        "USB Şarj",
+        "Bluetooth"
+      ],
+      "image": "/images/buses/bus-3.png"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "tourId": "efes-antik-kenti",
+      "userId": "user-1",
+      "author": "Ahmet Y.",
+      "rating": 5,
+      "comment": "Muhteşem bir deneyimdi! Rehber çok bilgili ve ilgiliydi. Efes'i bu kadar detaylı anlatılmasını beklemiyordum.",
+      "photos": [],
+      "date": "2026-04-15",
+      "verified": true
+    },
+    {
+      "id": "rev-2",
+      "tourId": "efes-antik-kenti",
+      "userId": "user-2",
+      "author": "Sarah M.",
+      "rating": 5,
+      "comment": "Amazing tour! Our guide was incredibly knowledgeable. The Library of Celsus was breathtaking.",
+      "photos": [],
+      "date": "2026-04-10",
+      "verified": true
+    },
+    {
+      "id": "rev-3",
+      "tourId": "efes-antik-kenti",
+      "userId": "user-3",
+      "author": "Hans W.",
+      "rating": 4,
+      "comment": "Sehr gut organisierte Tour. Der Reiseführer war ausgezeichnet.",
+      "photos": [],
+      "date": "2026-04-05",
+      "verified": true
+    },
+    {
+      "id": "rev-4",
+      "tourId": "pamukkale-gunubilirlik",
+      "userId": "user-1",
+      "author": "Ahmet Y.",
+      "rating": 5,
+      "comment": "Pamukkale gerçekten görülmesi gereken bir yer. Uzun yolculuğa değer!",
+      "photos": [],
+      "date": "2026-03-28",
+      "verified": true
+    },
+    {
+      "id": "rev-5",
+      "tourId": "pamukkale-gunubilirlik",
+      "userId": "user-4",
+      "author": "Elena K.",
+      "rating": 4,
+      "comment": "Beautiful place. Long drive but worth every minute. Cleopatra pool was amazing!",
+      "photos": [],
+      "date": "2026-03-20",
+      "verified": true
+    },
+    {
+      "id": "rev-6",
+      "tourId": "tekne-turu-adalari",
+      "userId": "user-5",
+      "author": "Mehmet A.",
+      "rating": 5,
+      "comment": "Ailece çok eğlendik. Mürettebat harika, yemekler lezzetliydi. Kesinlikle tekrar geleceğiz!",
+      "photos": [],
+      "date": "2026-04-18",
+      "verified": true
+    },
+    {
+      "id": "rev-7",
+      "tourId": "tekne-turu-adalari",
+      "userId": "user-2",
+      "author": "Sarah M.",
+      "rating": 5,
+      "comment": "Best boat trip ever! Crystal clear water, great food, and fantastic crew. Highly recommended!",
+      "photos": [],
+      "date": "2026-04-12",
+      "verified": true
+    },
+    {
+      "id": "rev-8",
+      "tourId": "dalyan-kaplumbaga",
+      "userId": "user-3",
+      "author": "Hans W.",
+      "rating": 5,
+      "comment": "The mud bath was so fun! And seeing the turtles at Iztuzu Beach was a once-in-a-lifetime experience.",
+      "photos": [],
+      "date": "2026-04-08",
+      "verified": true
+    },
+    {
+      "id": "rev-9",
+      "tourId": "sirince-koyu-turu",
+      "userId": "user-4",
+      "author": "Elena K.",
+      "rating": 4,
+      "comment": "Charming village with excellent wine. The breakfast was incredibly authentic.",
+      "photos": [],
+      "date": "2026-03-15",
+      "verified": true
+    },
+    {
+      "id": "rev-10",
+      "tourId": "dilek-yarimadasi",
+      "userId": "user-5",
+      "author": "Mehmet A.",
+      "rating": 5,
+      "comment": "Doğa harikası bir yer. Yürüyüş rotası çok güzeldi ve Zeus Mağarası muhteşemdi!",
+      "photos": [],
+      "date": "2026-04-01",
+      "verified": true
+    }
+  ]
+}
