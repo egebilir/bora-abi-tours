@@ -171,4 +171,10 @@
     "orLogin": "or sign in",
     "orRegister": "or sign up"
   }
+,
+  "whatsapp": {
+    "tooltip": "Need help? Chat with us on WhatsApp!",
+    "defaultMessage": "Hello! I would like to learn more about your tours.",
+    "tourMessage": "Hello! I would like to learn more about the {tour} tour."
+  }
 }

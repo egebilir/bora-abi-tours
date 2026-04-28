@@ -171,4 +171,10 @@
     "orLogin": "lub zaloguj się",
     "orRegister": "lub zarejestruj się"
   }
+,
+  "whatsapp": {
+    "tooltip": "Potrzebujesz pomocy? Napisz do nas na WhatsApp!",
+    "defaultMessage": "Cześć! Chciałbym dowiedzieć się więcej o waszych wycieczkach.",
+    "tourMessage": "Cześć! Chciałbym dowiedzieć się więcej o wycieczce {tour}."
+  }
 }

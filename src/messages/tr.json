@@ -171,4 +171,10 @@
     "orLogin": "veya giriş yapın",
     "orRegister": "veya üye olun"
   }
+,
+  "whatsapp": {
+    "tooltip": "Yardıma mı ihtiyacınız var? WhatsApp ile yazın!",
+    "defaultMessage": "Merhaba! Turlarınız hakkında bilgi almak istiyorum.",
+    "tourMessage": "Merhaba! {tour} turu hakkında bilgi almak istiyorum."
+  }
 }
