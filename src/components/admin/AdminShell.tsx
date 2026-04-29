@@ -41,7 +41,7 @@ export default function AdminShell({ children, currentPath }: { children: React.
               </svg>
             </div>
             <div>
-              <div className="font-bold text-sm">Bora Abi Tours</div>
+              <div className="font-bold text-sm">WeAreShorex</div>
               <div className="text-[10px] text-neutral-400 tracking-wider uppercase">Admin Panel</div>
             </div>
           </Link>

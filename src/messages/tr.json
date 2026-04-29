@@ -25,7 +25,11 @@
     "search": "Tur ara...",
     "login": "Giriş Yap / Üye Ol",
     "logout": "Çıkış Yap",
-    "hello": "Merhaba"
+    "hello": "Merhaba",
+    "excursions": "Turlar",
+    "privateExcursions": "Özel Turlar",
+    "faq": "SSS",
+    "blog": "Blog"
   },
   "tourCard": {
     "featured": "Öne Çıkan",
@@ -173,7 +177,7 @@
     "tourNotFound": "Tur bulunamadı."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours — Kuşadası Tur Rezervasyonu",
+    "homeTitle": "WeAreShorex — Kuşadası Tur Rezervasyonu",
     "homeDesc": "Kuşadası ve çevresindeki en iyi turları keşfedin. Efes, Pamukkale, tekne turları, doğa yürüyüşleri ve daha fazlası. Profesyonel rehberler, uygun fiyatlar."
   },
   "auth": {
@@ -200,5 +204,217 @@
     "spotsLeft": "Son {count} yer kaldı!",
     "bookedToday": "Bugün {count} kişi rezervasyon yaptı",
     "likelySellOut": "Çok Talep Gören"
+  },
+  "whyChooseUs": {
+    "badge": "Neden Biz",
+    "title": "Kıyı Turlarında Güvenilir Tercih",
+    "subtitle": "Her yıl binlerce kruvaziyer yolcusu Ege'deki unutulmaz deneyimler için bize güveniyor.",
+    "licensedGuides": {
+      "title": "Lisanslı Rehberler",
+      "desc": "Tüm rehberlerimiz resmi lisanslı ve deneyimli profesyonellerdir."
+    },
+    "support247": {
+      "title": "7/24 Destek",
+      "desc": "WhatsApp üzerinden turdan önce, sırasında ve sonrasında bize ulaşabilirsiniz."
+    },
+    "freeCancellation": {
+      "title": "Ücretsiz İptal",
+      "desc": "Planlarınız değişti mi? Tur başlangıcından 24 saat önce ücretsiz iptal."
+    },
+    "smallGroups": {
+      "title": "Küçük Gruplar",
+      "desc": "Kişiselleştirilmiş ve konforlu deneyim için grup başına maksimum 15 kişi."
+    },
+    "bestPrice": {
+      "title": "En İyi Fiyat Garantisi",
+      "desc": "Başka yerde daha düşük fiyat mı buldunuz? Farkı karşılıyoruz."
+    },
+    "experience": {
+      "title": "15+ Yıl Deneyim",
+      "desc": "2010'dan beri binlerce 5 yıldızlı değerlendirme ile kruvaziyer misafirlerine hizmet veriyoruz."
+    },
+    "stats": {
+      "years": "Yıl Deneyim",
+      "customers": "Mutlu Müşteri",
+      "tours": "Tamamlanan Tur",
+      "rating": "Ortalama Puan"
+    }
+  },
+  "testimonials": {
+    "badge": "Müşteri Yorumları",
+    "title": "Misafirlerimiz Ne Diyor?",
+    "subtitle": "Bizimle Ege'yi keşfeden dünya çapındaki gezginlerin gerçek deneyimleri.",
+    "reviews": {
+      "anna": "Efes'te kesinlikle harika bir gün! Rehberimiz inanılmaz bilgili ve tutkuluydu. Küçük grup özel tur gibi hissettirdi. Kuşadası'na demir atan herkese şiddetle tavsiye ederim!",
+      "carlos": "La excursión a Pamukkale fue increíble. El viaje es largo pero vale cada minuto. Las terrazas blancas son impresionantes y la piscina de Cleopatra fue el broche de oro. ¡Servicio excelente!",
+      "sarah": "Tekne turu kruvaziyer tatilimizin en güzel anıydı! Berrak sular, gemide lezzetli öğle yemeği ve mürettebat çok misafirperverdi. Tüm aile için mükemmel bir gün.",
+      "markus": "Wir haben die Ephesus-Tour zum dritten Mal gemacht und es war wieder großartig. Die Guides sind erstklassig und der Transport war pünktlich und komfortabel. Absolut empfehlenswert!",
+      "elena": "Далянь и пляж с черепахами — это невероятное место! Грязевые ванны были очень забавными, а обед у реки просто восхитительный. Отличная организация от начала до конца.",
+      "james": "Şirince, neredeyse kaçıracağımız gizli bir hazineydi! Şarap tadımı mükemmeldi, köy kahvaltısı otantikti ve arnavut kaldırımlı sokaklar büyüleyiciydi."
+    }
+  },
+  "faq": {
+    "badge": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Turlarımız ve rezervasyon süreci hakkında bilmeniz gereken her şey.",
+    "stillQuestion": "Hâlâ sorunuz mu var?",
+    "whatsappCta": "WhatsApp'tan yazın",
+    "items": {
+      "booking": {
+        "q": "Nasıl tur rezervasyonu yapabilirim?",
+        "a": "Turunuzu seçin, tercih ettiğiniz tarihi belirleyin, bilgilerinizi doldurun ve ödemeye geçin. Onay e-postası ve WhatsApp mesajı alacaksınız."
+      },
+      "cancellation": {
+        "q": "İptal politikası nedir?",
+        "a": "Tur kalkışından 24 saat öncesine kadar ücretsiz iptal. Tam geri ödeme garantisi."
+      },
+      "payment": {
+        "q": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+        "a": "Tüm büyük kredi kartlarını (Visa, Mastercard, American Express) güvenli ödeme sistemimiz üzerinden kabul ediyoruz. Tur günü nakit ödeme de yapılabilir."
+      },
+      "languages": {
+        "q": "Turlar hangi dillerde mevcut?",
+        "a": "İngilizce, Almanca, Rusça, Türkçe ve daha fazlasında turlar sunuyoruz. Özel turlar talep üzerine ek dillerde düzenlenebilir."
+      },
+      "pickup": {
+        "q": "Buluşma noktası neresi?",
+        "a": "Turların çoğu Kuşadası Liman girişinden veya Kuşadası Marina'dan kalkar. Her tur sayfasında ve onay e-postanızda belirtilir."
+      },
+      "weather": {
+        "q": "Kötü havada ne olur?",
+        "a": "Turlar çoğu hava koşulunda gerçekleşir. Aşırı hava durumunda tam geri ödeme veya tarih değişikliği sunulur."
+      },
+      "children": {
+        "q": "Turlar çocuklar için uygun mu?",
+        "a": "Turlarımızın çoğu aile dostu! 6 yaş altı genellikle ücretsiz, 6-12 yaş indirimli."
+      },
+      "group": {
+        "q": "Özel tur rezervasyonu yapabilir miyim?",
+        "a": "Elbette! Aileler, çiftler ve gruplar için özel turlar sunuyoruz. WhatsApp'tan bize ulaşın."
+      }
+    }
+  },
+  "privateExcursions": {
+    "badge": "VIP Deneyim",
+    "title": "Size Özel Kıyı Turu",
+    "subtitle": "Hayalinizdeki turu bize anlatın — uzmanlarımız sadece sizin için özel bir tur tasarlasın. Kalabalık yok, sabit güzergâh yok, sadece mükemmel gününüz.",
+    "steps": {
+      "experience": "Deneyim",
+      "details": "Detaylar",
+      "contact": "İletişim"
+    },
+    "step1": {
+      "title": "Ne deneyimlemek istersiniz?",
+      "subtitle": "Bir veya daha fazla seçin — seçimlerinize göre günü tasarlayacağız."
+    },
+    "step2": {
+      "title": "Grubunuz hakkında bilgi verin",
+      "subtitle": "Ne kadar çok bilirsek, deneyiminizi o kadar iyi kişiselleştirebiliriz."
+    },
+    "step3": {
+      "title": "Size nasıl ulaşabiliriz?",
+      "subtitle": "Özel tur uzmanımız 2 saat içinde kişiselleştirilmiş bir teklif ile size ulaşacak."
+    },
+    "experiences": {
+      "history": "Antik Tarih",
+      "nature": "Doğa & Termal",
+      "boat": "Özel Tekne",
+      "wine": "Şarap & Gastronomi",
+      "adventure": "Macera",
+      "custom": "Beni Şaşırt!"
+    },
+    "form": {
+      "groupSize": "Grup Büyüklüğü",
+      "people": "kişi",
+      "preferredDate": "Tercih Edilen Tarih",
+      "cruiseLine": "Kruvaziyer Hattı / Gemi Adı",
+      "cruiseLinePlaceholder": "ör. Royal Caribbean, MSC Fantasia",
+      "specialRequests": "Özel İstekler",
+      "specialPlaceholder": "Diyet gereksinimleri, hareket kısıtlamaları veya özel günler (doğum günü, yıldönümü vb.) hakkında bilgi verin.",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "experiences": "Deneyimler",
+      "arrivalType": "Nasıl geliyorsunuz?",
+      "hotelName": "Otel / Tatil Köyü Adı",
+      "hotelPlaceholder": "ör. DoubleTree by Hilton Kuşadası"
+    },
+    "trust": {
+      "title": "Fiyat sürprizi yok — asla.",
+      "desc": "Tercihlerinize göre detaylı, şeffaf bir teklif hazırlayacağız. Zorunluluk yok, gizli ücret yok. Uzmanınız her detayı sizinle paylaşacak."
+    },
+    "nav": {
+      "back": "Geri",
+      "next": "Devam",
+      "submit": "Talep Gönder"
+    },
+    "success": {
+      "title": "Talebiniz Alındı!",
+      "desc": "VIP tur uzmanlarımızdan biri, isteklerinize özel hazırlanmış bir teklifle 2 saat içinde sizinle iletişime geçecek. WhatsApp ve e-postanızı kontrol edin!",
+      "home": "Ana Sayfaya Dön"
+    },
+    "arrivalTypes": {
+      "cruise": "Kruvaziyer",
+      "hotel": "Otel / Tatil Köyü",
+      "airport": "Havalimanı",
+      "other": "Diğer"
+    }
+  },
+  "vipPage": {
+    "hero": {
+      "badge": "Özel VIP Deneyim",
+      "title1": "Sizin Yolculuğunuz,",
+      "title2": "Sizin Kurallarınız.",
+      "subtitle": "Kalabalıkları atlayın. Sabit programları unutun. Özel turlarımız tamamen size göre tasarlanır — sizin tempunuz, ilgi alanlarınız, unutulmaz gününüz.",
+      "cta": "Turumu Tasarla",
+      "stats": {
+        "private": "Özel & Eksklüzif",
+        "years": "Yıllık Mükemmeliyet",
+        "rating": "Misafir Puanı",
+        "support": "Concierge Desteği"
+      }
+    },
+    "whyPrivate": {
+      "badge": "Fark",
+      "title": "Grup Turu vs. Özel Deneyim",
+      "subtitle": "Seçici gezginlerin neden özel turu tercih ettiğini görün.",
+      "group": "Grup Turu",
+      "private": "Özel VIP",
+      "features": {
+        "guide": "Rehber Oranı",
+        "schedule": "Program",
+        "vehicle": "Araç",
+        "stops": "Fotoğraf Durakları",
+        "lunch": "Yemek",
+        "photos": "Fotoğrafçılık"
+      }
+    },
+    "packages": {
+      "badge": "Küratörlü Deneyimler",
+      "title": "Popüler VIP Güzergâhlar",
+      "subtitle": "Bir başlangıç noktası seçin — her detayı tercihlerinize göre özelleştireceğiz.",
+      "popular": "En Popüler",
+      "priceOnRequest": "Fiyat talep üzerine",
+      "customize": "Özelleştir",
+      "customNote": "Bunlar sadece başlangıç noktaları. Her özel tur, isteklerinize göre tamamen özelleştirilebilir.",
+      "classic": {
+        "name": "Efes & Şirince VIP",
+        "ephesus": "Sıra beklemeden özel Efes turu",
+        "sirince": "Şirin Şirince köyünde şarap tadımı",
+        "lunch": "Yerel restoranda gurme öğle yemeği"
+      },
+      "adventure": {
+        "name": "Pamukkale Büyük Tur",
+        "pamukkale": "Beyaz travertenler ve pamuk kalesi",
+        "cleopatra": "Kleopatra'nın antik termal havuzunda yüzme",
+        "hierapolis": "Antik Hierapolis şehrini keşfedin"
+      },
+      "sea": {
+        "name": "Özel Ege Kruvaziyer",
+        "privateboating": "Turkuaz kıyı boyunca özel yat",
+        "swimming": "Gizli koylar ve kristal sularda yüzme",
+        "bbq": "Gemide taze deniz ürünleri BBQ"
+      }
+    }
   }
 }

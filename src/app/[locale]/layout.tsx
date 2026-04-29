@@ -18,13 +18,13 @@ const OG_LOCALE_MAP: Record<Locale, string> = {
 };
 
 const META_TITLE: Record<Locale, string> = {
-  tr: 'Bora Abi Tours — Kuşadası Tur Rezervasyonu',
-  en: 'Bora Abi Tours — Kuşadası Tour Booking',
-  ru: 'Bora Abi Tours — Бронирование туров в Кушадасы',
-  de: 'Bora Abi Tours — Kuşadası Tourbuchung',
-  it: 'Bora Abi Tours — Prenotazione tour a Kuşadası',
-  ar: 'Bora Abi Tours — حجز الجولات في كوشاداسي',
-  pl: 'Bora Abi Tours — Rezerwacja wycieczek w Kuşadası',
+  tr: 'WeAreShorex — Kuşadası Tur Rezervasyonu',
+  en: 'WeAreShorex — Kuşadası Shore Excursions',
+  ru: 'WeAreShorex — Береговые экскурсии в Кушадасы',
+  de: 'WeAreShorex — Kuşadası Landausflüge',
+  it: 'WeAreShorex — Escursioni a Terra a Kuşadası',
+  ar: 'WeAreShorex — رحلات الشاطئ في كوشاداسي',
+  pl: 'WeAreShorex — Wycieczki brzegowe w Kuşadası',
 };
 
 const META_DESC: Record<Locale, string> = {
@@ -47,15 +47,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: { default: META_TITLE[loc] || META_TITLE.en, template: '%s | Bora Abi Tours' },
+    title: { default: META_TITLE[loc] || META_TITLE.en, template: '%s | WeAreShorex' },
     description: META_DESC[loc] || META_DESC.en,
-    authors: [{ name: 'Bora Abi Tours' }],
-    creator: 'Bora Abi Tours',
+    authors: [{ name: 'WeAreShorex' }],
+    creator: 'WeAreShorex',
     openGraph: {
       type: 'website',
       locale: OG_LOCALE_MAP[loc] || 'en_US',
       url: `https://weareshorex.com/${locale}`,
-      siteName: 'Bora Abi Tours',
+      siteName: 'WeAreShorex',
     },
     alternates: {
       canonical: `https://weareshorex.com/${locale}`,

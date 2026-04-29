@@ -1,6 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -13,15 +15,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
-              <svg viewBox="0 0 36 36" className="w-8 h-8" fill="none">
-                <circle cx="18" cy="18" r="16" stroke="#38BDF8" strokeWidth="2" />
-                <path d="M18 6L20 16L18 18L16 16L18 6Z" fill="#38BDF8" />
-                <path d="M18 30L16 20L18 18L20 20L18 30Z" fill="#9C9473" />
-                <path d="M6 18L16 16L18 18L16 20L6 18Z" fill="#38BDF8" />
-                <path d="M30 18L20 20L18 18L20 16L30 18Z" fill="#9C9473" />
-              </svg>
-              <span className="text-lg font-bold">
-                Bora Abi <span className="text-ice-400">Tours</span>
+              <div className="relative w-10 h-10 rounded-full overflow-hidden">
+                <Image src="/images/logo.png" alt="WeAreShorex Logo" fill className="object-cover" sizes="40px" />
+              </div>
+              <span className="text-lg font-extrabold">
+                WeAre<span className="bg-gradient-to-r from-ice-400 to-ice-500 bg-clip-text text-transparent">Shorex</span>
               </span>
             </div>
             <p className="text-neutral-400 text-sm leading-relaxed mb-4 max-w-xs">
@@ -52,11 +50,11 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-neutral-300 mb-4">{t('company')}</h4>
             <ul className="space-y-2.5">
-              {(['aboutUs', 'ourGuides', 'blog', 'career', 'contactLink'] as const).map((key) => (
-                <li key={key}>
-                  <a href="#" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{t(key)}</a>
-                </li>
-              ))}
+              <li><a href="/#tours" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{t('aboutUs')}</a></li>
+              <li><a href="/#tours" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{t('ourGuides')}</a></li>
+              <li><Link href="/blog" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{t('blog')}</Link></li>
+              <li><a href="/#faq" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">FAQ</a></li>
+              <li><a href="#contact" className="text-neutral-400 hover:text-ice-400 transition-colors text-sm">{t('contactLink')}</a></li>
             </ul>
           </div>
 
@@ -90,7 +88,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="py-6 border-t border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-neutral-500 text-xs">
-            © {new Date().getFullYear()} Bora Abi Tours. {t('rights')}
+            © {new Date().getFullYear()} WeAreShorex. {t('rights')}
           </p>
           <div className="flex items-center gap-6 text-xs text-neutral-500">
             <a href="#" className="hover:text-neutral-300 transition-colors">{t('privacy')}</a>

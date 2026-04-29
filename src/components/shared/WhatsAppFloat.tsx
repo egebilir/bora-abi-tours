@@ -11,7 +11,7 @@ import { usePathname } from '@/i18n/routing';
 // Smart context: sends tour name if on tour page
 // =============================================
 
-const WHATSAPP_NUMBER = '905321234567'; // Bora Abi Tours WhatsApp
+const WHATSAPP_NUMBER = '905321234567'; // WeAreShorex WhatsApp
 
 export default function WhatsAppFloat() {
   const t = useTranslations('whatsapp');

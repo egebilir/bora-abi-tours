@@ -1,5 +1,5 @@
 // =============================================
-// Bora Abi Tours — Type Definitions
+// WeAreShorex — Type Definitions
 // =============================================
 
 // ---------- Gallery ----------
@@ -43,7 +43,9 @@ export interface Tour {
   tourBuses: TourBus[]; // Dil bazlı araç atamaları
   itinerary: ItineraryStep[];
   inclusions: string[];
+  inclusionsEn: string[];
   exclusions: string[];
+  exclusionsEn: string[];
   gallery: GalleryImage[];
   meetingPoint: string;
   meetingPointEn: string;

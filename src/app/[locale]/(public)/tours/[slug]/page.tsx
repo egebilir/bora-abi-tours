@@ -34,11 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = useEn && tour.descriptionEn ? tour.descriptionEn : tour.description;
 
   return {
-    title: `${title} | Bora Abi Tours`,
+    title: `${title} | WeAreShorex`,
     description,
     keywords: [tour.title, tour.titleEn, 'Kuşadası turları', tour.category, ...tour.highlights],
     openGraph: {
-      title: `${title} — Bora Abi Tours`,
+      title: `${title} — WeAreShorex`,
       description,
       url: `https://weareshorex.com/${locale}/tours/${tour.id}`,
       images: [{ url: tour.image, width: 1200, height: 630, alt: tour.imageAlt || title }],

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import { useCurrency, CURRENCIES } from '@/lib/currency';
 import { useUserAuth } from '@/lib/user-auth';
@@ -9,7 +10,12 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname, Link } from '@/i18n/routing';
 import type { Locale } from '@/i18n/routing';
 
-const categoryKeys = ['all', 'cultural', 'nature', 'boat', 'daily'] as const;
+const navItems = [
+  { key: 'excursions', href: '/#tours', isAnchor: true },
+  { key: 'privateExcursions', href: '/private-excursions', isAnchor: false },
+  { key: 'faq', href: '/#faq', isAnchor: true },
+  { key: 'blog', href: '/blog', isAnchor: false }
+] as const;
 
 const languages: { code: Locale; label: string; flag: string }[] = [
   { code: 'tr', label: 'Türkçe', flag: '🇹🇷' },
@@ -83,21 +89,15 @@ export default function Header() {
           {/* Logo */}
           <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="relative w-9 h-9 flex items-center justify-center">
-                <svg viewBox="0 0 36 36" className="w-9 h-9" fill="none">
-                  <circle cx="18" cy="18" r="16" stroke={scrolled ? '#0EA5E9' : '#fff'} strokeWidth="2" className="transition-colors duration-500" />
-                  <path d="M18 6L20 16L18 18L16 16L18 6Z" fill={scrolled ? '#0EA5E9' : '#fff'} className="transition-colors duration-500" />
-                  <path d="M18 30L16 20L18 18L20 20L18 30Z" fill={scrolled ? '#7C7755' : 'rgba(255,255,255,0.5)'} className="transition-colors duration-500" />
-                  <path d="M6 18L16 16L18 18L16 20L6 18Z" fill={scrolled ? '#0EA5E9' : '#fff'} className="transition-colors duration-500" />
-                  <path d="M30 18L20 20L18 18L20 16L30 18Z" fill={scrolled ? '#7C7755' : 'rgba(255,255,255,0.5)'} className="transition-colors duration-500" />
-                </svg>
+              <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden shadow-sm border border-white/20">
+                <Image src="/images/logo.png" alt="WeAreShorex Logo" fill className="object-cover" sizes="44px" priority />
               </div>
               <div className="flex flex-col">
-                <span className={cn('text-lg font-bold tracking-tight leading-tight transition-colors duration-500', scrolled ? 'text-neutral-900' : 'text-white')}>
-                  Bora Abi <span className="text-ice-400">Tours</span>
+                <span className={cn('text-[17px] sm:text-lg font-extrabold tracking-tight leading-tight transition-colors duration-500', scrolled ? 'text-neutral-900' : 'text-white')}>
+                  WeAre<span className="bg-gradient-to-r from-ice-400 to-ice-500 bg-clip-text text-transparent">Shorex</span>
                 </span>
-                <span className={cn('text-[10px] tracking-[0.2em] uppercase font-medium leading-none transition-colors duration-500', scrolled ? 'text-khaki-500' : 'text-white/60')}>
-                  Discover Aegean
+                <span className={cn('text-[9px] sm:text-[10px] tracking-[0.15em] uppercase font-medium leading-none transition-colors duration-500', scrolled ? 'text-khaki-500' : 'text-white/60')}>
+                  Shore Excursions
                 </span>
               </div>
             </Link>
@@ -105,11 +105,18 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1">
-            {categoryKeys.map((key) => (
-              <a key={key} href={key === 'all' ? '#tours' : `#tours?category=${key}`}
-                className={cn('px-3.5 py-2 rounded-full text-sm font-medium transition-all duration-300', scrolled ? 'text-neutral-600 hover:text-ice-600 hover:bg-ice-50' : 'text-white/80 hover:text-white hover:bg-white/10')}>
-                {tc(key)}
-              </a>
+            {navItems.map((item) => (
+              item.isAnchor ? (
+                <a key={item.key} href={item.href}
+                  className={cn('px-3.5 py-2 rounded-full text-sm font-medium transition-all duration-300', scrolled ? 'text-neutral-600 hover:text-ice-600 hover:bg-ice-50' : 'text-white/80 hover:text-white hover:bg-white/10')}>
+                  {t(item.key)}
+                </a>
+              ) : (
+                <Link key={item.key} href={item.href}
+                  className={cn('px-3.5 py-2 rounded-full text-sm font-medium transition-all duration-300', scrolled ? 'text-neutral-600 hover:text-ice-600 hover:bg-ice-50' : 'text-white/80 hover:text-white hover:bg-white/10')}>
+                  {t(item.key)}
+                </Link>
+              )
             ))}
           </nav>
 
@@ -232,11 +239,18 @@ export default function Header() {
         {mobileMenuOpen && (
           <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} transition={{ duration: 0.3 }} className="lg:hidden bg-white/95 backdrop-blur-xl border-t border-neutral-100">
             <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
-              {categoryKeys.map((key) => (
-                <a key={key} href={key === 'all' ? '#tours' : `#tours?category=${key}`} onClick={() => setMobileMenuOpen(false)}
-                  className="px-4 py-3.5 text-neutral-700 hover:text-ice-600 hover:bg-ice-50 rounded-xl text-base font-medium transition-colors min-h-[44px] flex items-center">
-                  {tc(key)}
-                </a>
+              {navItems.map((item) => (
+                item.isAnchor ? (
+                  <a key={item.key} href={item.href} onClick={() => setMobileMenuOpen(false)}
+                    className="px-4 py-3.5 text-neutral-700 hover:text-ice-600 hover:bg-ice-50 rounded-xl text-base font-medium transition-colors min-h-[44px] flex items-center">
+                    {t(item.key)}
+                  </a>
+                ) : (
+                  <Link key={item.key} href={item.href} onClick={() => setMobileMenuOpen(false)}
+                    className="px-4 py-3.5 text-neutral-700 hover:text-ice-600 hover:bg-ice-50 rounded-xl text-base font-medium transition-colors min-h-[44px] flex items-center">
+                    {t(item.key)}
+                  </Link>
+                )
               ))}
 
               {isAuthenticated ? (

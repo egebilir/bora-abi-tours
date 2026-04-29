@@ -39,8 +39,8 @@ export function getLocalizedTourContent(
     duration: string; durationEn: string;
     meetingPoint: string; meetingPointEn: string;
     highlights: string[]; highlightsEn: string[];
-    inclusions: string[];
-    exclusions: string[];
+    inclusions: string[]; inclusionsEn: string[];
+    exclusions: string[]; exclusionsEn: string[];
     importantInfo: string[]; importantInfoEn: string[];
     itinerary: { time: string; title: string; titleEn: string; description: string; descriptionEn: string }[];
   },
@@ -71,8 +71,8 @@ export function getLocalizedTourContent(
       duration: tour.durationEn,
       meetingPoint: tour.meetingPointEn,
       highlights: tour.highlightsEn,
-      inclusions: tour.inclusions,
-      exclusions: tour.exclusions,
+      inclusions: tour.inclusionsEn,
+      exclusions: tour.exclusionsEn,
       importantInfo: tour.importantInfoEn,
       itinerary: tour.itinerary.map(s => ({ time: s.time, title: s.titleEn, description: s.descriptionEn })),
     };
@@ -92,8 +92,8 @@ export function getLocalizedTourContent(
     duration: tour.durationEn,
     meetingPoint: tour.meetingPointEn,
     highlights: tour.highlightsEn,
-    inclusions: tour.inclusions,
-    exclusions: tour.exclusions,
+    inclusions: tour.inclusionsEn,
+    exclusions: tour.exclusionsEn,
     importantInfo: tour.importantInfoEn,
     itinerary: tour.itinerary.map(s => ({ time: s.time, title: s.titleEn, description: s.descriptionEn })),
   };

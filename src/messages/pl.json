@@ -25,7 +25,11 @@
     "search": "Szukaj wycieczek...",
     "login": "Zaloguj się / Zarejestruj",
     "logout": "Wyloguj",
-    "hello": "Cześć"
+    "hello": "Cześć",
+    "excursions": "Wycieczki",
+    "privateExcursions": "Wycieczki Prywatne",
+    "faq": "FAQ",
+    "blog": "Blog"
   },
   "tourCard": {
     "featured": "Polecane",
@@ -173,7 +177,7 @@
     "tourNotFound": "Wycieczka nie znaleziona."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours — Rezerwacja wycieczek w Kuşadası",
+    "homeTitle": "WeAreShorex — Rezerwacja wycieczek w Kuşadası",
     "homeDesc": "Odkryj najlepsze wycieczki w Kuşadası i okolicach. Efez, Pamukkale, wycieczki łodzią, piesze wędrówki i więcej."
   },
   "auth": {
@@ -200,5 +204,217 @@
     "spotsLeft": "Zostało tylko {count} miejsc!",
     "bookedToday": "{count} osób zarezerwowało dzisiaj",
     "likelySellOut": "Prawdopodobnie się wyprzeda"
+  },
+  "whyChooseUs": {
+    "badge": "Dlaczego my",
+    "title": "Zaufany wybór na wycieczki brzegowe",
+    "subtitle": "Tysiące pasażerów rejsów ufa nam co roku.",
+    "licensedGuides": {
+      "title": "Licencjonowani przewodnicy",
+      "desc": "Wszyscy nasi przewodnicy są oficjalnie licencjonowani."
+    },
+    "support247": {
+      "title": "Wsparcie 24/7",
+      "desc": "Skontaktuj się z nami w dowolnym momencie przez WhatsApp."
+    },
+    "freeCancellation": {
+      "title": "Darmowa rezygnacja",
+      "desc": "Rezygnacja do 24 godzin przed wyjazdem."
+    },
+    "smallGroups": {
+      "title": "Małe grupy",
+      "desc": "Maksymalnie 15 osób w grupie."
+    },
+    "bestPrice": {
+      "title": "Gwarancja najlepszej ceny",
+      "desc": "Znalazłeś taniej? Wyrównamy cenę."
+    },
+    "experience": {
+      "title": "15+ lat doświadczenia",
+      "desc": "Obsługujemy gości rejsów od 2010 roku."
+    },
+    "stats": {
+      "years": "Lat doświadczenia",
+      "customers": "Zadowolonych klientów",
+      "tours": "Ukończonych wycieczek",
+      "rating": "Średnia ocena"
+    }
+  },
+  "testimonials": {
+    "badge": "Opinie klientów",
+    "title": "Co mówią nasi goście",
+    "subtitle": "Prawdziwe doświadczenia podróżników z całego świata.",
+    "reviews": {
+      "anna": "An absolutely fantastic day at Ephesus! Our guide was incredibly knowledgeable and passionate. The small group made it feel like a private tour. Highly recommended for anyone docking in Kuşadası!",
+      "carlos": "La excursión a Pamukkale fue increíble. El viaje es largo pero vale cada minuto. Las terrazas blancas son impresionantes y la piscina de Cleopatra fue el broche de oro. ¡Servicio excelente!",
+      "sarah": "The boat trip was the highlight of our cruise holiday! Crystal clear waters, delicious lunch on board, and the crew were so welcoming. Perfect day out for the whole family.",
+      "markus": "Wir haben die Ephesus-Tour zum dritten Mal gemacht und es war wieder großartig. Die Guides sind erstklassig und der Transport war pünktlich und komfortabel. Absolut empfehlenswert!",
+      "elena": "Далянь и пляж с черепахами — это невероятное место! Грязевые ванны были очень забавными, а обед у реки просто восхитительный. Отличная организация от начала до конца.",
+      "james": "Şirince was a hidden gem we almost missed! The wine tasting was excellent, the village breakfast was authentic, and the cobblestone streets were charming. Our guide made the experience truly special."
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Często zadawane pytania",
+    "subtitle": "Wszystko, co musisz wiedzieć o naszych wycieczkach.",
+    "stillQuestion": "Masz więcej pytań?",
+    "whatsappCta": "Napisz do nas na WhatsApp",
+    "items": {
+      "booking": {
+        "q": "Jak zarezerwować wycieczkę?",
+        "a": "Wybierz wycieczkę, datę, wypełnij dane i zapłać."
+      },
+      "cancellation": {
+        "q": "Jaka jest polityka anulowania?",
+        "a": "Darmowe anulowanie do 24 godzin przed wyjazdem. Pełny zwrot gwarantowany."
+      },
+      "payment": {
+        "q": "Jakie metody płatności akceptujecie?",
+        "a": "Wszystkie główne karty kredytowe i płatność gotówką w dniu wycieczki."
+      },
+      "languages": {
+        "q": "W jakich językach dostępne są wycieczki?",
+        "a": "Angielski, niemiecki, rosyjski, turecki i inne języki."
+      },
+      "pickup": {
+        "q": "Gdzie jest miejsce spotkania?",
+        "a": "Większość wycieczek wyrusza z wejścia do portu Kuşadası."
+      },
+      "weather": {
+        "q": "Co się dzieje w przypadku złej pogody?",
+        "a": "Wycieczki odbywają się w większości warunków pogodowych. W ekstremalnych warunkach — pełny zwrot."
+      },
+      "children": {
+        "q": "Czy wycieczki są odpowiednie dla dzieci?",
+        "a": "Większość wycieczek jest przyjazna rodzinom! Dzieci poniżej 6 lat — bezpłatnie."
+      },
+      "group": {
+        "q": "Czy mogę zarezerwować prywatną wycieczkę?",
+        "a": "Oczywiście! Skontaktuj się z nami przez WhatsApp."
+      }
+    }
+  },
+  "privateExcursions": {
+    "badge": "Doświadczenie VIP",
+    "title": "Twoja prywatna wycieczka brzegowa",
+    "subtitle": "Opowiedz nam o swoim marzeniu — nasi specjaliści stworzą wycieczkę specjalnie dla Ciebie.",
+    "steps": {
+      "experience": "Doświadczenie",
+      "details": "Szczegóły",
+      "contact": "Kontakt"
+    },
+    "step1": {
+      "title": "Co chcesz przeżyć?",
+      "subtitle": "Wybierz jedną lub więcej opcji."
+    },
+    "step2": {
+      "title": "Opowiedz nam o swojej grupie",
+      "subtitle": "Im więcej wiemy, tym lepiej dostosujemy wycieczkę."
+    },
+    "step3": {
+      "title": "Jak możemy się z Tobą skontaktować?",
+      "subtitle": "Specjalista skontaktuje się w ciągu 2 godzin."
+    },
+    "experiences": {
+      "history": "Starożytna historia",
+      "nature": "Natura i termy",
+      "boat": "Prywatna łódź",
+      "wine": "Wino i gastronomia",
+      "adventure": "Przygoda",
+      "custom": "Zaskocz mnie!"
+    },
+    "form": {
+      "groupSize": "Wielkość grupy",
+      "people": "osób",
+      "preferredDate": "Preferowana data",
+      "cruiseLine": "Linia rejsowa",
+      "cruiseLinePlaceholder": "np. Royal Caribbean, MSC Fantasia",
+      "specialRequests": "Specjalne życzenia",
+      "specialPlaceholder": "Wymagania dietetyczne, ograniczenia mobilności lub specjalne okazje.",
+      "name": "Imię i nazwisko",
+      "email": "Email",
+      "phone": "Telefon",
+      "experiences": "Doświadczenia",
+      "arrivalType": "Jak przyjeżdżacie?",
+      "hotelName": "Nazwa hotelu / resortu",
+      "hotelPlaceholder": "np. DoubleTree by Hilton Kuşadası"
+    },
+    "trust": {
+      "title": "Żadnych niespodzianek cenowych.",
+      "desc": "Przygotujemy przejrzystą ofertę na podstawie Twoich preferencji."
+    },
+    "nav": {
+      "back": "Wstecz",
+      "next": "Dalej",
+      "submit": "Wyślij zapytanie"
+    },
+    "success": {
+      "title": "Zapytanie otrzymane!",
+      "desc": "Specjalista VIP skontaktuje się w ciągu 2 godzin.",
+      "home": "Strona główna"
+    },
+    "arrivalTypes": {
+      "cruise": "Statek wycieczkowy",
+      "hotel": "Hotel / Resort",
+      "airport": "Transfer z lotniska",
+      "other": "Inne"
+    }
+  },
+  "vipPage": {
+    "hero": {
+      "badge": "Ekskluzywne doświadczenie VIP",
+      "title1": "Twoja podróż,",
+      "title2": "Twoje zasady.",
+      "subtitle": "Omiń tłumy. Nasze prywatne wycieczki są tworzone wokół Ciebie.",
+      "cta": "Zaprojektuj wycieczkę",
+      "stats": {
+        "private": "Prywatne i ekskluzywne",
+        "years": "Lat doskonałości",
+        "rating": "Ocena gości",
+        "support": "Wsparcie concierge"
+      }
+    },
+    "whyPrivate": {
+      "badge": "Różnica",
+      "title": "Wycieczka grupowa vs. Prywatne doświadczenie",
+      "subtitle": "Zobacz, dlaczego wymagający podróżnicy wybierają prywatne.",
+      "group": "Wycieczka grupowa",
+      "private": "Prywatny VIP",
+      "features": {
+        "guide": "Stosunek przewodnika",
+        "schedule": "Harmonogram",
+        "vehicle": "Pojazd",
+        "stops": "Przystanki foto",
+        "lunch": "Posiłek",
+        "photos": "Fotografia"
+      }
+    },
+    "packages": {
+      "badge": "Wyselekcjonowane doświadczenia",
+      "title": "Popularne trasy VIP",
+      "subtitle": "Wybierz punkt wyjścia — dostosujemy wszystko.",
+      "popular": "Najpopularniejszy",
+      "priceOnRequest": "Cena na zapytanie",
+      "customize": "Dostosuj",
+      "customNote": "To tylko punkty wyjścia.",
+      "classic": {
+        "name": "Efez i Şirince VIP",
+        "ephesus": "Prywatna wycieczka po Efezie",
+        "sirince": "Degustacja wina w Şirince",
+        "lunch": "Wykwintny lunch"
+      },
+      "adventure": {
+        "name": "Pamukkale Grand Tour",
+        "pamukkale": "Białe tarasy",
+        "cleopatra": "Basen Kleopatry",
+        "hierapolis": "Starożytne Hierapolis"
+      },
+      "sea": {
+        "name": "Prywatny rejs po Morzu Egejskim",
+        "privateboating": "Prywatny jacht",
+        "swimming": "Ukryte zatoki",
+        "bbq": "BBQ na pokładzie"
+      }
+    }
   }
 }

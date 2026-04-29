@@ -1,5 +1,8 @@
 import HeroSection from '@/components/hero/HeroSection';
 import TourGrid from '@/components/tours/TourGrid';
+import WhyChooseUs from '@/components/home/WhyChooseUs';
+import TestimonialsSection from '@/components/home/TestimonialsSection';
+import FAQSection from '@/components/home/FAQSection';
 import mockData from '@/data/mockData.json';
 import { Tour } from '@/types';
 import { JsonLdScript, generateBreadcrumbJsonLd } from '@/lib/seo';
@@ -25,6 +28,9 @@ export default async function Home({
       <JsonLdScript data={generateBreadcrumbJsonLd(breadcrumbs)} />
       <HeroSection />
       <TourGrid tours={tours} />
+      <WhyChooseUs />
+      <TestimonialsSection />
+      <FAQSection />
     </>
   );
 }

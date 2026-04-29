@@ -25,7 +25,11 @@
     "search": "ابحث عن جولات...",
     "login": "تسجيل الدخول / التسجيل",
     "logout": "تسجيل الخروج",
-    "hello": "مرحباً"
+    "hello": "مرحباً",
+    "excursions": "الرحلات",
+    "privateExcursions": "رحلات خاصة",
+    "faq": "الأسئلة",
+    "blog": "المدونة"
   },
   "tourCard": {
     "featured": "مميز",
@@ -173,7 +177,7 @@
     "tourNotFound": "الجولة غير موجودة."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours — حجز جولات كوشاداسي",
+    "homeTitle": "WeAreShorex — حجز جولات كوشاداسي",
     "homeDesc": "اكتشف أفضل الجولات في كوشاداسي والمناطق المحيطة. أفسس، باموكالي، جولات بحرية، مشي في الطبيعة والمزيد."
   },
   "auth": {
@@ -200,5 +204,217 @@
     "spotsLeft": "باقي {count} أماكن فقط!",
     "bookedToday": "{count} أشخاص حجزوا اليوم",
     "likelySellOut": "من المحتمل أن تنفد"
+  },
+  "whyChooseUs": {
+    "badge": "لماذا نحن",
+    "title": "الخيار الموثوق للرحلات الشاطئية",
+    "subtitle": "آلاف ركاب السفن السياحية يثقون بنا كل عام.",
+    "licensedGuides": {
+      "title": "مرشدون مرخصون",
+      "desc": "جميع مرشدينا محترفون مرخصون وذوو خبرة."
+    },
+    "support247": {
+      "title": "دعم على مدار الساعة",
+      "desc": "تواصل معنا في أي وقت عبر واتساب."
+    },
+    "freeCancellation": {
+      "title": "إلغاء مجاني",
+      "desc": "إلغاء مجاني حتى 24 ساعة قبل الانطلاق."
+    },
+    "smallGroups": {
+      "title": "مجموعات صغيرة",
+      "desc": "15 شخصاً كحد أقصى في المجموعة."
+    },
+    "bestPrice": {
+      "title": "ضمان أفضل سعر",
+      "desc": "وجدت سعراً أقل؟ سنطابقه."
+    },
+    "experience": {
+      "title": "أكثر من 15 عاماً",
+      "desc": "نخدم ضيوف الرحلات البحرية منذ 2010."
+    },
+    "stats": {
+      "years": "سنوات خبرة",
+      "customers": "عميل سعيد",
+      "tours": "رحلة مكتملة",
+      "rating": "متوسط التقييم"
+    }
+  },
+  "testimonials": {
+    "badge": "آراء العملاء",
+    "title": "ماذا يقول ضيوفنا",
+    "subtitle": "تجارب حقيقية من مسافرين حول العالم.",
+    "reviews": {
+      "anna": "An absolutely fantastic day at Ephesus! Our guide was incredibly knowledgeable and passionate. The small group made it feel like a private tour. Highly recommended for anyone docking in Kuşadası!",
+      "carlos": "La excursión a Pamukkale fue increíble. El viaje es largo pero vale cada minuto. Las terrazas blancas son impresionantes y la piscina de Cleopatra fue el broche de oro. ¡Servicio excelente!",
+      "sarah": "The boat trip was the highlight of our cruise holiday! Crystal clear waters, delicious lunch on board, and the crew were so welcoming. Perfect day out for the whole family.",
+      "markus": "Wir haben die Ephesus-Tour zum dritten Mal gemacht und es war wieder großartig. Die Guides sind erstklassig und der Transport war pünktlich und komfortabel. Absolut empfehlenswert!",
+      "elena": "Далянь и пляж с черепахами — это невероятное место! Грязевые ванны были очень забавными, а обед у реки просто восхитительный. Отличная организация от начала до конца.",
+      "james": "Şirince was a hidden gem we almost missed! The wine tasting was excellent, the village breakfast was authentic, and the cobblestone streets were charming. Our guide made the experience truly special."
+    }
+  },
+  "faq": {
+    "badge": "الأسئلة الشائعة",
+    "title": "الأسئلة المتكررة",
+    "subtitle": "كل ما تحتاج معرفته عن جولاتنا.",
+    "stillQuestion": "لا تزال لديك أسئلة؟",
+    "whatsappCta": "راسلنا على واتساب",
+    "items": {
+      "booking": {
+        "q": "كيف أحجز جولة؟",
+        "a": "اختر الجولة والتاريخ المفضل وأكمل بياناتك وادفع."
+      },
+      "cancellation": {
+        "q": "ما هي سياسة الإلغاء؟",
+        "a": "إلغاء مجاني حتى 24 ساعة قبل الجولة. استرداد كامل مضمون."
+      },
+      "payment": {
+        "q": "ما طرق الدفع المقبولة؟",
+        "a": "جميع بطاقات الائتمان الرئيسية والدفع نقداً يوم الجولة."
+      },
+      "languages": {
+        "q": "بأي لغات تتوفر الجولات؟",
+        "a": "الإنجليزية والألمانية والروسية والتركية ولغات أخرى."
+      },
+      "pickup": {
+        "q": "أين نقطة الالتقاء؟",
+        "a": "معظم الجولات تنطلق من مدخل ميناء كوشاداسي."
+      },
+      "weather": {
+        "q": "ماذا يحدث في الطقس السيئ؟",
+        "a": "تُقام الجولات في معظم الظروف الجوية. في الظروف القاسية، استرداد كامل."
+      },
+      "children": {
+        "q": "هل الجولات مناسبة للأطفال؟",
+        "a": "معظم جولاتنا مناسبة للعائلات! الأطفال دون 6 سنوات مجاناً."
+      },
+      "group": {
+        "q": "هل يمكنني حجز جولة خاصة؟",
+        "a": "بالتأكيد! تواصل معنا عبر واتساب للحصول على عرض مخصص."
+      }
+    }
+  },
+  "privateExcursions": {
+    "badge": "تجربة VIP",
+    "title": "رحلتك الشاطئية الخاصة",
+    "subtitle": "أخبرنا بحلمك — سيصمم متخصصونا جولة مخصصة لك فقط.",
+    "steps": {
+      "experience": "التجربة",
+      "details": "التفاصيل",
+      "contact": "التواصل"
+    },
+    "step1": {
+      "title": "ماذا تريد أن تجرب؟",
+      "subtitle": "اختر واحدة أو أكثر."
+    },
+    "step2": {
+      "title": "أخبرنا عن مجموعتك",
+      "subtitle": "كلما عرفنا أكثر، كانت تجربتك أفضل."
+    },
+    "step3": {
+      "title": "كيف يمكننا الوصول إليك؟",
+      "subtitle": "سيتواصل معك متخصص خلال ساعتين."
+    },
+    "experiences": {
+      "history": "التاريخ القديم",
+      "nature": "الطبيعة والينابيع",
+      "boat": "قارب خاص",
+      "wine": "النبيذ والمطبخ",
+      "adventure": "المغامرة",
+      "custom": "فاجئني!"
+    },
+    "form": {
+      "groupSize": "حجم المجموعة",
+      "people": "أشخاص",
+      "preferredDate": "التاريخ المفضل",
+      "cruiseLine": "خط الرحلات البحرية",
+      "cruiseLinePlaceholder": "مثل Royal Caribbean",
+      "specialRequests": "طلبات خاصة",
+      "specialPlaceholder": "احتياجات غذائية أو مناسبات خاصة.",
+      "name": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "experiences": "التجارب",
+      "arrivalType": "كيف ستصلون؟",
+      "hotelName": "اسم الفندق / المنتجع",
+      "hotelPlaceholder": "مثل DoubleTree by Hilton Kuşadası"
+    },
+    "trust": {
+      "title": "لا مفاجآت في الأسعار.",
+      "desc": "سنعد عرضاً شفافاً بناءً على تفضيلاتك."
+    },
+    "nav": {
+      "back": "رجوع",
+      "next": "متابعة",
+      "submit": "إرسال الطلب"
+    },
+    "success": {
+      "title": "تم استلام طلبك!",
+      "desc": "سيتواصل معك متخصص VIP خلال ساعتين.",
+      "home": "العودة للرئيسية"
+    },
+    "arrivalTypes": {
+      "cruise": "سفينة سياحية",
+      "hotel": "فندق / منتجع",
+      "airport": "نقل من المطار",
+      "other": "أخرى"
+    }
+  },
+  "vipPage": {
+    "hero": {
+      "badge": "تجربة VIP حصرية",
+      "title1": "رحلتك،",
+      "title2": "قواعدك.",
+      "subtitle": "تخطّ الحشود. جولاتنا الخاصة مصممة حولك.",
+      "cta": "صمم جولتي",
+      "stats": {
+        "private": "خاص وحصري",
+        "years": "سنوات من التميز",
+        "rating": "تقييم الضيوف",
+        "support": "دعم الكونسيرج"
+      }
+    },
+    "whyPrivate": {
+      "badge": "الفرق",
+      "title": "جولة جماعية vs. تجربة خاصة",
+      "subtitle": "اكتشف لماذا يختار المسافرون المميزون الخاص.",
+      "group": "جولة جماعية",
+      "private": "VIP خاص",
+      "features": {
+        "guide": "نسبة المرشد",
+        "schedule": "الجدول",
+        "vehicle": "المركبة",
+        "stops": "محطات التصوير",
+        "lunch": "الطعام",
+        "photos": "التصوير"
+      }
+    },
+    "packages": {
+      "badge": "تجارب منتقاة",
+      "title": "مسارات VIP شائعة",
+      "subtitle": "اختر نقطة بداية — سنخصص كل شيء.",
+      "popular": "الأكثر شعبية",
+      "priceOnRequest": "السعر عند الطلب",
+      "customize": "تخصيص",
+      "customNote": "هذه مجرد نقاط بداية.",
+      "classic": {
+        "name": "أفسس وشيرينجة VIP",
+        "ephesus": "جولة أفسس خاصة",
+        "sirince": "تذوق النبيذ في شيرينجة",
+        "lunch": "غداء فاخر"
+      },
+      "adventure": {
+        "name": "باموكالي جراند تور",
+        "pamukkale": "المدرجات البيضاء",
+        "cleopatra": "مسبح كليوباترا",
+        "hierapolis": "هيرابوليس القديمة"
+      },
+      "sea": {
+        "name": "رحلة بحر إيجة خاصة",
+        "privateboating": "يخت خاص",
+        "swimming": "خلجان مخفية",
+        "bbq": "باربكيو على متن القارب"
+      }
+    }
   }
 }

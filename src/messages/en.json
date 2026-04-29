@@ -25,7 +25,11 @@
     "search": "Search tours...",
     "login": "Login / Sign Up",
     "logout": "Logout",
-    "hello": "Hello"
+    "hello": "Hello",
+    "excursions": "Excursions",
+    "privateExcursions": "Private Excursions",
+    "faq": "FAQ",
+    "blog": "Blog"
   },
   "tourCard": {
     "featured": "Featured",
@@ -173,7 +177,7 @@
     "tourNotFound": "Tour not found."
   },
   "meta": {
-    "homeTitle": "Bora Abi Tours — Kuşadası Tour Booking",
+    "homeTitle": "WeAreShorex — Kuşadası Tour Booking",
     "homeDesc": "Discover the best tours around Kuşadası. Ephesus, Pamukkale, boat tours, nature hikes and more. Professional guides, affordable prices."
   },
   "auth": {
@@ -200,5 +204,217 @@
     "spotsLeft": "Only {count} spots left!",
     "bookedToday": "{count} people booked today",
     "likelySellOut": "Likely to Sell Out"
+  },
+  "whyChooseUs": {
+    "badge": "Why Choose Us",
+    "title": "The Trusted Choice for Shore Excursions",
+    "subtitle": "Thousands of cruise passengers trust us every year for unforgettable experiences in the Aegean.",
+    "licensedGuides": {
+      "title": "Licensed Guides",
+      "desc": "All our guides are officially licensed and highly experienced professionals."
+    },
+    "support247": {
+      "title": "24/7 Support",
+      "desc": "Reach us anytime via WhatsApp for instant assistance before, during and after your tour."
+    },
+    "freeCancellation": {
+      "title": "Free Cancellation",
+      "desc": "Plans changed? Cancel up to 24 hours before departure for a full refund."
+    },
+    "smallGroups": {
+      "title": "Small Groups",
+      "desc": "Maximum 15 people per group for a personalized and comfortable experience."
+    },
+    "bestPrice": {
+      "title": "Best Price Guarantee",
+      "desc": "Find a lower price elsewhere? We'll match it — no questions asked."
+    },
+    "experience": {
+      "title": "15+ Years Experience",
+      "desc": "Serving cruise guests since 2010 with thousands of 5-star reviews."
+    },
+    "stats": {
+      "years": "Years Experience",
+      "customers": "Happy Customers",
+      "tours": "Tours Completed",
+      "rating": "Average Rating"
+    }
+  },
+  "testimonials": {
+    "badge": "Customer Reviews",
+    "title": "What Our Guests Say",
+    "subtitle": "Real experiences from travelers around the world who explored the Aegean with us.",
+    "reviews": {
+      "anna": "An absolutely fantastic day at Ephesus! Our guide was incredibly knowledgeable and passionate. The small group made it feel like a private tour. Highly recommended for anyone docking in Kuşadası!",
+      "carlos": "La excursión a Pamukkale fue increíble. El viaje es largo pero vale cada minuto. Las terrazas blancas son impresionantes y la piscina de Cleopatra fue el broche de oro. ¡Servicio excelente!",
+      "sarah": "The boat trip was the highlight of our cruise holiday! Crystal clear waters, delicious lunch on board, and the crew were so welcoming. Perfect day out for the whole family.",
+      "markus": "Wir haben die Ephesus-Tour zum dritten Mal gemacht und es war wieder großartig. Die Guides sind erstklassig und der Transport war pünktlich und komfortabel. Absolut empfehlenswert!",
+      "elena": "Далянь и пляж с черепахами — это невероятное место! Грязевые ванны были очень забавными, а обед у реки просто восхитительный. Отличная организация от начала до конца.",
+      "james": "Şirince was a hidden gem we almost missed! The wine tasting was excellent, the village breakfast was authentic, and the cobblestone streets were charming. Our guide made the experience truly special."
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our tours and booking process.",
+    "stillQuestion": "Still have questions?",
+    "whatsappCta": "Chat with us on WhatsApp",
+    "items": {
+      "booking": {
+        "q": "How do I book a tour?",
+        "a": "Simply choose your tour, select your preferred date, fill in your details and proceed to payment. You'll receive a confirmation email and WhatsApp message with all the details."
+      },
+      "cancellation": {
+        "q": "What is the cancellation policy?",
+        "a": "Free cancellation up to 24 hours before the tour departure. Full refund guaranteed — no questions asked."
+      },
+      "payment": {
+        "q": "What payment methods do you accept?",
+        "a": "We accept all major credit cards (Visa, Mastercard, American Express) through our secure payment system. Cash payment is also available on the day of the tour."
+      },
+      "languages": {
+        "q": "In which languages are tours available?",
+        "a": "We offer tours in English, German, Russian, Turkish, and more. Each tour listing shows available languages. Private tours can be arranged in additional languages upon request."
+      },
+      "pickup": {
+        "q": "Where is the meeting point?",
+        "a": "Most tours depart from Kuşadası Port entrance or Kuşadası Marina. The exact meeting point is specified on each tour page and in your confirmation email."
+      },
+      "weather": {
+        "q": "What happens in bad weather?",
+        "a": "Tours operate in most weather conditions. In case of extreme weather, we'll offer a full refund or reschedule to another date. We'll notify you 12 hours in advance."
+      },
+      "children": {
+        "q": "Are tours suitable for children?",
+        "a": "Most of our tours are family-friendly! Children under 6 usually go free, and ages 6-12 receive a discount. Check each tour's important info section for specific age recommendations."
+      },
+      "group": {
+        "q": "Can I book a private tour?",
+        "a": "Absolutely! We offer private tours for families, couples, and groups. Contact us via WhatsApp for a custom quote tailored to your preferences and schedule."
+      }
+    }
+  },
+  "privateExcursions": {
+    "badge": "VIP Experience",
+    "title": "Your Private Shore Excursion",
+    "subtitle": "Tell us what you dream of — our specialists will craft a bespoke tour just for you. No crowds, no fixed itineraries, just your perfect day.",
+    "steps": {
+      "experience": "Experience",
+      "details": "Details",
+      "contact": "Contact"
+    },
+    "step1": {
+      "title": "What would you like to experience?",
+      "subtitle": "Select one or more — we'll design a day around your choices."
+    },
+    "step2": {
+      "title": "Tell us more about your group",
+      "subtitle": "The more we know, the better we can tailor your experience."
+    },
+    "step3": {
+      "title": "How can we reach you?",
+      "subtitle": "A dedicated tour specialist will contact you within 2 hours with a personalized proposal."
+    },
+    "experiences": {
+      "history": "Ancient History",
+      "nature": "Nature & Thermal",
+      "boat": "Private Boat",
+      "wine": "Wine & Gastronomy",
+      "adventure": "Adventure",
+      "custom": "Surprise Me!"
+    },
+    "form": {
+      "groupSize": "Group Size",
+      "people": "people",
+      "preferredDate": "Preferred Date",
+      "cruiseLine": "Cruise Line / Ship Name",
+      "cruiseLinePlaceholder": "e.g. Royal Caribbean, MSC Fantasia",
+      "specialRequests": "Special Requests & Wishes",
+      "specialPlaceholder": "Tell us about any dietary needs, mobility considerations, or special occasions (birthday, anniversary, etc.)",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "experiences": "Experiences",
+      "arrivalType": "How are you arriving?",
+      "hotelName": "Hotel / Resort Name",
+      "hotelPlaceholder": "e.g. DoubleTree by Hilton Kuşadası"
+    },
+    "trust": {
+      "title": "No price surprises — ever.",
+      "desc": "We'll prepare a detailed, transparent quote based on your preferences. No obligations, no hidden fees. Your specialist will personally walk you through every detail."
+    },
+    "nav": {
+      "back": "Back",
+      "next": "Continue",
+      "submit": "Send Request"
+    },
+    "success": {
+      "title": "Request Received!",
+      "desc": "One of our VIP tour specialists will contact you within 2 hours with a personalized proposal tailored to your wishes. Keep an eye on your WhatsApp and email!",
+      "home": "Back to Home"
+    },
+    "arrivalTypes": {
+      "cruise": "Cruise Ship",
+      "hotel": "Hotel / Resort",
+      "airport": "Airport Transfer",
+      "other": "Other"
+    }
+  },
+  "vipPage": {
+    "hero": {
+      "badge": "Exclusive VIP Experience",
+      "title1": "Your Journey,",
+      "title2": "Your Rules.",
+      "subtitle": "Skip the crowds. Forget fixed schedules. Our private tours are crafted around you — your pace, your interests, your unforgettable day in the Aegean.",
+      "cta": "Design My Tour",
+      "stats": {
+        "private": "Private & Exclusive",
+        "years": "Years of Excellence",
+        "rating": "Guest Rating",
+        "support": "Concierge Support"
+      }
+    },
+    "whyPrivate": {
+      "badge": "The Difference",
+      "title": "Group Tour vs. Private Experience",
+      "subtitle": "See why discerning travelers choose private.",
+      "group": "Group Tour",
+      "private": "Private VIP",
+      "features": {
+        "guide": "Guide Ratio",
+        "schedule": "Schedule",
+        "vehicle": "Vehicle",
+        "stops": "Photo Stops",
+        "lunch": "Dining",
+        "photos": "Photography"
+      }
+    },
+    "packages": {
+      "badge": "Curated Experiences",
+      "title": "Popular VIP Itineraries",
+      "subtitle": "Choose a starting point — we'll customize every detail to your preferences.",
+      "popular": "Most Popular",
+      "priceOnRequest": "Price on request",
+      "customize": "Customize",
+      "customNote": "These are just starting points. Every private tour is fully customizable to your wishes.",
+      "classic": {
+        "name": "Ephesus & Şirince VIP",
+        "ephesus": "Private Ephesus tour with skip-the-line",
+        "sirince": "Wine tasting in charming Şirince village",
+        "lunch": "Gourmet lunch at a local restaurant"
+      },
+      "adventure": {
+        "name": "Pamukkale Grand Tour",
+        "pamukkale": "White travertines & cotton castle",
+        "cleopatra": "Swim in Cleopatra's ancient thermal pool",
+        "hierapolis": "Explore the ancient city of Hierapolis"
+      },
+      "sea": {
+        "name": "Private Aegean Cruise",
+        "privateboating": "Private yacht along turquoise coastline",
+        "swimming": "Swim in hidden coves & crystal waters",
+        "bbq": "Fresh seafood BBQ on board"
+      }
+    }
   }
 }

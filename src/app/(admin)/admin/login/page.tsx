@@ -48,7 +48,7 @@ export default function AdminLoginPage() {
                 <path d="M30 18L20 20L18 18L20 16L30 18Z" fill="#7C7755" />
               </svg>
             </div>
-            <h1 className="text-2xl font-bold text-neutral-900">Bora Abi Tours</h1>
+            <h1 className="text-2xl font-bold text-neutral-900">WeAreShorex</h1>
             <p className="text-neutral-500 text-sm mt-1">Admin Paneli Girişi</p>
           </div>
 

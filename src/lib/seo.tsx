@@ -6,7 +6,7 @@
 import { Tour } from '@/types';
 
 const SITE_URL = 'https://weareshorex.com';
-const SITE_NAME = 'Bora Abi Tours';
+const SITE_NAME = 'WeAreShorex';
 
 /**
  * Organization schema — site-wide, injected in root layout

@@ -22,7 +22,7 @@ export default function AdminBlogPage() {
       content: '',
       contentEn: '',
       coverImage: '',
-      author: 'Bora Abi Tours',
+      author: 'WeAreShorex',
       category: 'Genel',
       tags: [],
       seoTitle: '',
