@@ -14,7 +14,7 @@ export function generateStaticParams() {
 }
 
 const OG_LOCALE_MAP: Record<Locale, string> = {
-  tr: 'tr_TR', en: 'en_US', ru: 'ru_RU', de: 'de_DE', it: 'it_IT', ar: 'ar_SA', pl: 'pl_PL',
+  tr: 'tr_TR', en: 'en_US', ru: 'ru_RU', de: 'de_DE', it: 'it_IT', ar: 'ar_SA', pl: 'pl_PL', es: 'es_ES',
 };
 
 const META_TITLE: Record<Locale, string> = {
@@ -25,6 +25,7 @@ const META_TITLE: Record<Locale, string> = {
   it: 'WeAreShorex — Escursioni a Terra a Kuşadası',
   ar: 'WeAreShorex — رحلات الشاطئ في كوشاداسي',
   pl: 'WeAreShorex — Wycieczki brzegowe w Kuşadası',
+  es: 'WeAreShorex — Excursiones en Kuşadası',
 };
 
 const META_DESC: Record<Locale, string> = {
@@ -35,6 +36,7 @@ const META_DESC: Record<Locale, string> = {
   it: 'Scopri i migliori tour a Kuşadası e dintorni. Efeso, Pamukkale, gite in barca, escursioni nella natura e altro.',
   ar: 'اكتشف أفضل الجولات في كوشاداسي وضواحيها. أفسس، باموكالي، رحلات القوارب والمشي في الطبيعة والمزيد.',
   pl: 'Odkryj najlepsze wycieczki w Kuşadası i okolicach. Efez, Pamukkale, rejsy, wędrówki i wiele więcej.',
+  es: 'Descubre los mejores tours en y alrededor de Kuşadası. Éfeso, Pamukkale, viajes en barco, caminatas y más.',
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
