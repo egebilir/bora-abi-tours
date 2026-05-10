@@ -26,6 +26,86 @@ const fadeUp = {
   }),
 };
 
+const generatedComments = [
+  { 
+    id: "c1", name: "John M.", countryTr: "Birleşik Krallık", countryEn: "United Kingdom", countryCode: "gb", dateTr: "9 Mayıs 2026", dateEn: "May 9, 2026", rating: 5, color: "bg-blue-600", 
+    originalText: "To be honst i didnt expect much but it was so good!! Our guide Berk knew literally everything about the ruins. we walked a bit too much tho, my feet are killing me lol. bus was cold.",
+    translations: {
+      tr: "Dürüst olmak gerekirse çok bir şey beklemiyordum ama harikaydı!! Rehberimiz Berk harabeler hakkında kelimenin tam anlamıyla her şeyi biliyordu. biraz fazla yürüdük, ayaklarım koptu lol. otobüs soğuktu.",
+      en: "To be honst i didnt expect much but it was so good!! Our guide Berk knew literally everything about the ruins. we walked a bit too much tho, my feet are killing me lol. bus was cold.",
+      ru: "Честно говоря, я не ожидал многого, но это было так здорово!! Наш гид Берк знал о руинах буквально всё. Правда, мы слишком много ходили, мои ноги просто отваливаются лол. В автобусе было холодно.",
+      de: "Ehrlich gesagt habe ich nicht viel erwartet, aber es war so gut!! Unser Reiseführer Berk wusste buchstäblich alles über die Ruinen. Wir sind allerdings etwas zu viel gelaufen, meine Füße bringen mich um lol. Der Bus war kalt.",
+      es: "Para ser honesto, no esperaba mucho, ¡pero fue genial! Nuestro guía Berk sabía literalmente todo sobre las ruinas. Caminamos un poco demasiado, mis pies me matan jajaja. El autobús estaba frío."
+    }
+  },
+  { 
+    id: "c2", name: "Sara T.", countryTr: "Amerika Birleşik Devletleri", countryEn: "United States", countryCode: "us", dateTr: "8 Mayıs 2026", dateEn: "May 8, 2026", rating: 5, color: "bg-amber-500", 
+    originalText: "omg ephesus is breathtaking... def recommend!! the terrace houses are a MUST see. the lunch could be better but overall it was a gret trip. Mehtap was an amazing guide, she took so many photos of us. driver was very freindly",
+    translations: {
+      tr: "Aman tanrım efes nefes kesici... kesinlikle tavsiye ederim!! yamaç evler GÖRÜLMESİ GEREKEN bir yer. öğle yemeği daha iyi olabilirdi ama genel olarak harika bir geziydi. Mehtap harika bir rehberdi, bizim bir sürü fotoğrafımızı çekti. şoför çok cana yakındı.",
+      en: "omg ephesus is breathtaking... def recommend!! the terrace houses are a MUST see. the lunch could be better but overall it was a gret trip. Mehtap was an amazing guide, she took so many photos of us. driver was very freindly",
+      ru: "о боже, эфес захватывает дух... определенно рекомендую!! террасные дома ОБЯЗАТЕЛЬНЫ к посещению. обед мог бы быть и лучше, но в целом это была отличная поездка. Мехтап была потрясающим гидом, она сделала для нас столько фотографий. водитель был очень дружелюбен",
+      de: "omg ephesus ist atemberaubend... kann es definitiv empfehlen!! die terrassenhäuser MUSS man gesehen haben. das mittagessen hätte besser sein können, aber insgesamt war es ein toller ausflug. Mehtap war eine erstaunliche reiseführerin, sie hat so viele fotos von uns gemacht. der fahrer war sehr freundlich",
+      es: "omg éfeso es impresionante... definitivamente lo recomiendo!! las casas adosadas son una visita OBLIGADA. el almuerzo podría ser mejor, pero en general fue un gran viaje. Mehtap fue una guía increíble, nos tomó muchas fotos. el conductor fue muy amable"
+    }
+  },
+  { 
+    id: "c3", name: "Klaus W.", countryTr: "Almanya", countryEn: "Germany", countryCode: "de", dateTr: "5 Mayıs 2026", dateEn: "May 5, 2026", rating: 4, color: "bg-teal-600", 
+    originalText: "Sehr schöne Tour. Ismail hat sehr gutes Englisch gesprochen. Alles war pünktlich. Die Abholung war 10 Minuten zu spät, aber kein großes Problem. Würde es wieder tun.",
+    translations: {
+      en: "Very nice tour. Ismail was speaking very good english. everything was on time. the pick up was 10 mins late but no big deal. would do it again.",
+      tr: "Çok güzel bir tur. İsmail çok iyi İngilizce konuşuyordu. her şey zamanındaydı. araç 10 dakika geç geldi ama sorun değil. tekrar yapardım.",
+      ru: "Очень хорошая экскурсия. Исмаил очень хорошо говорил по-английски. Все было вовремя. Трансфер опоздал на 10 минут, но это не страшно. Поехал бы снова.",
+      de: "Sehr schöne Tour. Ismail hat sehr gutes Englisch gesprochen. Alles war pünktlich. Die Abholung war 10 Minuten zu spät, aber kein großes Problem. Würde es wieder tun.",
+      es: "Muy bonito tour. Ismail hablaba muy buen inglés. Todo fue puntual. La recogida llegó 10 minutos tarde, pero no es un gran problema. Lo volvería a hacer."
+    }
+  },
+  { 
+    id: "c4", name: "Maria G.", countryTr: "İtalya", countryEn: "Italy", countryCode: "it", dateTr: "2 Mayıs 2026", dateEn: "May 2, 2026", rating: 5, color: "bg-rose-500", 
+    originalText: "Magnifico!!! Le rovine sono così belle. Ho fatto tipo 1000 foto. Faceva caldissimo quindi portatevi l'acqua. La nostra guida Berk è stata molto dolce e divertente.",
+    translations: {
+      en: "magnifico!!! the ruins are so beautiful. i took like 1000 pictures. it was super hot so bring water. our guide Berk was very sweet and funny.",
+      tr: "Muhteşem!!! harabeler çok güzel. 1000 falan fotoğraf çektim. hava çok sıcaktı o yüzden su getirin. rehberimiz Berk çok tatlı ve komikti.",
+      ru: "Великолепно!!! руины такие красивые. Я сделал около 1000 фотографий. Было очень жарко, поэтому берите воду. Наш гид Берк был очень милым и забавным.",
+      de: "Prächtig!!! Die Ruinen sind so schön. Ich habe gefühlt 1000 Fotos gemacht. Es war super heiß, also bringt Wasser mit. Unser Guide Berk war sehr süß und lustig.",
+      es: "¡¡¡Magnífico!!! Las ruinas son tan hermosas. Tomé como 1000 fotos. Hacía mucho calor, así que traigan agua. Nuestro guía Berk fue muy dulce y divertido."
+    }
+  },
+  { 
+    id: "c5", name: "Liam O.", countryTr: "İrlanda", countryEn: "Ireland", countryCode: "ie", dateTr: "28 Nisan 2026", dateEn: "April 28, 2026", rating: 5, color: "bg-indigo-500", 
+    originalText: "brilliant day out with Mehtap. the theater is massive mate. well worth the money. easy to book and no stress.",
+    translations: {
+      tr: "Mehtap ile harika bir gün. tiyatro devasa dostum. parasına kesinlikle değer. rezervasyonu kolay ve stressiz.",
+      en: "brilliant day out with Mehtap. the theater is massive mate. well worth the money. easy to book and no stress.",
+      ru: "отличный день с Мехтап. театр просто огромный, приятель. однозначно стоит своих денег. легко забронировать и никакого стресса.",
+      de: "brillanter Tag mit Mehtap. das Theater ist riesig, Kumpel. auf jeden Fall das Geld wert. einfach zu buchen und kein Stress.",
+      es: "un día brillante con Mehtap. el teatro es masivo, amigo. bien vale la pena el dinero. fácil de reservar y sin estrés."
+    }
+  },
+  {
+    id: "c6", name: "Carlos R.", countryTr: "Meksika", countryEn: "Mexico", countryCode: "mx", dateTr: "20 Nisan 2026", dateEn: "April 20, 2026", rating: 5, color: "bg-orange-500",
+    originalText: "¡Increíble experiencia! El guía Ismail sabía muchísimo de historia y nos explicó todo con mucha paciencia. Las ruinas de Éfeso te dejan sin palabras. Muy recomendado.",
+    translations: {
+      en: "Incredible experience! The guide Ismail knew a lot of history and explained everything to us with great patience. The ruins of Ephesus leave you speechless. Highly recommended.",
+      tr: "İnanılmaz bir deneyim! Rehberimiz İsmail tarihi çok iyi biliyordu ve bize her şeyi büyük bir sabırla anlattı. Efes harabeleri insanı suskun bırakıyor. Şiddetle tavsiye edilir.",
+      ru: "Невероятный опыт! Гид Исмаил много знал об истории и объяснял нам всё с большим терпением. Руины Эфеса оставляют вас без слов. Очень рекомендую.",
+      de: "Unglaubliche Erfahrung! Der Reiseleiter Ismail wusste viel über Geschichte und erklärte uns alles mit großer Geduld. Die Ruinen von Ephesus lassen einen sprachlos zurück. Sehr empfehlenswert.",
+      es: "¡Increíble experiencia! El guía Ismail sabía muchísimo de historia y nos explicó todo con mucha paciencia. Las ruinas de Éfeso te dejan sin palabras. Muy recomendado."
+    }
+  },
+  {
+    id: "c7", name: "Fernanda L.", countryTr: "Brezilya", countryEn: "Brazil", countryCode: "br", dateTr: "15 Nisan 2026", dateEn: "April 15, 2026", rating: 5, color: "bg-green-600",
+    originalText: "Lugar maravilhoso!! Fiquei apaixonada por Éfeso. A nossa guia Mehtap foi super atenciosa o tempo todo. O ônibus era bem confortável também. Voltaria com certeza!",
+    translations: {
+      en: "Wonderful place!! I fell in love with Ephesus. Our guide Mehtap was super attentive all the time. The bus was very comfortable too. I would definitely come back!",
+      tr: "Harika bir yer!! Efes'e aşık oldum. Rehberimiz Mehtap her zaman çok ilgiliydi. Otobüs de çok rahattı. Kesinlikle tekrar gelirdim!",
+      ru: "Замечательное место!! Я влюбилась в Эфес. Наш гид Мехтап была очень внимательна всё время. Автобус тоже был очень удобным. Я обязательно вернусь!",
+      de: "Wundervoller Ort!! Ich habe mich in Ephesus verliebt. Unsere Reiseführerin Mehtap war die ganze Zeit super aufmerksam. Der Bus war auch sehr komfortabel. Ich würde definitiv wiederkommen!",
+      es: "¡¡Lugar maravilloso!! Me enamoré de Éfeso. Nuestra guía Mehtap fue súper atenta todo el tiempo. El autobús también era muy cómodo. ¡Definitivamente regresaría!"
+    }
+  }
+];
+
 export default function TourDetailClient({ tour, relatedTours = [] }: TourDetailClientProps) {
   const router = useRouter();
   const locale = useLocale();
@@ -42,6 +122,15 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
   const { formatPrice } = useCurrency();
   const store = useAdminStoreSafe();
   const [descExpanded, setDescExpanded] = useState(false);
+  const [showAllComments, setShowAllComments] = useState(false);
+  const [translatedComments, setTranslatedComments] = useState<Record<string, boolean>>({});
+
+  const toggleTranslation = (id: string) => {
+    setTranslatedComments(prev => ({
+      ...prev,
+      [id]: !prev[id]
+    }));
+  };
 
   const content = getLocalizedTourContent(tour, locale);
   const { title, description, fullDescription, duration, meetingPoint, highlights, inclusions, exclusions, importantInfo, itinerary } = content;
@@ -66,9 +155,9 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
   };
 
   return (
-    <main className="min-h-screen bg-neutral-50 pt-16 lg:pt-20">
+    <main className="min-h-screen pt-16 lg:pt-20">
       {/* Breadcrumb */}
-      <motion.div className="bg-white border-b border-neutral-100" initial="hidden" animate="visible" variants={fadeUp} custom={0}>
+      <motion.div className="bg-khaki-50 border-b border-khaki-100" initial="hidden" animate="visible" variants={fadeUp} custom={0}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <nav className="flex items-center gap-2 text-sm text-neutral-400">
             <Link href="/" className="hover:text-ice-500 transition-colors">{tcom('home')}</Link>
@@ -271,6 +360,68 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
               </div>
             </motion.div>
 
+            {/* Packages */}
+            {content.packages && content.packages.length > 0 && (
+              <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={5.2} className="pt-6">
+                <h2 className="text-xl font-bold text-neutral-900 mb-6 flex items-center gap-2">
+                  <span className="w-1 h-6 bg-ice-500 rounded-full" />
+                  {t('packages') || 'Packages'}
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {content.packages.map((pkg, i) => {
+                    const isVip = pkg.isLink;
+                    return (
+                      <div key={pkg.id} className={`rounded-2xl p-5 border relative flex flex-col ${isVip ? 'bg-neutral-900 border-neutral-800 shadow-xl shadow-neutral-900/20 text-white' : pkg.popular ? 'bg-white border-amber-400 shadow-md ring-1 ring-amber-400' : 'bg-white border-neutral-100 shadow-sm'}`}>
+                        {pkg.popular && !isVip && (
+                          <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-amber-950 text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap shadow-sm">
+                            {t('popularChoice') || 'Popular'}
+                          </div>
+                        )}
+                        {isVip && (
+                          <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-amber-200 to-amber-400 text-amber-950 text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap shadow-sm flex items-center gap-1">
+                            ✨ VIP
+                          </div>
+                        )}
+                        <h3 className={`text-lg font-bold mb-1 mt-1 ${isVip ? 'text-white' : 'text-neutral-900'}`}>{pkg.name}</h3>
+                        {!isVip && (
+                          <div className="flex flex-col items-start gap-1 mb-3">
+                            {pkg.originalPrice && (
+                              <span className="text-sm font-bold text-red-500 line-through decoration-1 decoration-red-400 whitespace-nowrap">
+                                {formatPrice(pkg.originalPrice)}
+                              </span>
+                            )}
+                            <span className="text-2xl font-bold text-ice-600 whitespace-nowrap">{formatPrice(pkg.price)}</span>
+                          </div>
+                        )}
+                        <p className={`text-sm mb-6 flex-grow leading-relaxed ${isVip ? 'text-neutral-400 mt-2' : 'text-neutral-500'}`}>{pkg.description}</p>
+                        <ul className="space-y-3 mb-6">
+                          {pkg.features.map((f, fi) => (
+                            <li key={fi} className="flex items-start gap-2.5 text-sm">
+                              {f.included ? (
+                                <svg className={`w-4 h-4 shrink-0 mt-0.5 ${isVip ? 'text-amber-400' : 'text-green-500'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+                              ) : (
+                                <svg className={`w-4 h-4 shrink-0 mt-0.5 ${isVip ? 'text-neutral-700' : 'text-neutral-300'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
+                              )}
+                              <span className={f.included ? (isVip ? 'text-neutral-200 font-medium' : 'text-neutral-700 font-medium') : (isVip ? 'text-neutral-600 line-through' : 'text-neutral-400 line-through')}>{f.name}</span>
+                            </li>
+                          ))}
+                        </ul>
+                        {isVip && pkg.link ? (
+                          <Link href={pkg.link} className="block text-center w-full py-2.5 rounded-xl text-sm font-bold transition-colors mt-auto bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-amber-950 shadow-[0_0_15px_rgba(251,191,36,0.3)] hover:shadow-[0_0_20px_rgba(251,191,36,0.5)]">
+                            {t('learnMore') || 'Learn More'}
+                          </Link>
+                        ) : (
+                          <button onClick={handleReserve} className={`w-full py-2.5 rounded-xl text-sm font-bold transition-colors mt-auto ${pkg.popular ? 'bg-amber-400 hover:bg-amber-500 text-amber-950' : 'bg-ice-50 hover:bg-ice-100 text-ice-700 border border-ice-100'}`}>
+                            {t('selectPackage') || 'Select'}
+                          </button>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </motion.div>
+            )}
+
             {/* Meeting Point */}
             <motion.div className="bg-white rounded-2xl p-5 sm:p-6 border border-neutral-100 shadow-sm" initial="hidden" animate="visible" variants={fadeUp} custom={5.5}>
               <h2 className="text-xl font-bold text-neutral-900 mb-4 flex items-center gap-2">
@@ -303,15 +454,134 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
                 </ul>
               </motion.div>
             )}
+            {/* AI Comments Section (GetYourGuide Style) */}
+            <motion.div className="mt-12 pt-8 border-t border-neutral-200" initial="hidden" animate="visible" variants={fadeUp} custom={7}>
+              <h2 className="text-2xl font-bold text-neutral-900 mb-6">
+                {t('reviewsTitle') || 'Customer reviews'}
+              </h2>
+              
+              {/* Score Summary */}
+              <div className="flex flex-col md:flex-row gap-8 mb-8 pb-8 border-b border-neutral-200">
+                <div className="md:w-1/3 text-center md:text-left">
+                  <div className="text-5xl font-bold text-neutral-900 mb-2 tracking-tight">4,8<span className="text-2xl text-neutral-500 font-normal">/5</span></div>
+                  <div className="flex justify-center md:justify-start text-amber-500 mb-2 gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    ))}
+                  </div>
+                  <div className="font-bold text-neutral-900 text-lg mb-0.5">{t('exceptional') || 'Exceptional'}</div>
+                  <div className="text-sm text-neutral-500">{t('basedOnReviews') || 'Based on 1,173 reviews'}</div>
+                </div>
+                <div className="md:w-2/3 space-y-3.5 text-sm font-semibold text-neutral-700">
+                  <div className="flex items-center justify-between">
+                    <span>{t('guide') || 'Guide'}</span>
+                    <div className="flex items-center gap-4 w-2/3 md:w-1/2">
+                      <div className="h-2 flex-grow bg-neutral-200 rounded-full overflow-hidden"><div className="h-full bg-neutral-800 w-[98%] rounded-full"></div></div>
+                      <span className="w-8 text-right">4,9/5</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span>{t('transportation') || 'Transportation'}</span>
+                    <div className="flex items-center gap-4 w-2/3 md:w-1/2">
+                      <div className="h-2 flex-grow bg-neutral-200 rounded-full overflow-hidden"><div className="h-full bg-neutral-800 w-[98%] rounded-full"></div></div>
+                      <span className="w-8 text-right">4,9/5</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span>{t('valueForMoney') || 'Value for money'}</span>
+                    <div className="flex items-center gap-4 w-2/3 md:w-1/2">
+                      <div className="h-2 flex-grow bg-neutral-200 rounded-full overflow-hidden"><div className="h-full bg-neutral-800 w-[96%] rounded-full"></div></div>
+                      <span className="w-8 text-right">4,8/5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Reviews List */}
+              <div className="space-y-6">
+                <AnimatePresence initial={false}>
+                  {(showAllComments ? generatedComments : generatedComments.slice(0, 2)).map((c, idx) => (
+                    <motion.div 
+                      key={idx} 
+                      className="pb-6 border-b border-neutral-200 last:border-0 last:pb-0"
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      {/* Rating */}
+                      <div className="flex items-center gap-1.5 mb-3">
+                        <div className="flex text-amber-500 gap-0.5">
+                          {[...Array(5)].map((_, i) => (
+                            <svg key={i} className={`w-3.5 h-3.5 ${i < c.rating ? 'fill-current' : 'text-neutral-300 fill-current'}`} viewBox="0 0 24 24">
+                              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                            </svg>
+                          ))}
+                        </div>
+                        <span className="text-sm font-bold text-neutral-900">{c.rating}</span>
+                      </div>
+                      
+                      {/* Author */}
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className={`w-10 h-10 rounded-full flex items-center justify-center text-white text-lg font-bold shrink-0 ${c.color}`}>
+                          {c.name.charAt(0)}
+                        </div>
+                        <div>
+                          <div className="font-bold text-sm text-neutral-900 flex items-center gap-1.5">
+                            {c.name} – {locale === 'tr' ? c.countryTr : c.countryEn}
+                            <img src={`https://flagcdn.com/w20/${c.countryCode}.png`} alt={c.countryCode} className="w-4 h-auto rounded-[2px] shadow-sm inline-block" />
+                          </div>
+                          <div className="text-xs text-neutral-500 mt-0.5">{locale === 'tr' ? c.dateTr : c.dateEn} – {t('verifiedBooking') || 'Verified booking'}</div>
+                        </div>
+                      </div>
+                      
+                      {/* Text */}
+                      <p className="text-sm text-neutral-800 leading-relaxed mb-4 font-medium">
+                        {translatedComments[c.id] ? ((c.translations as Record<string, string>)[locale] || (c.translations as Record<string, string>)['en'] || c.originalText) : c.originalText}
+                      </p>
+                      
+                      {/* Footer Actions */}
+                      <div className="flex items-center justify-between text-xs font-semibold text-neutral-600">
+                        <button className="flex items-center gap-1.5 hover:text-neutral-900 transition-colors">
+                          {t('helpful') || 'Helpful?'} 
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"/></svg>
+                        </button>
+                        <button onClick={() => toggleTranslation(c.id)} className="underline hover:text-neutral-900 transition-colors">
+                          {translatedComments[c.id] 
+                            ? (t('showOriginal') || 'Show original') 
+                            : (t('translate') || 'Translate')}
+                        </button>
+                      </div>
+                    </motion.div>
+                  ))}
+                </AnimatePresence>
+              </div>
+
+              {!showAllComments && (
+                <button 
+                  onClick={() => setShowAllComments(true)}
+                  className="mt-6 w-full md:w-auto px-6 py-2.5 text-sm font-bold text-neutral-900 hover:bg-neutral-100 rounded-full transition-colors border border-neutral-900"
+                >
+                  {t('showMoreReviews') || 'Show more reviews'}
+                </button>
+              )}
+            </motion.div>
           </div>
 
           {/* Right column — Sticky Reservation Card */}
           <div className="lg:col-span-1 mt-8 lg:mt-0">
             <motion.div className="lg:sticky lg:top-24" initial="hidden" animate="visible" variants={fadeUp} custom={2}>
               <div className="bg-white rounded-2xl p-5 sm:p-6 border border-neutral-100 shadow-xl shadow-neutral-200/40">
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-3xl font-bold text-ice-600">{formatPrice(tour.price)}</span>
-                  <span className="text-neutral-400 text-sm">{t('perPerson')}</span>
+                <div className="flex flex-col items-start gap-1 mb-1">
+                  {tour.originalPrice && (
+                    <span className="text-xl font-bold text-red-500 line-through decoration-1 decoration-red-400 whitespace-nowrap">
+                      {formatPrice(tour.originalPrice)}
+                    </span>
+                  )}
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-bold text-ice-600 whitespace-nowrap">{formatPrice(tour.price)}</span>
+                    <span className="text-neutral-400 text-sm whitespace-nowrap">{t('perPerson')}</span>
+                  </div>
                 </div>
                 <div className="flex items-center gap-2 mb-6 pb-5 border-b border-neutral-100">
                   <span className="text-amber-400">{starsStr}</span>
@@ -369,7 +639,7 @@ export default function TourDetailClient({ tour, relatedTours = [] }: TourDetail
       </div>
 
       {/* Mobile sticky bottom bar */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-neutral-200 px-4 py-3 shadow-[0_-4px_20px_rgba(0,0,0,0.08)]">
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-ice-100 px-4 py-3 shadow-[0_-4px_20px_rgba(0,0,0,0.08)]">
         <div className="flex items-center justify-between gap-4">
           <div>
             <span className="text-xl font-bold text-ice-600">{formatPrice(tour.price)}</span>

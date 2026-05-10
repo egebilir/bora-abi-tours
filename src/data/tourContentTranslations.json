@@ -61,6 +61,101 @@
           "title": "Возвращение",
           "description": "Возвращение в Кушадасы"
         }
+      ],
+      "packages": [
+        {
+          "id": "p1",
+          "name": "Классический Эфес",
+          "price": 90,
+          "description": "Профессиональный гид, трансфер и все входные билеты.",
+          "popular": true,
+          "features": [
+            {
+              "name": "Входные билеты",
+              "included": true
+            },
+            {
+              "name": "Гид",
+              "included": true
+            },
+            {
+              "name": "Трансфер",
+              "included": true
+            },
+            {
+              "name": "Обед",
+              "included": false
+            },
+            {
+              "name": "Террасные дома",
+              "included": false
+            }
+          ],
+          "originalPrice": 39.99
+        },
+        {
+          "id": "p2",
+          "name": "Эфес + Террасные дома",
+          "price": 110,
+          "description": "Включает Террасные дома, где жила римская элита.",
+          "features": [
+            {
+              "name": "Входные билеты",
+              "included": true
+            },
+            {
+              "name": "Гид",
+              "included": true
+            },
+            {
+              "name": "Трансфер",
+              "included": true
+            },
+            {
+              "name": "Обед",
+              "included": false
+            },
+            {
+              "name": "Террасные дома",
+              "included": true
+            }
+          ],
+          "originalPrice": 120
+        },
+        {
+          "id": "p3",
+          "name": "VIP Индивидуальный тур",
+          "price": 0,
+          "description": "Индивидуальный автомобиль и гид только для вас.",
+          "isLink": true,
+          "link": "/checkout/efes-antik-kenti-vip",
+          "features": [
+            {
+              "name": "Входные билеты",
+              "included": true
+            },
+            {
+              "name": "Индивидуальный гид",
+              "included": true
+            },
+            {
+              "name": "VIP Трансфер",
+              "included": true
+            },
+            {
+              "name": "Забрать в любом месте",
+              "included": true
+            },
+            {
+              "name": "Обед",
+              "included": true
+            },
+            {
+              "name": "Террасные дома",
+              "included": true
+            }
+          ]
+        }
       ]
     },
     "de": {
@@ -123,6 +218,101 @@
           "time": "15:00",
           "title": "Rückkehr",
           "description": "Rückfahrt nach Kuşadası"
+        }
+      ],
+      "packages": [
+        {
+          "id": "p1",
+          "name": "Klassisches Ephesus",
+          "price": 90,
+          "description": "Professioneller Reiseführer, Transfer und alle Eintrittskarten.",
+          "popular": true,
+          "features": [
+            {
+              "name": "Eintrittsgelder",
+              "included": true
+            },
+            {
+              "name": "Reiseführer",
+              "included": true
+            },
+            {
+              "name": "Transfer",
+              "included": true
+            },
+            {
+              "name": "Mittagessen",
+              "included": false
+            },
+            {
+              "name": "Terrassenhäuser",
+              "included": false
+            }
+          ],
+          "originalPrice": 39.99
+        },
+        {
+          "id": "p2",
+          "name": "Ephesus + Terrassenhäuser",
+          "price": 110,
+          "description": "Beinhaltet die Terrassenhäuser, in denen die römische Elite lebte.",
+          "features": [
+            {
+              "name": "Eintrittsgelder",
+              "included": true
+            },
+            {
+              "name": "Reiseführer",
+              "included": true
+            },
+            {
+              "name": "Transfer",
+              "included": true
+            },
+            {
+              "name": "Mittagessen",
+              "included": false
+            },
+            {
+              "name": "Terrassenhäuser",
+              "included": true
+            }
+          ],
+          "originalPrice": 120
+        },
+        {
+          "id": "p3",
+          "name": "VIP Private Tour",
+          "price": 0,
+          "description": "Privatfahrzeug und Reiseführer nur für Sie.",
+          "isLink": true,
+          "link": "/checkout/efes-antik-kenti-vip",
+          "features": [
+            {
+              "name": "Eintrittsgelder",
+              "included": true
+            },
+            {
+              "name": "Privater Reiseführer",
+              "included": true
+            },
+            {
+              "name": "Privater VIP-Transfer",
+              "included": true
+            },
+            {
+              "name": "Abholung nach Wunsch",
+              "included": true
+            },
+            {
+              "name": "Mittagessen",
+              "included": true
+            },
+            {
+              "name": "Terrassenhäuser",
+              "included": true
+            }
+          ]
         }
       ]
     },
@@ -187,6 +377,101 @@
           "title": "Ritorno",
           "description": "Ritorno a Kuşadası"
         }
+      ],
+      "packages": [
+        {
+          "id": "p1",
+          "name": "Éfeso Clásico",
+          "price": 90,
+          "description": "Guía profesional, traslado y todas las entradas.",
+          "popular": true,
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía",
+              "included": true
+            },
+            {
+              "name": "Traslado",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": false
+            }
+          ],
+          "originalPrice": 39.99
+        },
+        {
+          "id": "p2",
+          "name": "Éfeso + Casas Adosadas",
+          "price": 110,
+          "description": "Incluye las Casas Adosadas donde vivió la élite romana.",
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía",
+              "included": true
+            },
+            {
+              "name": "Traslado",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": true
+            }
+          ],
+          "originalPrice": 120
+        },
+        {
+          "id": "p3",
+          "name": "Tour Privado VIP",
+          "price": 0,
+          "description": "Vehículo privado y guía solo para ti.",
+          "isLink": true,
+          "link": "/checkout/efes-antik-kenti-vip",
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía Privado",
+              "included": true
+            },
+            {
+              "name": "Traslado VIP Privado",
+              "included": true
+            },
+            {
+              "name": "Recogida como desee",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": true
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": true
+            }
+          ]
+        }
       ]
     },
     "ar": {
@@ -250,6 +535,101 @@
           "title": "العودة",
           "description": "العودة إلى كوشاداسي"
         }
+      ],
+      "packages": [
+        {
+          "id": "p1",
+          "name": "Éfeso Clásico",
+          "price": 90,
+          "description": "Guía profesional, traslado y todas las entradas.",
+          "popular": true,
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía",
+              "included": true
+            },
+            {
+              "name": "Traslado",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": false
+            }
+          ],
+          "originalPrice": 39.99
+        },
+        {
+          "id": "p2",
+          "name": "Éfeso + Casas Adosadas",
+          "price": 110,
+          "description": "Incluye las Casas Adosadas donde vivió la élite romana.",
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía",
+              "included": true
+            },
+            {
+              "name": "Traslado",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": true
+            }
+          ],
+          "originalPrice": 120
+        },
+        {
+          "id": "p3",
+          "name": "Tour Privado VIP",
+          "price": 0,
+          "description": "Vehículo privado y guía solo para ti.",
+          "isLink": true,
+          "link": "/checkout/efes-antik-kenti-vip",
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía Privado",
+              "included": true
+            },
+            {
+              "name": "Traslado VIP Privado",
+              "included": true
+            },
+            {
+              "name": "Recogida como desee",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": true
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": true
+            }
+          ]
+        }
       ]
     },
     "pl": {
@@ -312,6 +692,242 @@
           "time": "15:00",
           "title": "Powrót",
           "description": "Powrót do Kuşadası"
+        }
+      ],
+      "packages": [
+        {
+          "id": "p1",
+          "name": "Éfeso Clásico",
+          "price": 90,
+          "description": "Guía profesional, traslado y todas las entradas.",
+          "popular": true,
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía",
+              "included": true
+            },
+            {
+              "name": "Traslado",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": false
+            }
+          ],
+          "originalPrice": 39.99
+        },
+        {
+          "id": "p2",
+          "name": "Éfeso + Casas Adosadas",
+          "price": 110,
+          "description": "Incluye las Casas Adosadas donde vivió la élite romana.",
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía",
+              "included": true
+            },
+            {
+              "name": "Traslado",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": true
+            }
+          ],
+          "originalPrice": 120
+        },
+        {
+          "id": "p3",
+          "name": "Tour Privado VIP",
+          "price": 0,
+          "description": "Vehículo privado y guía solo para ti.",
+          "isLink": true,
+          "link": "/checkout/efes-antik-kenti-vip",
+          "features": [
+            {
+              "name": "Entradas",
+              "included": true
+            },
+            {
+              "name": "Guía Privado",
+              "included": true
+            },
+            {
+              "name": "Traslado VIP Privado",
+              "included": true
+            },
+            {
+              "name": "Recogida como desee",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": true
+            },
+            {
+              "name": "Casas Adosadas",
+              "included": true
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Tour de la Antigua Ciudad de Éfeso",
+      "description": "Descubra Éfeso, una de las ciudades antiguas mejor conservadas del mundo, con un guía profesional. Vea estructuras icónicas como la Biblioteca de Celso, el Gran Teatro y el Templo de Adriano.",
+      "fullDescription": "Descubre el antiguo mundo de Éfeso...",
+      "duration": "6 horas",
+      "meetingPoint": "Puerto de Kuşadası",
+      "highlights": [
+        "Biblioteca de Celso",
+        "Gran Teatro",
+        "Templo de Adriano",
+        "Casas de la Terraza"
+      ],
+      "inclusions": [
+        "Guía turístico profesional",
+        "Transporte de ida y vuelta",
+        "Entradas",
+        "Almuerzo",
+        "Agua"
+      ],
+      "exclusions": [
+        "Entrada a las Casas de la Terraza",
+        "Gastos personales",
+        "Propinas"
+      ],
+      "importantInfo": [
+        "Por favor use zapatos cómodos",
+        "Lleve sombrero y protector solar",
+        "Pasaporte"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00",
+          "title": "Encuentro y Salida",
+          "description": "Salida desde el puerto de Kuşadası en vehículos con aire acondicionado"
+        },
+        {
+          "time": "09:45",
+          "title": "Antigua Éfeso",
+          "description": "Inicio del recorrido por la antigua ciudad de Éfeso con guía"
+        },
+        {
+          "time": "11:30",
+          "title": "Biblioteca de Celso",
+          "description": "Exploración detallada de la famosa Biblioteca de Celso"
+        },
+        {
+          "time": "12:30",
+          "title": "Almuerzo",
+          "description": "Deliciosa comida local en un restaurante tradicional"
+        },
+        {
+          "time": "14:00",
+          "title": "Templo de Artemisa",
+          "description": "Visita a las ruinas de una de las Siete Maravillas del Mundo Antiguo"
+        },
+        {
+          "time": "15:00",
+          "title": "Regreso",
+          "description": "Traslado de regreso al puerto de Kuşadası"
+        }
+      ],
+      "packages": [
+        {
+          "id": "basic",
+          "name": "Traslado Guiado",
+          "price": 29.99,
+          "originalPrice": 39.99,
+          "description": "Transporte de ida y vuelta y servicio de guía profesional.",
+          "features": [
+            {
+              "name": "Traslado en Autobús",
+              "included": true
+            },
+            {
+              "name": "Guía Profesional",
+              "included": true
+            },
+            {
+              "name": "Entrada a Éfeso",
+              "included": false
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            }
+          ]
+        },
+        {
+          "id": "standard",
+          "name": "Tour Clásico de Éfeso",
+          "price": 90,
+          "originalPrice": 120,
+          "description": "Paquete completo que incluye entrada, guía profesional y traslado.",
+          "popular": true,
+          "features": [
+            {
+              "name": "Traslado en Autobús",
+              "included": true
+            },
+            {
+              "name": "Guía Profesional",
+              "included": true
+            },
+            {
+              "name": "Entrada a Éfeso",
+              "included": true
+            },
+            {
+              "name": "Almuerzo",
+              "included": false
+            }
+          ]
+        },
+        {
+          "id": "premium",
+          "name": "VIP Privado",
+          "price": 0,
+          "description": "¿Buscas una experiencia VIP? Descubre más sobre nuestras excursiones privadas a medida.",
+          "isLink": true,
+          "link": "/es/private-excursions",
+          "features": [
+            {
+              "name": "Vehículo VIP Privado",
+              "included": true
+            },
+            {
+              "name": "Guía Privado",
+              "included": true
+            },
+            {
+              "name": "Horario Flexible",
+              "included": true
+            },
+            {
+              "name": "Almuerzo Premium",
+              "included": true
+            }
+          ]
         }
       ]
     }

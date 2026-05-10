@@ -8,6 +8,8 @@ import { useAdmin } from '@/lib/admin-auth';
 
 const navItems = [
   { href: '/admin', label: 'Dashboard', icon: '📊' },
+  { href: '/admin/operasyon', label: 'Operasyon', icon: '⚡' },
+  { href: '/admin/fleet', label: 'Araç Filosu', icon: '🚐' },
   { href: '/admin/tours', label: 'Turlar', icon: '🗺️' },
   { href: '/admin/manifesto', label: 'Manifesto', icon: '📋' },
   { href: '/admin/guides', label: 'Rehberler', icon: '🧑‍🏫' },

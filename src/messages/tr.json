@@ -1,10 +1,22 @@
 {
   "hero": {
     "tagline": "Tarih, Doğa ve Kültür Bir Arada",
-    "title": "KEŞFET, HİSSET,",
-    "titleCursive": "Unutma!",
-    "subtitle": "Kuşadası'nın eşsiz sahillerinden Efes'in büyüleyici tarihine, Şirince'nin huzur dolu sokaklarına uzanan unutulmaz bir yolculuk.",
-    "cta": "TURLARIMIZI KEŞFEDİN"
+    "title": "İmparatorlukların",
+    "titleCursive": "fısıltısını duy.",
+    "subtitle": "Gemiden inin ve 2000 yıllık tarihe adım atın. Efes, Meryem Ana Evi ve Ege kıyıları için özenle seçilmiş, kruvaziyer programınıza tam uyumlu rehberli turlar.",
+    "cta": "TURLARIMIZI KEŞFEDİN",
+    "startingFrom": "Başlayan Fiyatlarla",
+    "perPerson": "/kişi",
+    "reviews": "12.400 değerlendirme",
+    "cruiseApproved": "Kruvaziyer onaylı",
+    "returnGuarantee": "Gemiye dönüş garantisi",
+    "featuredTour": "Öne Çıkan Tur",
+    "tourName": "Antik Efes ve Yamaç Evler",
+    "duration": "8s",
+    "highlight1": "Sıra beklemeden giriş biletleri",
+    "highlight2": "Profesyonel yerel rehber",
+    "highlight3": "Liman gidiş-dönüş transferi dahil",
+    "reserve": "Yerinizi ayırtın"
   },
   "destinations": {
     "kusadasi": {
@@ -36,7 +48,8 @@
     "closed": "Satış Kapalı",
     "languages": "dil",
     "details": "Detayları Gör",
-    "perPerson": "/ kişi"
+    "perPerson": "/ kişi",
+    "startingFrom": "Başlangıç"
   },
   "tourGrid": {
     "title": "Popüler Turlar",
@@ -48,7 +61,11 @@
     "found": "tur bulundu",
     "noResults": "Bu filtrelere uygun tur bulunamadı.",
     "tryAgain": "Filtreleri değiştirerek tekrar deneyin.",
-    "showAll": "Tüm Turları Göster"
+    "showAll": "Tüm Turları Göster",
+    "startingFrom": "Başlangıç fiyatı",
+    "viewDetails": "Turu İncele",
+    "languagesAvailable": "farklı dil seçeneği",
+    "profGuide": "Profesyonel rehberlik"
   },
   "tourDetail": {
     "highlights": "Öne Çıkan Noktalar",
@@ -69,7 +86,23 @@
     "perPerson": "/ kişi başı",
     "readMore": "Devamını Oku",
     "readLess": "Daha Az Göster",
-    "mapLink": "Haritada Göster"
+    "mapLink": "Haritada Göster",
+    "packages": "Paket Seçenekleri",
+    "selectPackage": "Seç",
+    "popularChoice": "Popüler Tercih",
+    "learnMore": "Daha Fazla Bilgi",
+    "reviewsTitle": "Müşteri yorumları",
+    "exceptional": "Olağanüstü",
+    "basedOnReviews": "1.173 değerlendirmeye göre",
+    "guide": "Rehber",
+    "transportation": "Ulaşım",
+    "valueForMoney": "Fiyat-kalite",
+    "verifiedBooking": "Doğrulanmış rezervasyon",
+    "helpful": "Bu yardımcı oldu mu?",
+    "translate": "Çevir",
+    "showOriginal": "Orijinali göster",
+    "showMoreReviews": "Daha fazla yorum göster",
+    "startingFrom": "Başlangıç"
   },
   "checkout": {
     "title": "Rezervasyon Bilgileri",
@@ -98,7 +131,8 @@
     "weekDays": "Pzt,Sal,Çar,Per,Cum,Cmt,Paz",
     "today": "Bugün",
     "preferredDate": "Tercih Edilen Tarih",
-    "dateConfirmNote": "Seçtiğiniz tarih müsaitlik durumuna göre onaylanacaktır. En kısa sürede size dönüş yapacağız."
+    "dateConfirmNote": "Seçtiğiniz tarih müsaitlik durumuna göre onaylanacaktır. En kısa sürede size dönüş yapacağız.",
+    "package": "Paket"
   },
   "payment": {
     "title": "Güvenli Ödeme",

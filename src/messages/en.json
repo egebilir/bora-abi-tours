@@ -1,10 +1,22 @@
 {
   "hero": {
     "tagline": "History, Nature and Culture Combined",
-    "title": "DISCOVER, FEEL,",
-    "titleCursive": "Remember!",
-    "subtitle": "An unforgettable journey from the unique beaches of Kuşadası to the enchanting history of Ephesus and the peaceful streets of Şirince.",
-    "cta": "EXPLORE OUR TOURS"
+    "title": "Walk where empires",
+    "titleCursive": "once whispered.",
+    "subtitle": "Step off the ship and into 2,000 years of history. Hand-picked guided tours of Ephesus, the House of the Virgin Mary, and the Aegean coast — timed perfectly to your cruise schedule.",
+    "cta": "EXPLORE OUR TOURS",
+    "startingFrom": "Starting from",
+    "perPerson": "/person",
+    "reviews": "12,400 reviews",
+    "cruiseApproved": "Cruise-line approved",
+    "returnGuarantee": "Return-to-ship guarantee",
+    "featuredTour": "Featured Tour",
+    "tourName": "Ancient Ephesus & Terrace Houses",
+    "duration": "8h",
+    "highlight1": "Skip-the-line entrance tickets",
+    "highlight2": "Professional local guide",
+    "highlight3": "Port pickup & drop-off included",
+    "reserve": "Reserve a seat"
   },
   "destinations": {
     "kusadasi": {
@@ -36,7 +48,8 @@
     "closed": "Sales Closed",
     "languages": "languages",
     "details": "View Details",
-    "perPerson": "/ person"
+    "perPerson": "/ person",
+    "startingFrom": "Starting from"
   },
   "tourGrid": {
     "title": "Popular Tours",
@@ -48,7 +61,11 @@
     "found": "tours found",
     "noResults": "No tours found matching these filters.",
     "tryAgain": "Try changing your filters.",
-    "showAll": "Show All Tours"
+    "showAll": "Show All Tours",
+    "startingFrom": "Starting from",
+    "viewDetails": "View Details",
+    "languagesAvailable": "languages available",
+    "profGuide": "Professional guide included"
   },
   "tourDetail": {
     "highlights": "Highlights",
@@ -69,7 +86,23 @@
     "perPerson": "/ per person",
     "readMore": "Read More",
     "readLess": "Show Less",
-    "mapLink": "Show on Map"
+    "mapLink": "Show on Map",
+    "packages": "Packages",
+    "selectPackage": "Select",
+    "popularChoice": "Popular",
+    "learnMore": "Learn More",
+    "reviewsTitle": "Customer reviews",
+    "exceptional": "Exceptional",
+    "basedOnReviews": "Based on 1,173 reviews",
+    "guide": "Guide",
+    "transportation": "Transportation",
+    "valueForMoney": "Value for money",
+    "verifiedBooking": "Verified booking",
+    "helpful": "Helpful?",
+    "translate": "Translate",
+    "showOriginal": "Show original",
+    "showMoreReviews": "Show more reviews",
+    "startingFrom": "Starting from"
   },
   "checkout": {
     "title": "Reservation Details",
@@ -98,7 +131,8 @@
     "weekDays": "Mon,Tue,Wed,Thu,Fri,Sat,Sun",
     "today": "Today",
     "preferredDate": "Preferred Date",
-    "dateConfirmNote": "Your selected date will be confirmed based on availability. We will get back to you shortly."
+    "dateConfirmNote": "Your selected date will be confirmed based on availability. We will get back to you shortly.",
+    "package": "Package"
   },
   "payment": {
     "title": "Secure Payment",

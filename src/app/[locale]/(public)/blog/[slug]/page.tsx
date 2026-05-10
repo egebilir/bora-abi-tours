@@ -116,7 +116,7 @@ export default async function BlogDetailPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbJsonLd(breadcrumbs)) }} />
 
-      <main className="min-h-screen bg-white pt-20 lg:pt-24 pb-16">
+      <main className="min-h-screen pt-20 lg:pt-24 pb-16">
         {/* Hero */}
         <div className="relative h-64 sm:h-80 lg:h-96">
           <Image src={post.coverImage} alt={title} fill className="object-cover" priority sizes="100vw" />

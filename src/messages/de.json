@@ -1,10 +1,22 @@
 {
   "hero": {
     "tagline": "Geschichte, Natur und Kultur Vereint",
-    "title": "ENTDECKEN, FÜHLEN,",
-    "titleCursive": "Erinnern!",
-    "subtitle": "Eine unvergessliche Reise von den einzigartigen Stränden von Kuşadası zur bezaubernden Geschichte von Ephesus und den friedlichen Straßen von Şirince.",
-    "cta": "UNSERE TOUREN ENTDECKEN"
+    "title": "Wo alte Reiche",
+    "titleCursive": "leise flüstern.",
+    "subtitle": "Verlassen Sie das Schiff und treten Sie ein in 2.000 Jahre Geschichte. Handverlesene geführte Touren durch Ephesus, das Haus der Jungfrau Maria und die Ägäisküste — perfekt abgestimmt auf Ihren Kreuzfahrtplan.",
+    "cta": "UNSERE TOUREN ENTDECKEN",
+    "startingFrom": "Ab",
+    "perPerson": "/Person",
+    "reviews": "12.400 Bewertungen",
+    "cruiseApproved": "Kreuzfahrt-geprüft",
+    "returnGuarantee": "Pünktliche Rückkehr zum Schiff",
+    "featuredTour": "Empfohlene Tour",
+    "tourName": "Antikes Ephesus & Hanghäuser",
+    "duration": "8 Std.",
+    "highlight1": "Tickets ohne Anstehen",
+    "highlight2": "Professioneller lokaler Guide",
+    "highlight3": "Hafentransfer inklusive",
+    "reserve": "Platz reservieren"
   },
   "destinations": {
     "kusadasi": {
@@ -36,7 +48,8 @@
     "closed": "Verkauf geschlossen",
     "languages": "Sprachen",
     "details": "Details ansehen",
-    "perPerson": "/ Person"
+    "perPerson": "/ Person",
+    "startingFrom": "Starting from"
   },
   "tourGrid": {
     "title": "Beliebte Touren",
@@ -48,7 +61,11 @@
     "found": "Touren gefunden",
     "noResults": "Keine Touren für diese Filter gefunden.",
     "tryAgain": "Versuchen Sie, Ihre Filter zu ändern.",
-    "showAll": "Alle Touren anzeigen"
+    "showAll": "Alle Touren anzeigen",
+    "startingFrom": "Starting from",
+    "viewDetails": "View Details",
+    "languagesAvailable": "languages available",
+    "profGuide": "Professional guide included"
   },
   "tourDetail": {
     "highlights": "Höhepunkte",
@@ -69,7 +86,23 @@
     "perPerson": "/ pro Person",
     "readMore": "Mehr lesen",
     "readLess": "Weniger anzeigen",
-    "mapLink": "Auf Karte anzeigen"
+    "mapLink": "Auf Karte anzeigen",
+    "packages": "Packages",
+    "popularChoice": "Popular",
+    "selectPackage": "Select",
+    "learnMore": "Learn More",
+    "reviewsTitle": "Kundenbewertungen",
+    "exceptional": "Hervorragend",
+    "basedOnReviews": "Basierend auf 1.173 Bewertungen",
+    "guide": "Reiseführer",
+    "transportation": "Transport",
+    "valueForMoney": "Preis-Leistung",
+    "verifiedBooking": "Verifizierte Buchung",
+    "helpful": "Hilfreich?",
+    "translate": "Übersetzen",
+    "showOriginal": "Original anzeigen",
+    "showMoreReviews": "Mehr Bewertungen anzeigen",
+    "startingFrom": "Starting from"
   },
   "checkout": {
     "title": "Buchungsdetails",

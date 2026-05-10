@@ -1,10 +1,22 @@
 {
   "hero": {
     "tagline": "Storia, Natura e Cultura Insieme",
-    "title": "SCOPRI, SENTI,",
-    "titleCursive": "Ricorda!",
-    "subtitle": "Un viaggio indimenticabile dalle spiagge uniche di Kuşadası alla storia incantevole di Efeso e alle strade tranquille di Şirince.",
-    "cta": "SCOPRI I NOSTRI TOUR"
+    "title": "Dove gli imperi",
+    "titleCursive": "sussurrano ancora.",
+    "subtitle": "Scendi dalla nave ed entra in 2.000 anni di storia. Tour guidati di Efeso, della Casa della Vergine Maria e della costa egea accuratamente selezionati e sincronizzati perfettamente con il programma della tua crociera.",
+    "cta": "SCOPRI I NOSTRI TOUR",
+    "startingFrom": "A partire da",
+    "perPerson": "/persona",
+    "reviews": "12.400 recensioni",
+    "cruiseApproved": "Approvato dalle crociere",
+    "returnGuarantee": "Ritorno garantito alla nave",
+    "featuredTour": "Tour in Evidenza",
+    "tourName": "Antica Efeso & Case a Terrazza",
+    "duration": "8h",
+    "highlight1": "Biglietti salta fila",
+    "highlight2": "Guida locale professionista",
+    "highlight3": "Prelievo e ritorno al porto inclusi",
+    "reserve": "Prenota un posto"
   },
   "destinations": {
     "kusadasi": {
@@ -36,7 +48,8 @@
     "closed": "Vendite Chiuse",
     "languages": "lingue",
     "details": "Vedi Dettagli",
-    "perPerson": "/ persona"
+    "perPerson": "/ persona",
+    "startingFrom": "Starting from"
   },
   "tourGrid": {
     "title": "Tour Popolari",
@@ -48,7 +61,11 @@
     "found": "tour trovati",
     "noResults": "Nessun tour trovato per questi filtri.",
     "tryAgain": "Prova a modificare i filtri.",
-    "showAll": "Mostra Tutti i Tour"
+    "showAll": "Mostra Tutti i Tour",
+    "startingFrom": "Starting from",
+    "viewDetails": "View Details",
+    "languagesAvailable": "languages available",
+    "profGuide": "Professional guide included"
   },
   "tourDetail": {
     "highlights": "Punti Salienti",
@@ -69,7 +86,23 @@
     "perPerson": "/ a persona",
     "readMore": "Leggi di più",
     "readLess": "Mostra meno",
-    "mapLink": "Mostra sulla mappa"
+    "mapLink": "Mostra sulla mappa",
+    "packages": "Packages",
+    "popularChoice": "Popular",
+    "selectPackage": "Select",
+    "learnMore": "Learn More",
+    "reviewsTitle": "Customer reviews",
+    "exceptional": "Exceptional",
+    "basedOnReviews": "Based on 1,173 reviews",
+    "guide": "Guide",
+    "transportation": "Transportation",
+    "valueForMoney": "Value for money",
+    "verifiedBooking": "Verified booking",
+    "helpful": "Helpful?",
+    "translate": "Translate",
+    "showOriginal": "Show original",
+    "showMoreReviews": "Show more reviews",
+    "startingFrom": "Starting from"
   },
   "checkout": {
     "title": "Dettagli Prenotazione",

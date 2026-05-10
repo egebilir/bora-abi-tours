@@ -1,0 +1,97 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       Int       @id @default(autoincrement())
+  email    String    @unique
+  password String
+  role     String    @default("CUSTOMER") // ADMIN, CUSTOMER
+  bookings Booking[]
+}
+
+model Tour {
+  id           Int               @id @default(autoincrement())
+  category     String            // CULTURAL, NATURE, BOAT, DAILY
+  basePrice    Float
+  mainImage    String?
+  isActive     Boolean           @default(true)
+  translations TourTranslation[]
+  dates        TourDate[]
+}
+
+model TourTranslation {
+  id             Int    @id @default(autoincrement())
+  tourId         Int
+  locale         String
+  title          String
+  slug           String @unique
+  description    String @db.Text
+  seoTitle       String?
+  seoDescription String?
+
+  tour Tour @relation(fields: [tourId], references: [id])
+}
+
+model TourDate {
+  id                Int       @id @default(autoincrement())
+  tourId            Int
+  date              DateTime
+  capacity          Int
+  remainingCapacity Int
+  
+  tour     Tour      @relation(fields: [tourId], references: [id])
+  bookings Booking[]
+}
+
+model Booking {
+  id          Int           @id @default(autoincrement())
+  userId      Int
+  tourDateId  Int
+  pax         Int
+  totalPrice  Float
+  status      String        @default("PENDING") // PENDING, PAID, CANCELLED
+
+  user     User     @relation(fields: [userId], references: [id])
+  tourDate TourDate @relation(fields: [tourDateId], references: [id])
+}
+
+model Bus {
+  id          Int      @id @default(autoincrement())
+  name        String
+  plateNumber String
+  capacity    Int
+  type        String
+  createdAt   DateTime @default(now())
+}
+
+model Review {
+  id          Int      @id @default(autoincrement())
+  tourId      String   // e.g. "efes-antik-kenti"
+  bookingId   Int?     // Link to Booking if verified
+  name        String   // "John Doe"
+  countryCode String   // "GB", "US", "DE" vs
+  rating      Int
+  content     String   @db.Text
+  locale      String   // Original language of the review (e.g. "en", "tr", "ru")
+  status      String   @default("PENDING") // PENDING, APPROVED, REJECTED
+  createdAt   DateTime @default(now())
+
+  translations ReviewTranslation[]
+}
+
+model ReviewTranslation {
+  id          Int      @id @default(autoincrement())
+  reviewId    Int
+  locale      String   // The language of the translation (e.g. "tr")
+  content     String   @db.Text
+
+  review      Review   @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@unique([reviewId, locale])
+}

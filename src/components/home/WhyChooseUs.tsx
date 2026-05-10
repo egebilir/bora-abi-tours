@@ -65,7 +65,7 @@ export default function WhyChooseUs() {
   const t = useTranslations('whyChooseUs');
 
   return (
-    <section className="py-16 sm:py-24 bg-gradient-to-b from-white via-ice-50/30 to-white relative overflow-hidden">
+    <section className="py-16 sm:py-24 bg-gradient-to-b from-khaki-50 via-ice-50/30 to-khaki-50 relative overflow-hidden">
       {/* Decorative blobs */}
       <div className="absolute top-20 -left-20 w-72 h-72 bg-ice-100/40 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-20 -right-20 w-72 h-72 bg-khaki-100/30 rounded-full blur-3xl pointer-events-none" />

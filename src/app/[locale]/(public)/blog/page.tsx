@@ -33,7 +33,7 @@ export default async function BlogPage({ params }: Props) {
   const posts = blogData.posts.filter(p => p.status === 'published');
 
   return (
-    <main className="min-h-screen bg-neutral-50 pt-20 lg:pt-24 pb-16">
+    <main className="min-h-screen pt-20 lg:pt-24 pb-16">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">

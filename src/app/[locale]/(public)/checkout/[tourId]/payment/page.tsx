@@ -67,7 +67,7 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
   }, [tourId, router]);
 
   if (!checkoutData) {
-    return <main className="min-h-screen bg-neutral-50 pt-20 flex items-center justify-center"><p className="text-neutral-400">{tc('loading')}</p></main>;
+    return <main className="min-h-screen pt-20 flex items-center justify-center"><p className="text-neutral-400">{tc('loading')}</p></main>;
   }
 
   const cardType = getCardType(card.number);
@@ -113,8 +113,8 @@ export default function PaymentPage({ params }: { params: Promise<{ tourId: stri
   };
 
   return (
-    <main className="min-h-screen bg-neutral-50 pt-16 lg:pt-20 pb-12">
-      <div className="bg-white border-b border-neutral-100">
+    <main className="min-h-screen pt-16 lg:pt-20 pb-12">
+      <div className="bg-khaki-50 border-b border-khaki-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <nav className="flex items-center gap-2 text-sm text-neutral-400">
             <Link href="/" className="hover:text-ice-500 transition-colors">{tc('home')}</Link>

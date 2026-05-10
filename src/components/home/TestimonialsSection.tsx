@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
   const visibleIndices = getVisibleIndices();
 
   return (
-    <section className="py-16 sm:py-24 bg-neutral-50 relative overflow-hidden">
+    <section className="py-16 sm:py-24 bg-khaki-50 relative overflow-hidden">
       <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 20% 50%, rgba(14,165,233,0.05), transparent 60%), radial-gradient(ellipse at 80% 50%, rgba(124,119,85,0.04), transparent 60%)' }} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

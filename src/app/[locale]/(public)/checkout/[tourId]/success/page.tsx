@@ -84,7 +84,7 @@ export default function SuccessPage({ params }: { params: Promise<{ tourId: stri
 
   if (!booking) {
     return (
-      <main className="min-h-screen bg-neutral-50 pt-20 flex items-center justify-center">
+      <main className="min-h-screen pt-20 flex items-center justify-center">
         <div className="text-center">
           <p className="text-neutral-500 mb-4">{tc('tourNotFound')}</p>
           <Link href="/" className="text-ice-600 hover:text-ice-700 font-medium">{tc('backHome')}</Link>
@@ -94,7 +94,7 @@ export default function SuccessPage({ params }: { params: Promise<{ tourId: stri
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-ice-50/30 via-neutral-50 to-white pt-16 lg:pt-20 pb-12">
+    <main className="min-h-screen bg-gradient-to-b from-ice-50/30 via-khaki-50 to-khaki-50 pt-16 lg:pt-20 pb-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center justify-center gap-0 mb-8">
           {[{ n: 1, label: tc('steps') }, { n: 2, label: tc('payment') }, { n: 3, label: tc('confirmation') }].map((step, i) => (

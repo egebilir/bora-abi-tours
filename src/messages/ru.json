@@ -1,10 +1,22 @@
 {
   "hero": {
     "tagline": "История, Природа и Культура Вместе",
-    "title": "ОТКРОЙТЕ, ПОЧУВСТВУЙТЕ,",
-    "titleCursive": "Запомните!",
-    "subtitle": "Незабываемое путешествие от уникальных пляжей Кушадасы до очаровательной истории Эфеса и умиротворённых улочек Шириндже.",
-    "cta": "СМОТРЕТЬ НАШИ ТУРЫ"
+    "title": "Где до сих пор",
+    "titleCursive": "шепчут империи.",
+    "subtitle": "Сойдите с корабля и окунитесь в 2000-летнюю историю. Отборные экскурсии по Эфесу, Дому Девы Марии и побережью Эгейского моря, идеально согласованные с расписанием вашего круиза.",
+    "cta": "СМОТРЕТЬ НАШИ ТУРЫ",
+    "startingFrom": "От",
+    "perPerson": "/чел",
+    "reviews": "12 400 отзывов",
+    "cruiseApproved": "Одобрено круизными линиями",
+    "returnGuarantee": "Гарантия возвращения на корабль",
+    "featuredTour": "Популярный тур",
+    "tourName": "Древний Эфес и Дома на террасах",
+    "duration": "8 ч.",
+    "highlight1": "Билеты без очереди",
+    "highlight2": "Профессиональный местный гид",
+    "highlight3": "Трансфер из/в порт включен",
+    "reserve": "Забронировать место"
   },
   "destinations": {
     "kusadasi": {
@@ -36,7 +48,8 @@
     "closed": "Продажи закрыты",
     "languages": "языков",
     "details": "Подробнее",
-    "perPerson": "/ чел."
+    "perPerson": "/ чел.",
+    "startingFrom": "Starting from"
   },
   "tourGrid": {
     "title": "Популярные туры",
@@ -48,7 +61,11 @@
     "found": "туров найдено",
     "noResults": "Туры по вашим фильтрам не найдены.",
     "tryAgain": "Попробуйте изменить фильтры.",
-    "showAll": "Показать все туры"
+    "showAll": "Показать все туры",
+    "startingFrom": "Starting from",
+    "viewDetails": "View Details",
+    "languagesAvailable": "languages available",
+    "profGuide": "Professional guide included"
   },
   "tourDetail": {
     "highlights": "Основные моменты",
@@ -69,7 +86,23 @@
     "perPerson": "/ с человека",
     "readMore": "Читать далее",
     "readLess": "Скрыть",
-    "mapLink": "Показать на карте"
+    "mapLink": "Показать на карте",
+    "packages": "Packages",
+    "popularChoice": "Popular",
+    "selectPackage": "Select",
+    "learnMore": "Learn More",
+    "reviewsTitle": "Отзывы клиентов",
+    "exceptional": "Исключительно",
+    "basedOnReviews": "На основе 1 173 отзывов",
+    "guide": "Гид",
+    "transportation": "Транспорт",
+    "valueForMoney": "Цена-качество",
+    "verifiedBooking": "Подтвержденное бронирование",
+    "helpful": "Полезно?",
+    "translate": "Перевести",
+    "showOriginal": "Показать оригинал",
+    "showMoreReviews": "Показать больше отзывов",
+    "startingFrom": "Starting from"
   },
   "checkout": {
     "title": "Данные бронирования",

@@ -1,0 +1,475 @@
+{
+  "hero": {
+    "tagline": "Historia, Naturaleza y Cultura Combinadas",
+    "title": "Descubre los Misterios de",
+    "titleCursive": "susurraban antaño.",
+    "subtitle": "Éfeso y Más Allá",
+    "cta": "EXPLORAR TOURS",
+    "startingFrom": "Desde",
+    "perPerson": "/persona",
+    "reviews": "12,400 reseñas",
+    "cruiseApproved": "Aprobado por Cruceros",
+    "returnGuarantee": "Garantía de regreso al barco",
+    "featuredTour": "Tour Destacado",
+    "tourName": "Antigua Éfeso y Casas de las Terrazas",
+    "duration": "8h",
+    "highlight1": "Entrada sin hacer fila",
+    "highlight2": "Guía local profesional",
+    "highlight3": "Recogida en puerto incluida",
+    "reserve": "Reservar asiento",
+    "description": "Experimenta la rica historia, cultura y belleza de Kusadasi con nuestros tours guiados por expertos.",
+    "searchPlaceholder": "¿A dónde quieres ir?",
+    "searchButton": "Explorar Tours",
+    "stats": {
+      "tours": "Tours Activos",
+      "guides": "Guías Expertos",
+      "tourists": "Turistas Felices"
+    }
+  },
+  "destinations": {
+    "kusadasi": {
+      "title": "KUŞADASI",
+      "desc": "El corazón de las vacaciones con sus calas únicas, mar cristalino y ambiente vibrante."
+    },
+    "efes": {
+      "title": "ÉFESO",
+      "desc": "Miles de años de historia, ruinas fascinantes y un patrimonio único."
+    },
+    "sirince": {
+      "title": "ŞİRİNCE",
+      "desc": "Un paraíso escondido con históricas casas de piedra, sabores locales y un ambiente pacífico."
+    }
+  },
+  "header": {
+    "findTour": "Encontrar Tour",
+    "search": "Buscar tours...",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "hello": "Hola",
+    "excursions": "Excursiones",
+    "privateExcursions": "Tours Privados",
+    "faq": "Preguntas",
+    "blog": "Blog"
+  },
+  "tourCard": {
+    "featured": "Destacado",
+    "closed": "Ventas Cerradas",
+    "languages": "idiomas",
+    "details": "Ver Detalles",
+    "perPerson": "/ persona",
+    "startingFrom": "Desde"
+  },
+  "tourGrid": {
+    "title": "Nuestros Tours",
+    "subtitle": "Excursiones Populares",
+    "advancedFilters": "Filtros Avanzados",
+    "priceRange": "Rango de Precios",
+    "tourLang": "Idioma del Tour",
+    "clearFilters": "Limpiar Filtros",
+    "found": "tours encontrados",
+    "noResults": "No se encontraron tours con estos filtros.",
+    "tryAgain": "Intente cambiar sus filtros.",
+    "showAll": "Mostrar Todos los Tours",
+    "filterPlaceholder": "Filtrar tours...",
+    "priceAll": "Cualquier Precio",
+    "priceUnder50": "Menos de €50",
+    "price50to100": "€50 - €100",
+    "priceOver100": "Más de €100",
+    "langAll": "Todos los Idiomas",
+    "duration": "Duración",
+    "viewDetails": "Ver Detalles",
+    "startingFrom": "Desde",
+    "noTours": "No se encontraron tours con estos filtros.",
+    "languagesAvailable": "idiomas disponibles",
+    "profGuide": "Guía profesional incluido"
+  },
+  "tourDetail": {
+    "highlights": "Destacados",
+    "itinerary": "Itinerario",
+    "included": "¿Qué está incluido?",
+    "notIncluded": "No Incluido",
+    "importantInfo": "Información Importante",
+    "reserve": "Reservar Ahora",
+    "soldOut": "Agotado",
+    "closedSale": "Ventas Cerradas",
+    "freeCancel": "Cancelación gratuita hasta 24h antes",
+    "whatsapp": "Contactar por WhatsApp",
+    "related": "También Te Puede Gustar",
+    "duration": "Duración:",
+    "startTime": "Hora de Inicio:",
+    "meetingPoint": "Punto de Encuentro:",
+    "languages": "Idiomas:",
+    "perPerson": "/ por persona",
+    "readMore": "Leer Más",
+    "readLess": "Mostrar Menos",
+    "mapLink": "Mostrar en Mapa",
+    "packages": "Paquetes de Tour",
+    "selectPackage": "Seleccionar",
+    "popularChoice": "Popular",
+    "learnMore": "Saber Más",
+    "reviewsTitle": "Reseñas de Clientes",
+    "exceptional": "Excepcional",
+    "basedOnReviews": "Basado en 1,173 reseñas",
+    "guide": "Guía",
+    "transportation": "Transporte",
+    "valueForMoney": "Relación calidad-precio",
+    "verifiedBooking": "Reserva Verificada",
+    "helpful": "¿Útil?",
+    "translate": "Traducir",
+    "showOriginal": "Mostrar original",
+    "showMoreReviews": "Mostrar más reseñas",
+    "overview": "Visión General",
+    "whatIsIncluded": "Qué está incluido",
+    "whatIsExcluded": "Qué no está incluido",
+    "reviews": "Reseñas",
+    "leaveReview": "Dejar una Reseña",
+    "startingFrom": "Desde"
+  },
+  "checkout": {
+    "title": "Finalizar Compra",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "language": "Idioma Preferido",
+    "count": "Número de Personas",
+    "notes": "Notas Especiales",
+    "notesHint": "Requisitos dietéticos, solicitudes especiales, etc.",
+    "next": "Ir al Pago",
+    "summary": "Resumen de Reserva",
+    "unitPrice": "Precio Unitario",
+    "serviceFee": "Tarifa de Servicio",
+    "serviceIncluded": "Incluido",
+    "total": "Total",
+    "date": "Fecha",
+    "time": "Hora",
+    "people": "Personas",
+    "lang": "Idioma",
+    "guarantee": "Pagos seguros y cifrados.",
+    "selectDate": "Seleccionar Fecha",
+    "dateNote": "Elija una fecha disponible",
+    "dateRequired": "Seleccione una fecha primero",
+    "monthNames": "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre",
+    "weekDays": "Lun,Mar,Mié,Jue,Vie,Sáb,Dom",
+    "today": "Hoy",
+    "preferredDate": "Fecha Preferida",
+    "dateConfirmNote": "Confirmaremos la fecha",
+    "package": "Paquete"
+  },
+  "payment": {
+    "title": "Pago Seguro",
+    "ssl": "Cifrado SSL de 256 bits",
+    "holder": "Titular de la Tarjeta",
+    "number": "Número de Tarjeta",
+    "expiry": "Fecha de Caducidad",
+    "cvv": "CVV",
+    "pay": "Pagar de forma segura",
+    "processing": "Procesando...",
+    "secure3d": "Protección 3D Secure",
+    "secure3dDesc": "Requerirá autenticación bancaria",
+    "secureConn": "Conexión Segura",
+    "sslBadge": "Protegido por SSL",
+    "safePay": "Plataforma de Pago Segura",
+    "freeCancel": "Cancelación gratuita 24h antes"
+  },
+  "success": {
+    "title": "¡Reserva Exitosa!",
+    "emailSent": "Hemos enviado los detalles a su correo.",
+    "refCode": "Código de Referencia",
+    "guest": "Huésped",
+    "date": "Fecha",
+    "people": "Personas",
+    "lang": "Idioma",
+    "totalPaid": "Total Pagado",
+    "addNote": "Agregar una Nota",
+    "addNoteDesc": "¿Alergias o solicitudes?",
+    "saveNote": "Guardar Nota",
+    "saved": "¡Guardado!",
+    "whatsapp": "Contactar por WhatsApp",
+    "home": "Volver al Inicio",
+    "explore": "Explorar Más Tours",
+    "dateConfirmNote": "Confirmaremos la fecha en breve",
+    "pending": "Pendiente de Confirmación"
+  },
+  "footer": {
+    "about": "Descubre los tesoros de la historia antigua.",
+    "tours": "Nuestros Tours",
+    "culturalTours": "Tours Culturales",
+    "natureTours": "Tours de Naturaleza",
+    "boatTours": "Paseos en Barco",
+    "dailyTours": "Tours Diarios",
+    "allTours": "Ver Todos los Tours",
+    "company": "Empresa",
+    "aboutUs": "Sobre Nosotros",
+    "ourGuides": "Nuestros Guías",
+    "blog": "Blog",
+    "career": "Carreras",
+    "contactLink": "Contáctenos",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies"
+  },
+  "categories": {
+    "all": "Todos los Tours",
+    "cultural": "Tours Culturales",
+    "nature": "Naturaleza",
+    "boat": "Paseo en Barco",
+    "daily": "Diario"
+  },
+  "common": {
+    "home": "Inicio",
+    "tours": "Tours",
+    "reservation": "Reserva",
+    "payment": "Pago",
+    "confirmation": "Confirmación",
+    "person": "Persona",
+    "perPerson": "por persona",
+    "steps": "Pasos",
+    "loading": "Cargando...",
+    "notFound": "Página no encontrada",
+    "backHome": "Volver al Inicio",
+    "tourNotFound": "Tour no encontrado"
+  },
+  "meta": {
+    "homeTitle": "WeAreShorex | Excursiones en Kuşadası y Éfeso",
+    "homeDesc": "Reserve las mejores excursiones desde el puerto de Kuşadası."
+  },
+  "auth": {
+    "loginTitle": "Iniciar Sesión",
+    "registerTitle": "Crear Cuenta",
+    "name": "Nombre",
+    "email": "Correo",
+    "password": "Contraseña",
+    "phone": "Teléfono",
+    "loginBtn": "Entrar",
+    "registerBtn": "Registrarse",
+    "noAccount": "¿No tiene cuenta?",
+    "hasAccount": "¿Ya tiene cuenta?",
+    "orLogin": "O inicie sesión con",
+    "orRegister": "O regístrese con"
+  },
+  "whatsapp": {
+    "tooltip": "¿Necesita ayuda?",
+    "defaultMessage": "Hola, necesito ayuda.",
+    "tourMessage": "Hola, tengo una pregunta sobre el tour:"
+  },
+  "socialProof": {
+    "viewing": "personas están viendo esto",
+    "spotsLeft": "¡Solo quedan 2 lugares!",
+    "bookedToday": "Reservado 15 veces hoy",
+    "likelySellOut": "Probablemente se agote"
+  },
+  "whyChooseUs": {
+    "badge": "¿Por qué Nosotros?",
+    "title": "La Elección de Confianza",
+    "subtitle": "Miles de pasajeros de cruceros confían en nosotros cada año.",
+    "licensedGuides": {
+      "title": "Guías Licenciados",
+      "desc": "Todos nuestros guías son profesionales altamente experimentados."
+    },
+    "support247": {
+      "title": "Soporte 24/7",
+      "desc": "Contáctenos por WhatsApp para asistencia instantánea en cualquier momento."
+    },
+    "freeCancellation": {
+      "title": "Cancelación Gratuita",
+      "desc": "Cancele hasta 24 horas antes de la salida para obtener un reembolso completo."
+    },
+    "smallGroups": {
+      "title": "Grupos Pequeños",
+      "desc": "Máximo 15 personas por grupo para una experiencia personalizada."
+    },
+    "bestPrice": {
+      "title": "Mejor Precio Garantizado",
+      "desc": "Le ofrecemos los mejores precios sin tarifas ocultas."
+    },
+    "experience": {
+      "title": "+15 Años de Experiencia",
+      "desc": "Atendiendo a huéspedes de cruceros desde 2010 con reseñas de 5 estrellas."
+    },
+    "stats": {
+      "years": "Años de Experiencia",
+      "customers": "Clientes Felices",
+      "tours": "Tours Completados",
+      "rating": "Calificación Promedio"
+    }
+  },
+  "testimonials": {
+    "badge": "Reseñas de Clientes",
+    "title": "Lo que dicen nuestros huéspedes",
+    "subtitle": "Experiencias reales de viajeros de todo el mundo.",
+    "reviews": {
+      "anna": "¡Un día absolutamente fantástico en Éfeso! Nuestro guía fue increíblemente experto. El grupo pequeño lo hizo sentir como un tour privado.",
+      "carlos": "La excursión a Pamukkale fue increíble. El viaje es largo pero vale cada minuto. Las terrazas blancas son impresionantes.",
+      "sarah": "¡El viaje en barco fue lo mejor de nuestras vacaciones en el crucero! Aguas cristalinas, almuerzo delicioso y la tripulación fue muy acogedora.",
+      "markus": "Hicimos el tour de Éfeso por tercera vez y fue excelente de nuevo. Los guías son de primera clase y el transporte fue puntual.",
+      "elena": "Dalyan y la playa de las tortugas es un lugar increíble. Los baños de lodo fueron muy divertidos y el almuerzo junto al río fue delicioso.",
+      "james": "¡Şirince fue una joya escondida que casi nos perdemos! La cata de vinos fue excelente, el desayuno de pueblo fue auténtico."
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesita saber",
+    "items": {
+      "booking": {
+        "q": "¿Cómo reservo un tour?",
+        "a": "Puede reservar directamente desde nuestra web. Elija su fecha y el número de personas."
+      },
+      "cancellation": {
+        "q": "¿Cuál es su política de cancelación?",
+        "a": "Ofrecemos cancelación gratuita hasta 24 horas antes del tour."
+      },
+      "payment": {
+        "q": "¿Es seguro el pago online?",
+        "a": "Sí, utilizamos tecnología de cifrado de 256 bits para proteger sus datos."
+      },
+      "languages": {
+        "q": "¿En qué idiomas operan los tours?",
+        "a": "Contamos con guías profesionales en inglés, español, ruso, alemán y más."
+      },
+      "pickup": {
+        "q": "¿Dónde me recogen?",
+        "a": "Le recogeremos directamente frente a la terminal del puerto de cruceros."
+      },
+      "weather": {
+        "q": "¿Qué sucede si llueve?",
+        "a": "Los tours se realizan con sol o lluvia, ¡estamos preparados!"
+      },
+      "children": {
+        "q": "¿Los tours son aptos para niños?",
+        "a": "Sí, adaptamos los recorridos y tenemos precios especiales para menores."
+      },
+      "group": {
+        "q": "¿Qué tamaño tienen los grupos?",
+        "a": "Mantenemos grupos pequeños de no más de 15 personas para asegurar la calidad."
+      }
+    },
+    "badge": "SOPORTE",
+    "stillQuestion": "¿Aún tiene dudas?",
+    "whatsappCta": "Escríbanos al instante"
+  },
+  "privateExcursions": {
+    "badge": "Tours VIP Privados",
+    "title": "Diseñe su Experiencia Perfecta",
+    "subtitle": "Itinerarios a medida, guías privados y acceso exclusivo.",
+    "steps": {
+      "experience": "Elija Experiencias",
+      "details": "Detalles del Viaje",
+      "contact": "Su Información"
+    },
+    "step1": {
+      "title": "¿Qué le gustaría experimentar?",
+      "subtitle": "Seleccione todo lo que aplique"
+    },
+    "step2": {
+      "title": "Háblenos de su viaje",
+      "subtitle": "Nos ayudará a personalizar su tour"
+    },
+    "step3": {
+      "title": "¿Cómo le contactamos?",
+      "subtitle": "Le enviaremos un itinerario personalizado"
+    },
+    "experiences": {
+      "history": "Sitios Históricos",
+      "nature": "Naturaleza y Paisajes",
+      "boat": "Paseo en Barco Privado",
+      "wine": "Cata de Vinos",
+      "adventure": "Aventura y Deporte",
+      "custom": "Algo Más Especial"
+    },
+    "form": {
+      "groupSize": "Tamaño del Grupo",
+      "people": "Personas",
+      "preferredDate": "Fecha Preferida",
+      "cruiseLine": "Línea de Crucero (Si aplica)",
+      "cruiseLinePlaceholder": "Ej. Royal Caribbean",
+      "specialRequests": "Solicitudes Especiales",
+      "specialPlaceholder": "Díganos qué tiene en mente...",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "experiences": "Experiencias Seleccionadas",
+      "arrivalType": "Modo de Llegada",
+      "hotelName": "Nombre del Hotel (Si aplica)",
+      "hotelPlaceholder": "Ej. Charisma Luxury"
+    },
+    "trust": {
+      "title": "¿Por qué Privado?",
+      "desc": "Flexibilidad total. Vaya a su propio ritmo."
+    },
+    "nav": {
+      "back": "Atrás",
+      "next": "Siguiente",
+      "submit": "Solicitar Itinerario"
+    },
+    "success": {
+      "title": "¡Solicitud Recibida!",
+      "desc": "Nuestro equipo diseñará su itinerario ideal y le contactará en 24 horas.",
+      "home": "Volver al Inicio"
+    },
+    "arrivalTypes": {
+      "cruise": "Crucero",
+      "hotel": "Hotel",
+      "airport": "Aeropuerto",
+      "other": "Otro"
+    }
+  },
+  "vipPage": {
+    "hero": {
+      "badge": "LUJO EXCLUSIVO",
+      "title1": "El Tiempo es un Lujo.",
+      "title2": "Disfrútelo a su Manera.",
+      "subtitle": "Vehículos privados Mercedes-Benz, acceso exclusivo, guías expertos.",
+      "cta": "Planear Tour VIP",
+      "stats": {
+        "private": "Tours Privados",
+        "years": "Años de Experiencia",
+        "rating": "Calificación 5 Estrellas",
+        "support": "Soporte 24/7"
+      }
+    },
+    "whyPrivate": {
+      "badge": "LA DIFERENCIA",
+      "title": "¿Tour Grupal vs Privado?",
+      "subtitle": "Entienda por qué nuestros huéspedes de cruceros prefieren los tours privados.",
+      "group": "Tour de Crucero Típico",
+      "private": "Tour Privado WeAreShorex",
+      "features": {
+        "guide": "Guía",
+        "schedule": "Horario",
+        "vehicle": "Vehículo",
+        "stops": "Paradas",
+        "lunch": "Almuerzo",
+        "photos": "Tiempo de Fotos"
+      }
+    },
+    "packages": {
+      "badge": "ITINERARIOS POPULARES",
+      "title": "Opciones de Tours Privados",
+      "subtitle": "Nuestros itinerarios más solicitados.",
+      "popular": "Más Popular",
+      "priceOnRequest": "Precio a Consultar",
+      "customize": "Personalizar",
+      "customNote": "100% Personalizable",
+      "classic": {
+        "name": "Éfeso Clásico y Más",
+        "ephesus": "Antigua Éfeso y Terrazas",
+        "sirince": "Pueblo de Şirince",
+        "lunch": "Almuerzo Local"
+      },
+      "adventure": {
+        "name": "Aventura en Pamukkale",
+        "pamukkale": "Terrazas de Travertino",
+        "cleopatra": "Piscina de Cleopatra",
+        "hierapolis": "Hierápolis Antigua"
+      },
+      "sea": {
+        "name": "Paseo en Goleta",
+        "privateboating": "Barco Privado",
+        "swimming": "Nadar en Calas Secretas",
+        "bbq": "Barbacoa a Bordo"
+      }
+    }
+  }
+}

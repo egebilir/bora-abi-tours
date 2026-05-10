@@ -17,14 +17,15 @@ const navItems = [
   { key: 'blog', href: '/blog', isAnchor: false }
 ] as const;
 
-const languages: { code: Locale; label: string; flag: string }[] = [
-  { code: 'tr', label: 'Türkçe', flag: '🇹🇷' },
-  { code: 'en', label: 'English', flag: '🇬🇧' },
-  { code: 'ru', label: 'Русский', flag: '🇷🇺' },
-  { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
-  { code: 'it', label: 'Italiano', flag: '🇮🇹' },
-  { code: 'ar', label: 'العربية', flag: '🇸🇦' },
-  { code: 'pl', label: 'Polski', flag: '🇵🇱' },
+const languages: { code: Locale; label: string; flagCode: string }[] = [
+  { code: 'tr', label: 'Türkçe', flagCode: 'tr' },
+  { code: 'en', label: 'English', flagCode: 'gb' },
+  { code: 'ru', label: 'Русский', flagCode: 'ru' },
+  { code: 'de', label: 'Deutsch', flagCode: 'de' },
+  { code: 'it', label: 'Italiano', flagCode: 'it' },
+  { code: 'ar', label: 'العربية', flagCode: 'sa' },
+  { code: 'pl', label: 'Polski', flagCode: 'pl' },
+  { code: 'es', label: 'Español', flagCode: 'es' },
 ];
 
 export default function Header() {
@@ -80,7 +81,7 @@ export default function Header() {
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
         scrolled
-          ? 'bg-white/80 backdrop-blur-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] border-b border-ice-100/60'
+          ? 'bg-white/85 backdrop-blur-xl shadow-[0_1px_3px_rgba(0,0,0,0.05)] border-b border-ice-100/60'
           : 'bg-transparent'
       )}
     >
@@ -142,7 +143,7 @@ export default function Header() {
             {/* Language */}
             <div className="relative" onClick={(e) => e.stopPropagation()}>
               <button onClick={() => setLangOpen(!langOpen)} className={cn('flex items-center gap-1.5 px-2.5 py-2 sm:px-3 rounded-full text-sm font-medium transition-all duration-300 min-w-[44px] min-h-[44px] justify-center', textColor, hoverBg)} id="language-selector">
-                <span className="text-base">{currentLang.flag}</span>
+                <img src={`https://flagcdn.com/w20/${currentLang.flagCode}.png`} srcSet={`https://flagcdn.com/w40/${currentLang.flagCode}.png 2x`} alt={currentLang.label} className="w-5 h-[14px] rounded-sm object-cover shadow-sm" />
                 <span className="hidden sm:inline">{currentLang.label}</span>
               </button>
               <AnimatePresence>
@@ -150,8 +151,9 @@ export default function Header() {
                   <motion.div initial={{ opacity: 0, y: -8, scale: 0.95 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: -8, scale: 0.95 }} transition={{ duration: 0.2 }} className="absolute right-0 top-full mt-2 bg-white rounded-xl shadow-xl border border-neutral-100 overflow-hidden min-w-[160px]">
                     {languages.map((lang) => (
                       <button key={lang.code} onClick={() => handleLangChange(lang.code)}
-                        className={cn('w-full flex items-center gap-2.5 px-4 py-3 text-sm transition-colors min-h-[44px]', locale === lang.code ? 'bg-ice-50 text-ice-600 font-medium' : 'text-neutral-600 hover:bg-neutral-50')}>
-                        <span>{lang.flag}</span><span>{lang.label}</span>
+                        className={cn('w-full flex items-center gap-3 px-4 py-3 text-sm transition-colors min-h-[44px]', locale === lang.code ? 'bg-ice-50 text-ice-600 font-medium' : 'text-neutral-600 hover:bg-neutral-50')}>
+                        <img src={`https://flagcdn.com/w20/${lang.flagCode}.png`} srcSet={`https://flagcdn.com/w40/${lang.flagCode}.png 2x`} alt={lang.label} className="w-5 h-[14px] rounded-sm object-cover shadow-sm" />
+                        <span>{lang.label}</span>
                       </button>
                     ))}
                   </motion.div>
@@ -237,7 +239,7 @@ export default function Header() {
       {/* Mobile Menu Panel */}
       <AnimatePresence>
         {mobileMenuOpen && (
-          <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} transition={{ duration: 0.3 }} className="lg:hidden bg-white/95 backdrop-blur-xl border-t border-neutral-100">
+          <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} transition={{ duration: 0.3 }} className="lg:hidden bg-white/95 backdrop-blur-xl border-t border-ice-100">
             <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
               {navItems.map((item) => (
                 item.isAnchor ? (

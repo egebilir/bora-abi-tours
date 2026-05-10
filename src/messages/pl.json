@@ -1,10 +1,22 @@
 {
   "hero": {
     "tagline": "Historia, Natura i Kultura Razem",
-    "title": "ODKRYWAJ, POCZUJ,",
-    "titleCursive": "Zapamiętaj!",
-    "subtitle": "Niezapomniana podróż od unikalnych plaż Kuşadası po fascynującą historię Efezu i spokojne uliczki Şirince.",
-    "cta": "ODKRYJ NASZE WYCIECZKI"
+    "title": "Gdzie imperia",
+    "titleCursive": "wciąż szepczą.",
+    "subtitle": "Zejdź ze statku i wejdź w 2000 lat historii. Starannie wybrane wycieczki z przewodnikiem po Efezie, Domu Marii Dziewicy i wybrzeżu Morza Egejskiego — idealnie dopasowane do harmonogramu Twojego rejsu.",
+    "cta": "ODKRYJ NASZE WYCIECZKI",
+    "startingFrom": "Od",
+    "perPerson": "/osoba",
+    "reviews": "12 400 opinii",
+    "cruiseApproved": "Zatwierdzone przez linie rejsowe",
+    "returnGuarantee": "Gwarancja powrotu na statek",
+    "featuredTour": "Polecana wycieczka",
+    "tourName": "Starożytny Efez i Domy Tarasowe",
+    "duration": "8 godz.",
+    "highlight1": "Bilety wstępu bez kolejki",
+    "highlight2": "Profesjonalny lokalny przewodnik",
+    "highlight3": "Transfer z/do portu wliczony",
+    "reserve": "Zarezerwuj miejsce"
   },
   "destinations": {
     "kusadasi": {
@@ -36,7 +48,8 @@
     "closed": "Sprzedaż zamknięta",
     "languages": "języków",
     "details": "Zobacz szczegóły",
-    "perPerson": "/ osoba"
+    "perPerson": "/ osoba",
+    "startingFrom": "Starting from"
   },
   "tourGrid": {
     "title": "Popularne wycieczki",
@@ -48,7 +61,11 @@
     "found": "wycieczek znaleziono",
     "noResults": "Nie znaleziono wycieczek pasujących do tych filtrów.",
     "tryAgain": "Spróbuj zmienić filtry.",
-    "showAll": "Pokaż wszystkie wycieczki"
+    "showAll": "Pokaż wszystkie wycieczki",
+    "startingFrom": "Starting from",
+    "viewDetails": "View Details",
+    "languagesAvailable": "languages available",
+    "profGuide": "Professional guide included"
   },
   "tourDetail": {
     "highlights": "Najważniejsze punkty",
@@ -69,7 +86,23 @@
     "perPerson": "/ za osobę",
     "readMore": "Czytaj więcej",
     "readLess": "Pokaż mniej",
-    "mapLink": "Pokaż na mapie"
+    "mapLink": "Pokaż na mapie",
+    "packages": "Packages",
+    "popularChoice": "Popular",
+    "selectPackage": "Select",
+    "learnMore": "Learn More",
+    "reviewsTitle": "Customer reviews",
+    "exceptional": "Exceptional",
+    "basedOnReviews": "Based on 1,173 reviews",
+    "guide": "Guide",
+    "transportation": "Transportation",
+    "valueForMoney": "Value for money",
+    "verifiedBooking": "Verified booking",
+    "helpful": "Helpful?",
+    "translate": "Translate",
+    "showOriginal": "Show original",
+    "showMoreReviews": "Show more reviews",
+    "startingFrom": "Starting from"
   },
   "checkout": {
     "title": "Szczegóły rezerwacji",

@@ -22,6 +22,8 @@ export const CURRENCIES: CurrencyInfo[] = [
   { code: 'SAR', symbol: '﷼', label: 'ريال سعودي', flag: '🇸🇦' },
   { code: 'PLN', symbol: 'zł', label: 'Polski Złoty', flag: '🇵🇱' },
   { code: 'GBP', symbol: '£', label: 'British Pound', flag: '🇬🇧' },
+  { code: 'MXN', symbol: 'MX$', label: 'Peso Mexicano', flag: '🇲🇽' },
+  { code: 'COP', symbol: 'COP$', label: 'Peso Colombiano', flag: '🇨🇴' },
 ];
 
 // Fallback rates in case API is unreachable (approximate)
@@ -33,6 +35,8 @@ const FALLBACK_RATES: Record<string, number> = {
   SAR: 4.05,
   PLN: 4.28,
   GBP: 0.85,
+  MXN: 19.50,
+  COP: 4200,
 };
 
 interface CurrencyContextType {

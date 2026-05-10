@@ -10,6 +10,7 @@ import { LANGUAGE_LABELS, LANGUAGE_FLAGS } from '@/types';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, useRouter } from '@/i18n/routing';
 import DatePicker from '@/components/checkout/DatePicker';
+import { getLocalizedTourContent } from '@/lib/tour-translations';
 
 export default function CheckoutPage({ params }: { params: Promise<{ tourId: string }> }) {
   const { tourId } = use(params);
@@ -23,6 +24,8 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
   const tc = useTranslations('common');
 
   const tour = tours.find(t => t.id === tourId);
+  const content = tour ? getLocalizedTourContent(tour, locale) : null;
+  const packages = (content?.packages || []).filter(p => !p.isLink);
   const capacity = tour ? getTourCapacity(tourId) : { total: 0, booked: 0, available: 0 };
   const availableLanguages = tour ? [...new Set(tour.tourBuses.map(tb => tb.language))] : [];
 
@@ -37,6 +40,7 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
     count: 1,
     preferredDate: '',
     specialNotes: '',
+    packageId: packages.length > 0 ? (packages.find(p => p.popular)?.id || packages[0].id) : '',
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
 
@@ -59,7 +63,7 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
 
   if (!tour) {
     return (
-      <main className="min-h-screen bg-neutral-50 pt-20 flex items-center justify-center">
+      <main className="min-h-screen pt-20 flex items-center justify-center">
         <div className="text-center">
           <p className="text-neutral-500 mb-4">{tc('tourNotFound')}</p>
           <Link href="/" className="text-ice-600 hover:text-ice-700 font-medium">{tc('backHome')}</Link>
@@ -68,7 +72,8 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
     );
   }
 
-  const unitPrice = tour.price;
+  const selectedPackage = packages.find(p => p.id === form.packageId);
+  const unitPrice = selectedPackage ? selectedPackage.price : tour.price;
   const totalPrice = unitPrice * form.count;
 
   const validate = () => {
@@ -91,6 +96,7 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
       tourImage: tour.image,
       tourImageAlt: tour.imageAlt,
       ...form,
+      packageTitle: selectedPackage?.name || null,
       unitPrice,
       totalPrice,
       date: form.preferredDate,
@@ -101,9 +107,9 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
   const dateLocaleMap: Record<string, string> = { tr: 'tr-TR', en: 'en-US', ru: 'ru-RU', de: 'de-DE', it: 'it-IT', ar: 'ar-SA', pl: 'pl-PL' };
 
   return (
-    <main className="min-h-screen bg-neutral-50 pt-16 lg:pt-20 pb-24 lg:pb-12">
+    <main className="min-h-screen pt-16 lg:pt-20 pb-24 lg:pb-12">
       {/* Breadcrumb */}
-      <div className="bg-white border-b border-neutral-100">
+      <div className="bg-khaki-50 border-b border-khaki-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <nav className="flex items-center gap-2 text-sm text-neutral-400">
             <Link href="/" className="hover:text-ice-500 transition-colors">{tc('home')}</Link>
@@ -164,6 +170,22 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
                   </div>
                   {errors.customerPhone && <p className="text-red-500 text-xs mt-1">{errors.customerPhone}</p>}
                 </div>
+
+                {packages.length > 0 && (
+                  <div>
+                    <label className="block text-sm font-medium text-neutral-700 mb-1.5">{t('package') || 'Package'}</label>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                      {packages.map(pkg => (
+                        <button key={pkg.id} type="button"
+                          onClick={() => setForm(p => ({ ...p, packageId: pkg.id }))}
+                          className={`p-3 text-left border rounded-xl transition-all ${form.packageId === pkg.id ? 'border-ice-500 bg-ice-50/50 ring-1 ring-ice-500' : 'border-neutral-200 hover:border-ice-300'}`}>
+                          <div className="font-bold text-neutral-900 text-sm mb-1">{pkg.name}</div>
+                          <div className="text-ice-600 font-bold">{formatPrice(pkg.price)}</div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
@@ -233,6 +255,11 @@ export default function CheckoutPage({ params }: { params: Promise<{ tourId: str
               </div>
 
               <h3 className="font-bold text-neutral-900 mb-3">{tourTitle}</h3>
+              {selectedPackage && (
+                <div className="mb-4 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 text-amber-800 text-xs font-semibold border border-amber-100">
+                  📦 {selectedPackage.name}
+                </div>
+              )}
 
               <div className="space-y-2.5 text-sm mb-5">
                 <div className="flex items-center justify-between">

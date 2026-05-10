@@ -1,57 +1,43 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
-
-interface AdminUser {
-  username: string;
-  role: 'admin';
-}
+import { createContext, useContext, ReactNode } from 'react';
+import { useSession, signOut, SessionProvider } from 'next-auth/react';
 
 interface AdminAuthContextType {
-  user: AdminUser | null;
+  user: any | null;
   isAuthenticated: boolean;
   loading: boolean;
-  login: (username: string, password: string) => boolean;
   logout: () => void;
 }
 
 const AdminAuthContext = createContext<AdminAuthContextType | null>(null);
 
-const MOCK_CREDENTIALS = { username: 'admin', password: 'boraabi2024' };
+function AdminAuthInner({ children }: { children: ReactNode }) {
+  const { data: session, status } = useSession();
 
-export function AdminAuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<AdminUser | null>(null);
-  const [loading, setLoading] = useState(true);
+  const userObj = session?.user ? { ...session.user, username: session.user.email } : null;
 
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem('bora-admin');
-      if (saved) {
-        setUser(JSON.parse(saved));
-      }
-    } catch { /* noop */ }
-    setLoading(false);
-  }, []);
-
-  const login = useCallback((username: string, password: string): boolean => {
-    if (username === MOCK_CREDENTIALS.username && password === MOCK_CREDENTIALS.password) {
-      const adminUser: AdminUser = { username, role: 'admin' };
-      setUser(adminUser);
-      try { localStorage.setItem('bora-admin', JSON.stringify(adminUser)); } catch { /* noop */ }
-      return true;
-    }
-    return false;
-  }, []);
-
-  const logout = useCallback(() => {
-    setUser(null);
-    try { localStorage.removeItem('bora-admin'); } catch { /* noop */ }
-  }, []);
+  const value = {
+    user: userObj,
+    isAuthenticated: status === 'authenticated' && (session?.user as any)?.role === 'ADMIN',
+    loading: status === 'loading',
+    logout: () => signOut({ callbackUrl: '/admin/login' })
+  };
 
   return (
-    <AdminAuthContext.Provider value={{ user, isAuthenticated: !!user, loading, login, logout }}>
+    <AdminAuthContext.Provider value={value}>
       {children}
     </AdminAuthContext.Provider>
+  );
+}
+
+export function AdminAuthProvider({ children }: { children: ReactNode }) {
+  return (
+    <SessionProvider>
+      <AdminAuthInner>
+        {children}
+      </AdminAuthInner>
+    </SessionProvider>
   );
 }
 

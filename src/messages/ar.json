@@ -1,10 +1,22 @@
 {
   "hero": {
     "tagline": "التاريخ والطبيعة والثقافة معاً",
-    "title": "اكتشف، اشعر،",
-    "titleCursive": "تذكّر!",
-    "subtitle": "رحلة لا تُنسى من شواطئ كوشاداسي الفريدة إلى تاريخ أفسس الساحر وشوارع شيرينجه الهادئة.",
-    "cta": "اكتشف جولاتنا"
+    "title": "حيث لا تزال",
+    "titleCursive": "الإمبراطوريات تهمس.",
+    "subtitle": "انزل من السفينة وادخل في 2000 عام من التاريخ. جولات إرشادية مختارة بعناية في أفسس وبيت السيدة العذراء وساحل بحر إيجة — بتوقيت مثالي لجدول رحلتك البحرية.",
+    "cta": "اكتشف جولاتنا",
+    "startingFrom": "تبدأ من",
+    "perPerson": "/شخص",
+    "reviews": "12,400 تقييم",
+    "cruiseApproved": "معتمد من الرحلات البحرية",
+    "returnGuarantee": "ضمان العودة للسفينة",
+    "featuredTour": "جولة مميزة",
+    "tourName": "أفسس القديمة ومنازل التراس",
+    "duration": "8 س",
+    "highlight1": "تذاكر دخول لتخطي الطابور",
+    "highlight2": "مرشد محلي محترف",
+    "highlight3": "توصيل واستلام من الميناء مشمول",
+    "reserve": "احجز مقعدك"
   },
   "destinations": {
     "kusadasi": {
@@ -36,7 +48,8 @@
     "closed": "المبيعات مغلقة",
     "languages": "لغات",
     "details": "عرض التفاصيل",
-    "perPerson": "/ شخص"
+    "perPerson": "/ شخص",
+    "startingFrom": "Starting from"
   },
   "tourGrid": {
     "title": "الجولات الشائعة",
@@ -48,7 +61,11 @@
     "found": "جولات وُجدت",
     "noResults": "لم يتم العثور على جولات تطابق هذه الفلاتر.",
     "tryAgain": "حاول تغيير الفلاتر.",
-    "showAll": "عرض جميع الجولات"
+    "showAll": "عرض جميع الجولات",
+    "startingFrom": "Starting from",
+    "viewDetails": "View Details",
+    "languagesAvailable": "languages available",
+    "profGuide": "Professional guide included"
   },
   "tourDetail": {
     "highlights": "أبرز المعالم",
@@ -69,7 +86,23 @@
     "perPerson": "/ للشخص",
     "readMore": "اقرأ المزيد",
     "readLess": "عرض أقل",
-    "mapLink": "عرض على الخريطة"
+    "mapLink": "عرض على الخريطة",
+    "packages": "Packages",
+    "popularChoice": "Popular",
+    "selectPackage": "Select",
+    "learnMore": "Learn More",
+    "reviewsTitle": "Customer reviews",
+    "exceptional": "Exceptional",
+    "basedOnReviews": "Based on 1,173 reviews",
+    "guide": "Guide",
+    "transportation": "Transportation",
+    "valueForMoney": "Value for money",
+    "verifiedBooking": "Verified booking",
+    "helpful": "Helpful?",
+    "translate": "Translate",
+    "showOriginal": "Show original",
+    "showMoreReviews": "Show more reviews",
+    "startingFrom": "Starting from"
   },
   "checkout": {
     "title": "تفاصيل الحجز",

@@ -17,6 +17,27 @@ export interface TourBus {
   booked: number;   // O araçtaki mevcut doluluk
 }
 
+// ---------- Packages ----------
+export interface TourPackageFeature {
+  name: string;
+  nameEn: string;
+  included: boolean;
+}
+
+export interface TourPackage {
+  id: string;
+  name: string;
+  nameEn: string;
+  price: number;
+  originalPrice?: number;
+  description: string;
+  descriptionEn: string;
+  features: TourPackageFeature[];
+  popular?: boolean;
+  isLink?: boolean;
+  link?: string;
+}
+
 // ---------- Tour ----------
 export interface Tour {
   id: string;
@@ -25,6 +46,7 @@ export interface Tour {
   description: string;
   descriptionEn: string;
   price: number;
+  originalPrice?: number;
   currency: string;
   duration: string;
   durationEn: string;
@@ -56,6 +78,7 @@ export interface Tour {
   fullDescriptionEn: string;
   importantInfo: string[];
   importantInfoEn: string[];
+  packages?: TourPackage[]; // Optional packages for tiered pricing
 }
 
 export interface ItineraryStep {
